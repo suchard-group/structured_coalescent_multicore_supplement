@@ -4647,11 +4647,6 @@
 				<normalPrior mean="1966" stdev="0.3">
 					<tmrcaStatistic idref="age(root)"/>
 				</normalPrior>
-								
-				<!-- START Discrete Traits Model                                             -->
-				<structuredCoalescent idref="locations.treeLikelihood"/>
-				<!-- END Discrete Traits Model                                               -->
-				
 				<discretizedBranchRates idref="denv1cluster.branchRates"/>
 				<strictClockBranchRates idref="locations.branchRates"/>
 				
@@ -4660,7 +4655,8 @@
 				</uniformPrior> -->
 			</prior>
 			<likelihood id="likelihood">
-				<treeLikelihood idref="treeLikelihood"/>
+				<treeLikelihood idref="treeLikelihood"/>                                   -->
+				<structuredCoalescent idref="locations.treeLikelihood"/>
 			</likelihood>
 		</posterior>
 		<operators idref="operators"/>
