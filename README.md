@@ -53,7 +53,7 @@ The BEAGLE library must be compiled with flags enabling BASTA and OpenMP paralle
 git clone https://github.com/beagle-dev/beagle-lib.git
 cd beagle-lib/
 mkdir build && cd build/
-cmake -DBUILD_OPENCL=OFF -DBUILD_BIT=ON -DBUILD_OPENMP=ON -DCMAKE_INSTALL_PREFIX=$HOME/local ..
+cmake -DBUILD_BIT=ON -DBUILD_OPENMP=ON -DCMAKE_INSTALL_PREFIX=$HOME/local ..
 make && make install
 ```
 
