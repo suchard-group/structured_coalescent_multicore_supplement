@@ -1,6 +1,6 @@
-# CPU Parallel BIT-SCA: Parallel algorithms for phylogenetic inference under a structured coalescent approximation
+# Multicore BIT-SCA: Parallel algorithms for phylogenetic inference under a structured coalescent approximation
 
-This repository contains benchmarking studies for CPU parallelization of structured coalescent models using the structured coalescent approximation (SCA) framework. The project evaluates **Backward-in-Time (BIT) SCA** and **Forward-in-Time (FIT)** approaches in BEAST X implementations, focusing on many-core CPU performance analysis and scaling behavior with OpenMP threading.
+This repository contains benchmarking studies for multicore parallelization of structured coalescent models using the structured coalescent approximation (SCA) framework. The project evaluates **Backward-in-Time (BIT) SCA** and **Forward-in-Time (FIT)** approaches in BEAST X implementations, focusing on parallel performance analysis and scaling behavior with OpenMP threading.
 
 ## Project Structure
 
