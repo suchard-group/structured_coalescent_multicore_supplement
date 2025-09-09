@@ -30,7 +30,7 @@ Contains benchmarking configurations and scripts:
   - `beast2/` — BEAST2 benchmark configurations for the same datasets  
 
 - **`scaling/`** — Scaling behavior analysis with varying dataset sizes  
-  - Location scaling: `benchmark_full_S02.xml` to `benchmark_full_S26.xml` (2–26 threads)  
+  - Location scaling: `benchmark_full_S02.xml` to `benchmark_full_S26.xml` (2–26 demes)  
   - Sequence scaling: `benchmark_N0128.xml`, `benchmark_N0256.xml`, `benchmark_N0512.xml` (128–512 sequences)  
 
 ## Prerequisites
