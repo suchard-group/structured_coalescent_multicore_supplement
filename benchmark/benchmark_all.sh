@@ -4,14 +4,17 @@
 # Configuration
 # -----------------------------------------
 
+# Set path to BEAGLE lib
+export LD_LIBRARY_PATH=$HOME/beagle-lib/build/usr/local/beagle-basta/lib
+
+# Set path to BEAST jar
+BEAST_JAR=$HOME/Documents/beast-mcmc/build/dist/beast.jar
+
 # Path to your XML files
 XML_FOLDER="CPU_parallel_BIT_SCA/benchmark/comparisons/beastx"
 
 # Where to write all outputs and logs
 OUTPUT_FOLDER="CPU_parallel_BIT_SCA/benchmark/NewBenchmarkResults"
-
-# Path to your BEAST jar
-JAVA_COMMAND=".../beast-mcmc/build/dist/beast.jar"
 
 # Thread counts to test: 1 = no threading, others = that many OpenMP threads
 THREAD_COUNTS=(1 2 4 8 16)
@@ -48,7 +51,7 @@ for xml_file in "$XML_FOLDER"/*.xml; do
         log_file="$OUTPUT_FOLDER/${base_name}_t${thread_count}_log.txt"
 
         # Run BEAST
-        java -jar "$JAVA_COMMAND" $COMMON_OPTIONS -working "$xml_file" \
+        java -Djava.library.path="${LD_LIBRARY_PATH}" -jar "$BEAST_JAR" $COMMON_OPTIONS -working "$xml_file" \
             > "$output_file" 2>&1
 
         # Extract timings
