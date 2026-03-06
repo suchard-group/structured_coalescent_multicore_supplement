@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.base.evolution.alignment:beast.base.core:
+                     beast.base.inference.parameter:beast.base.inference.util:
+                     beast.base.inference:beast.base.inference.distribution:
+                     beast.base.evolution:beast.base.evolution.tree.coalescent:
+                     beast.base.evolution.tree:beast.base.math:
+                     beast.base.evolution.operator:beast.base.inference.operator:
+                     beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:
+                     beast.base.evolution.likelihood:beast.base.evolution.tree:
+                     basta.distributions:basta.evolution.tree:basta.operators:basta.util" required="BEAST.base v2.7.8" version="2.7">
+
+<alignment spec="beast.base.evolution.alignment.Alignment" id="alignment1" dataType="nucleotide">
+    <sequence id="1" spec="Sequence" taxon="taxa_1" totalcount="4" value="GGGCGCCCGA"/>
+    <sequence id="2" spec="Sequence" taxon="taxa_2" totalcount="4" value="TCCACGTAGG"/>
+    <sequence id="3" spec="Sequence" taxon="taxa_3" totalcount="4" value="ATAAAGTCGC"/>
+    <sequence id="4" spec="Sequence" taxon="taxa_4" totalcount="4" value="ACGTCAGGAT"/>
+    <sequence id="5" spec="Sequence" taxon="taxa_5" totalcount="4" value="GTCAGAACGG"/>
+    <sequence id="6" spec="Sequence" taxon="taxa_6" totalcount="4" value="TAGAGTCACA"/>
+    <sequence id="7" spec="Sequence" taxon="taxa_7" totalcount="4" value="ATTGACAAGA"/>
+    <sequence id="8" spec="Sequence" taxon="taxa_8" totalcount="4" value="CAGAGCTGTT"/>
+    <sequence id="9" spec="Sequence" taxon="taxa_9" totalcount="4" value="CCGTCCGGTA"/>
+    <sequence id="10" spec="Sequence" taxon="taxa_10" totalcount="4" value="CCACTAACGG"/>
+    <sequence id="11" spec="Sequence" taxon="taxa_11" totalcount="4" value="ATCATCAGGT"/>
+    <sequence id="12" spec="Sequence" taxon="taxa_12" totalcount="4" value="TCTGACCTGC"/>
+    <sequence id="13" spec="Sequence" taxon="taxa_13" totalcount="4" value="ATGGGCCGAA"/>
+    <sequence id="14" spec="Sequence" taxon="taxa_14" totalcount="4" value="TGCCCTCCCG"/>
+    <sequence id="15" spec="Sequence" taxon="taxa_15" totalcount="4" value="TTCACCCGTC"/>
+    <sequence id="16" spec="Sequence" taxon="taxa_16" totalcount="4" value="GCGTAGGGAG"/>
+    <sequence id="17" spec="Sequence" taxon="taxa_17" totalcount="4" value="GCCCGTGGCA"/>
+    <sequence id="18" spec="Sequence" taxon="taxa_18" totalcount="4" value="CTTTAGGTTC"/>
+    <sequence id="19" spec="Sequence" taxon="taxa_19" totalcount="4" value="TAGAGCCAGC"/>
+    <sequence id="20" spec="Sequence" taxon="taxa_20" totalcount="4" value="TAGTTGGTAT"/>
+    <sequence id="21" spec="Sequence" taxon="taxa_21" totalcount="4" value="CCTATTCGTT"/>
+    <sequence id="22" spec="Sequence" taxon="taxa_22" totalcount="4" value="TGATTTCACG"/>
+    <sequence id="23" spec="Sequence" taxon="taxa_23" totalcount="4" value="TGAGTCAACG"/>
+    <sequence id="24" spec="Sequence" taxon="taxa_24" totalcount="4" value="ACCATTTCTA"/>
+    <sequence id="25" spec="Sequence" taxon="taxa_25" totalcount="4" value="ACATGAATTC"/>
+    <sequence id="26" spec="Sequence" taxon="taxa_26" totalcount="4" value="ATCAAAGGCA"/>
+    <sequence id="27" spec="Sequence" taxon="taxa_27" totalcount="4" value="TCTGCGCGAA"/>
+    <sequence id="28" spec="Sequence" taxon="taxa_28" totalcount="4" value="AAGCACAGGA"/>
+    <sequence id="29" spec="Sequence" taxon="taxa_29" totalcount="4" value="TCGAGCTTAT"/>
+    <sequence id="30" spec="Sequence" taxon="taxa_30" totalcount="4" value="AAAAGCCCGA"/>
+    <sequence id="31" spec="Sequence" taxon="taxa_31" totalcount="4" value="CCACAACGAG"/>
+    <sequence id="32" spec="Sequence" taxon="taxa_32" totalcount="4" value="TACATCCCGA"/>
+    <sequence id="33" spec="Sequence" taxon="taxa_33" totalcount="4" value="ATAATGACAC"/>
+    <sequence id="34" spec="Sequence" taxon="taxa_34" totalcount="4" value="TCAAAATGAA"/>
+    <sequence id="35" spec="Sequence" taxon="taxa_35" totalcount="4" value="ACCGCGAATA"/>
+    <sequence id="36" spec="Sequence" taxon="taxa_36" totalcount="4" value="AATGATAGGT"/>
+    <sequence id="37" spec="Sequence" taxon="taxa_37" totalcount="4" value="CAAACACATA"/>
+    <sequence id="38" spec="Sequence" taxon="taxa_38" totalcount="4" value="GGCCAGTAAC"/>
+    <sequence id="39" spec="Sequence" taxon="taxa_39" totalcount="4" value="ACCCCTTTTG"/>
+    <sequence id="40" spec="Sequence" taxon="taxa_40" totalcount="4" value="TGGGAGGGTC"/>
+    <sequence id="41" spec="Sequence" taxon="taxa_41" totalcount="4" value="GGGAAGCGCA"/>
+    <sequence id="42" spec="Sequence" taxon="taxa_42" totalcount="4" value="TCCCTATAAG"/>
+    <sequence id="43" spec="Sequence" taxon="taxa_43" totalcount="4" value="GAAGAGTCAA"/>
+    <sequence id="44" spec="Sequence" taxon="taxa_44" totalcount="4" value="GTCGCACGCG"/>
+    <sequence id="45" spec="Sequence" taxon="taxa_45" totalcount="4" value="GACTACCTCT"/>
+    <sequence id="46" spec="Sequence" taxon="taxa_46" totalcount="4" value="CATCTATCAT"/>
+    <sequence id="47" spec="Sequence" taxon="taxa_47" totalcount="4" value="TGCAGCTGCG"/>
+    <sequence id="48" spec="Sequence" taxon="taxa_48" totalcount="4" value="GATCGAAGCG"/>
+    <sequence id="49" spec="Sequence" taxon="taxa_49" totalcount="4" value="CCCTATCATT"/>
+    <sequence id="50" spec="Sequence" taxon="taxa_50" totalcount="4" value="ATATCCTGGA"/>
+    <sequence id="51" spec="Sequence" taxon="taxa_51" totalcount="4" value="CTTCGGGGCA"/>
+    <sequence id="52" spec="Sequence" taxon="taxa_52" totalcount="4" value="TATGTTTACC"/>
+    <sequence id="53" spec="Sequence" taxon="taxa_53" totalcount="4" value="TTGCATGAAG"/>
+    <sequence id="54" spec="Sequence" taxon="taxa_54" totalcount="4" value="TTCAACCCCA"/>
+    <sequence id="55" spec="Sequence" taxon="taxa_55" totalcount="4" value="GGCTTGGTTG"/>
+    <sequence id="56" spec="Sequence" taxon="taxa_56" totalcount="4" value="CGTTTGCTCT"/>
+    <sequence id="57" spec="Sequence" taxon="taxa_57" totalcount="4" value="GCTGTCTTCA"/>
+    <sequence id="58" spec="Sequence" taxon="taxa_58" totalcount="4" value="CGTAATGTCA"/>
+    <sequence id="59" spec="Sequence" taxon="taxa_59" totalcount="4" value="ATGGTGACCG"/>
+    <sequence id="60" spec="Sequence" taxon="taxa_60" totalcount="4" value="GTGTGCAGTT"/>
+    <sequence id="61" spec="Sequence" taxon="taxa_61" totalcount="4" value="TCTAGGGCAC"/>
+    <sequence id="62" spec="Sequence" taxon="taxa_62" totalcount="4" value="GACACCTGCC"/>
+    <sequence id="63" spec="Sequence" taxon="taxa_63" totalcount="4" value="CCCTTGAAGG"/>
+    <sequence id="64" spec="Sequence" taxon="taxa_64" totalcount="4" value="GTGCAAGCTT"/>
+    <sequence id="65" spec="Sequence" taxon="taxa_65" totalcount="4" value="CTGTTAGTGT"/>
+    <sequence id="66" spec="Sequence" taxon="taxa_66" totalcount="4" value="AAGGTCCTGC"/>
+    <sequence id="67" spec="Sequence" taxon="taxa_67" totalcount="4" value="GGCGGAGACT"/>
+    <sequence id="68" spec="Sequence" taxon="taxa_68" totalcount="4" value="TAGGCTTCAC"/>
+    <sequence id="69" spec="Sequence" taxon="taxa_69" totalcount="4" value="GGGCACTGCG"/>
+    <sequence id="70" spec="Sequence" taxon="taxa_70" totalcount="4" value="TGACCCTTCT"/>
+    <sequence id="71" spec="Sequence" taxon="taxa_71" totalcount="4" value="CAAGTAGGCT"/>
+    <sequence id="72" spec="Sequence" taxon="taxa_72" totalcount="4" value="GCATATTCAG"/>
+    <sequence id="73" spec="Sequence" taxon="taxa_73" totalcount="4" value="CTTTCGATAC"/>
+    <sequence id="74" spec="Sequence" taxon="taxa_74" totalcount="4" value="GAAGGCTATG"/>
+    <sequence id="75" spec="Sequence" taxon="taxa_75" totalcount="4" value="GGTAGGACAC"/>
+    <sequence id="76" spec="Sequence" taxon="taxa_76" totalcount="4" value="TCAGACCACA"/>
+    <sequence id="77" spec="Sequence" taxon="taxa_77" totalcount="4" value="TATCCTCTCT"/>
+    <sequence id="78" spec="Sequence" taxon="taxa_78" totalcount="4" value="GATAATAGTC"/>
+    <sequence id="79" spec="Sequence" taxon="taxa_79" totalcount="4" value="AAGGAATCTT"/>
+    <sequence id="80" spec="Sequence" taxon="taxa_80" totalcount="4" value="GTATAGATCC"/>
+    <sequence id="81" spec="Sequence" taxon="taxa_81" totalcount="4" value="GATTGAGGAG"/>
+    <sequence id="82" spec="Sequence" taxon="taxa_82" totalcount="4" value="GGGGCGCGTC"/>
+    <sequence id="83" spec="Sequence" taxon="taxa_83" totalcount="4" value="ATTAGTTACA"/>
+    <sequence id="84" spec="Sequence" taxon="taxa_84" totalcount="4" value="CTCAATCTGA"/>
+    <sequence id="85" spec="Sequence" taxon="taxa_85" totalcount="4" value="CATTCTGCCG"/>
+    <sequence id="86" spec="Sequence" taxon="taxa_86" totalcount="4" value="ACTGGAGAAG"/>
+    <sequence id="87" spec="Sequence" taxon="taxa_87" totalcount="4" value="AAGTAAATTT"/>
+    <sequence id="88" spec="Sequence" taxon="taxa_88" totalcount="4" value="CCCTCGGCTA"/>
+    <sequence id="89" spec="Sequence" taxon="taxa_89" totalcount="4" value="TGAGGGATCG"/>
+    <sequence id="90" spec="Sequence" taxon="taxa_90" totalcount="4" value="GTTAAATGGT"/>
+    <sequence id="91" spec="Sequence" taxon="taxa_91" totalcount="4" value="TTAATCTGGC"/>
+    <sequence id="92" spec="Sequence" taxon="taxa_92" totalcount="4" value="TAGATTAGCG"/>
+    <sequence id="93" spec="Sequence" taxon="taxa_93" totalcount="4" value="GTGCAGTTGC"/>
+    <sequence id="94" spec="Sequence" taxon="taxa_94" totalcount="4" value="CTTTCTGGCA"/>
+    <sequence id="95" spec="Sequence" taxon="taxa_95" totalcount="4" value="TTAACACCGG"/>
+    <sequence id="96" spec="Sequence" taxon="taxa_96" totalcount="4" value="GTGCCCGGGA"/>
+    <sequence id="97" spec="Sequence" taxon="taxa_97" totalcount="4" value="GAGCTTAAAG"/>
+    <sequence id="98" spec="Sequence" taxon="taxa_98" totalcount="4" value="TACTAGTGTG"/>
+    <sequence id="99" spec="Sequence" taxon="taxa_99" totalcount="4" value="TCTGCAGTCC"/>
+    <sequence id="100" spec="Sequence" taxon="taxa_100" totalcount="4" value="ACACGGCCTT"/>
+    <sequence id="101" spec="Sequence" taxon="taxa_101" totalcount="4" value="ATCGCGATCG"/>
+    <sequence id="102" spec="Sequence" taxon="taxa_102" totalcount="4" value="ATCGCAGGTT"/>
+    <sequence id="103" spec="Sequence" taxon="taxa_103" totalcount="4" value="GATGCCCGAA"/>
+    <sequence id="104" spec="Sequence" taxon="taxa_104" totalcount="4" value="CCTGCCAGAG"/>
+    <sequence id="105" spec="Sequence" taxon="taxa_105" totalcount="4" value="GGGCCTTTAA"/>
+    <sequence id="106" spec="Sequence" taxon="taxa_106" totalcount="4" value="TTTGCACCTC"/>
+    <sequence id="107" spec="Sequence" taxon="taxa_107" totalcount="4" value="TAGGCCCAGA"/>
+    <sequence id="108" spec="Sequence" taxon="taxa_108" totalcount="4" value="CGTAACTGAC"/>
+    <sequence id="109" spec="Sequence" taxon="taxa_109" totalcount="4" value="TAAGTGGGGC"/>
+    <sequence id="110" spec="Sequence" taxon="taxa_110" totalcount="4" value="GCGCGCCGTC"/>
+    <sequence id="111" spec="Sequence" taxon="taxa_111" totalcount="4" value="AGAGCTAAGA"/>
+    <sequence id="112" spec="Sequence" taxon="taxa_112" totalcount="4" value="CGTTTGTCCC"/>
+    <sequence id="113" spec="Sequence" taxon="taxa_113" totalcount="4" value="GTGGCTAGGG"/>
+    <sequence id="114" spec="Sequence" taxon="taxa_114" totalcount="4" value="GGGTTAATAA"/>
+    <sequence id="115" spec="Sequence" taxon="taxa_115" totalcount="4" value="ACACCTTTTT"/>
+    <sequence id="116" spec="Sequence" taxon="taxa_116" totalcount="4" value="GTGACCATGG"/>
+    <sequence id="117" spec="Sequence" taxon="taxa_117" totalcount="4" value="TCATGCAGTC"/>
+    <sequence id="118" spec="Sequence" taxon="taxa_118" totalcount="4" value="TCTTTCCCAA"/>
+    <sequence id="119" spec="Sequence" taxon="taxa_119" totalcount="4" value="GAAGATTCGG"/>
+    <sequence id="120" spec="Sequence" taxon="taxa_120" totalcount="4" value="CCATGGATGA"/>
+    <sequence id="121" spec="Sequence" taxon="taxa_121" totalcount="4" value="ATCAAATAAA"/>
+    <sequence id="122" spec="Sequence" taxon="taxa_122" totalcount="4" value="GGTATAGTTT"/>
+    <sequence id="123" spec="Sequence" taxon="taxa_123" totalcount="4" value="CCTTGGCTGT"/>
+    <sequence id="124" spec="Sequence" taxon="taxa_124" totalcount="4" value="TGACTCCCTA"/>
+    <sequence id="125" spec="Sequence" taxon="taxa_125" totalcount="4" value="ACCTATGAGG"/>
+    <sequence id="126" spec="Sequence" taxon="taxa_126" totalcount="4" value="CGGTGAGAGA"/>
+    <sequence id="127" spec="Sequence" taxon="taxa_127" totalcount="4" value="ACCAAAGAAC"/>
+    <sequence id="128" spec="Sequence" taxon="taxa_128" totalcount="4" value="AAGCTTGCTG"/>
+    <sequence id="129" spec="Sequence" taxon="taxa_129" totalcount="4" value="ATCTCCCCTA"/>
+    <sequence id="130" spec="Sequence" taxon="taxa_130" totalcount="4" value="GCGCAGCTGC"/>
+    <sequence id="131" spec="Sequence" taxon="taxa_131" totalcount="4" value="GGCTCTTCGA"/>
+    <sequence id="132" spec="Sequence" taxon="taxa_132" totalcount="4" value="TAATGACGAC"/>
+    <sequence id="133" spec="Sequence" taxon="taxa_133" totalcount="4" value="CGCTCGCTTT"/>
+    <sequence id="134" spec="Sequence" taxon="taxa_134" totalcount="4" value="AGAGGCTGGC"/>
+    <sequence id="135" spec="Sequence" taxon="taxa_135" totalcount="4" value="TGACCAAGGG"/>
+    <sequence id="136" spec="Sequence" taxon="taxa_136" totalcount="4" value="TCGGCGAGGG"/>
+    <sequence id="137" spec="Sequence" taxon="taxa_137" totalcount="4" value="CCAAGCTTGG"/>
+    <sequence id="138" spec="Sequence" taxon="taxa_138" totalcount="4" value="TACGAGCCGA"/>
+    <sequence id="139" spec="Sequence" taxon="taxa_139" totalcount="4" value="ATGTTTGCTG"/>
+    <sequence id="140" spec="Sequence" taxon="taxa_140" totalcount="4" value="GGATAGAAGC"/>
+    <sequence id="141" spec="Sequence" taxon="taxa_141" totalcount="4" value="CACTGAAATA"/>
+    <sequence id="142" spec="Sequence" taxon="taxa_142" totalcount="4" value="TAACCCTGCT"/>
+    <sequence id="143" spec="Sequence" taxon="taxa_143" totalcount="4" value="CCACTGTAGG"/>
+    <sequence id="144" spec="Sequence" taxon="taxa_144" totalcount="4" value="GATGCTAGCC"/>
+    <sequence id="145" spec="Sequence" taxon="taxa_145" totalcount="4" value="GGGAATGGAG"/>
+    <sequence id="146" spec="Sequence" taxon="taxa_146" totalcount="4" value="TTCGTGAAAA"/>
+    <sequence id="147" spec="Sequence" taxon="taxa_147" totalcount="4" value="CCGGCATTTA"/>
+    <sequence id="148" spec="Sequence" taxon="taxa_148" totalcount="4" value="GCATACGATC"/>
+    <sequence id="149" spec="Sequence" taxon="taxa_149" totalcount="4" value="TTTACGCATG"/>
+    <sequence id="150" spec="Sequence" taxon="taxa_150" totalcount="4" value="GTTACAAAGT"/>
+    <sequence id="151" spec="Sequence" taxon="taxa_151" totalcount="4" value="GCCCTTTGCT"/>
+    <sequence id="152" spec="Sequence" taxon="taxa_152" totalcount="4" value="TAATAAGCTC"/>
+    <sequence id="153" spec="Sequence" taxon="taxa_153" totalcount="4" value="AGATGCCCGA"/>
+    <sequence id="154" spec="Sequence" taxon="taxa_154" totalcount="4" value="AACTTATCCC"/>
+    <sequence id="155" spec="Sequence" taxon="taxa_155" totalcount="4" value="TGACTTTGAG"/>
+    <sequence id="156" spec="Sequence" taxon="taxa_156" totalcount="4" value="AGCTACCACT"/>
+    <sequence id="157" spec="Sequence" taxon="taxa_157" totalcount="4" value="ACGCGGCCCA"/>
+    <sequence id="158" spec="Sequence" taxon="taxa_158" totalcount="4" value="GAGCCTCCGC"/>
+    <sequence id="159" spec="Sequence" taxon="taxa_159" totalcount="4" value="GGTGAACCAA"/>
+    <sequence id="160" spec="Sequence" taxon="taxa_160" totalcount="4" value="GGACAACTCT"/>
+    <sequence id="161" spec="Sequence" taxon="taxa_161" totalcount="4" value="CACCATGCAC"/>
+    <sequence id="162" spec="Sequence" taxon="taxa_162" totalcount="4" value="GTACTGCCGA"/>
+    <sequence id="163" spec="Sequence" taxon="taxa_163" totalcount="4" value="CAGTTATTTG"/>
+    <sequence id="164" spec="Sequence" taxon="taxa_164" totalcount="4" value="AATCGTTTGG"/>
+    <sequence id="165" spec="Sequence" taxon="taxa_165" totalcount="4" value="GGTCGGCGTC"/>
+    <sequence id="166" spec="Sequence" taxon="taxa_166" totalcount="4" value="GTGCTCGTAT"/>
+    <sequence id="167" spec="Sequence" taxon="taxa_167" totalcount="4" value="AATGGGTAAG"/>
+    <sequence id="168" spec="Sequence" taxon="taxa_168" totalcount="4" value="TGTGAAAAAG"/>
+    <sequence id="169" spec="Sequence" taxon="taxa_169" totalcount="4" value="TCGTGGGACC"/>
+    <sequence id="170" spec="Sequence" taxon="taxa_170" totalcount="4" value="TGGCAAAGTA"/>
+    <sequence id="171" spec="Sequence" taxon="taxa_171" totalcount="4" value="CTCTCACGGT"/>
+    <sequence id="172" spec="Sequence" taxon="taxa_172" totalcount="4" value="ATGGGACCCT"/>
+    <sequence id="173" spec="Sequence" taxon="taxa_173" totalcount="4" value="TCACACTACA"/>
+    <sequence id="174" spec="Sequence" taxon="taxa_174" totalcount="4" value="GCTAATACTA"/>
+    <sequence id="175" spec="Sequence" taxon="taxa_175" totalcount="4" value="TAGTCTGTGG"/>
+    <sequence id="176" spec="Sequence" taxon="taxa_176" totalcount="4" value="CAGCAGCGGT"/>
+    <sequence id="177" spec="Sequence" taxon="taxa_177" totalcount="4" value="GGTTCTGTGG"/>
+    <sequence id="178" spec="Sequence" taxon="taxa_178" totalcount="4" value="CAATTCCGAA"/>
+    <sequence id="179" spec="Sequence" taxon="taxa_179" totalcount="4" value="ATAAGTCGCA"/>
+    <sequence id="180" spec="Sequence" taxon="taxa_180" totalcount="4" value="ATCAAGCTAC"/>
+    <sequence id="181" spec="Sequence" taxon="taxa_181" totalcount="4" value="TCCACATGTG"/>
+    <sequence id="182" spec="Sequence" taxon="taxa_182" totalcount="4" value="ACGCGTATTG"/>
+    <sequence id="183" spec="Sequence" taxon="taxa_183" totalcount="4" value="TCGGGAACTG"/>
+    <sequence id="184" spec="Sequence" taxon="taxa_184" totalcount="4" value="AACAATCTAG"/>
+    <sequence id="185" spec="Sequence" taxon="taxa_185" totalcount="4" value="ACGCAGTCCA"/>
+    <sequence id="186" spec="Sequence" taxon="taxa_186" totalcount="4" value="CTTTGTTATC"/>
+    <sequence id="187" spec="Sequence" taxon="taxa_187" totalcount="4" value="CTGAGTAATC"/>
+    <sequence id="188" spec="Sequence" taxon="taxa_188" totalcount="4" value="GGACTCGTTT"/>
+    <sequence id="189" spec="Sequence" taxon="taxa_189" totalcount="4" value="CTTCAAAAAT"/>
+    <sequence id="190" spec="Sequence" taxon="taxa_190" totalcount="4" value="AGAGAAAGCA"/>
+    <sequence id="191" spec="Sequence" taxon="taxa_191" totalcount="4" value="GGAAGGCCAA"/>
+    <sequence id="192" spec="Sequence" taxon="taxa_192" totalcount="4" value="TGACATACGG"/>
+    <sequence id="193" spec="Sequence" taxon="taxa_193" totalcount="4" value="CTACACCACA"/>
+    <sequence id="194" spec="Sequence" taxon="taxa_194" totalcount="4" value="GCGATAGCCC"/>
+    <sequence id="195" spec="Sequence" taxon="taxa_195" totalcount="4" value="GAGACCCTTC"/>
+    <sequence id="196" spec="Sequence" taxon="taxa_196" totalcount="4" value="ATCCGTGCGC"/>
+    <sequence id="197" spec="Sequence" taxon="taxa_197" totalcount="4" value="GAAGTATCCT"/>
+    <sequence id="198" spec="Sequence" taxon="taxa_198" totalcount="4" value="GGATGGTGAC"/>
+    <sequence id="199" spec="Sequence" taxon="taxa_199" totalcount="4" value="GTATACCACA"/>
+    <sequence id="200" spec="Sequence" taxon="taxa_200" totalcount="4" value="GGCTATCATA"/>
+    <sequence id="201" spec="Sequence" taxon="taxa_201" totalcount="4" value="AGACCAGACG"/>
+    <sequence id="202" spec="Sequence" taxon="taxa_202" totalcount="4" value="AACCGCGCTT"/>
+    <sequence id="203" spec="Sequence" taxon="taxa_203" totalcount="4" value="TAAACATGCT"/>
+    <sequence id="204" spec="Sequence" taxon="taxa_204" totalcount="4" value="GTGCGTGGGC"/>
+    <sequence id="205" spec="Sequence" taxon="taxa_205" totalcount="4" value="CGTACCCTAA"/>
+    <sequence id="206" spec="Sequence" taxon="taxa_206" totalcount="4" value="AACCTCCGCC"/>
+    <sequence id="207" spec="Sequence" taxon="taxa_207" totalcount="4" value="AGGTACGCAA"/>
+    <sequence id="208" spec="Sequence" taxon="taxa_208" totalcount="4" value="GAACCCGGCG"/>
+    <sequence id="209" spec="Sequence" taxon="taxa_209" totalcount="4" value="TAAGCGCATA"/>
+    <sequence id="210" spec="Sequence" taxon="taxa_210" totalcount="4" value="CGGCTAAGCA"/>
+    <sequence id="211" spec="Sequence" taxon="taxa_211" totalcount="4" value="CCGCCCGTCT"/>
+    <sequence id="212" spec="Sequence" taxon="taxa_212" totalcount="4" value="TTCACGGGTA"/>
+    <sequence id="213" spec="Sequence" taxon="taxa_213" totalcount="4" value="GGGGCGTAGC"/>
+    <sequence id="214" spec="Sequence" taxon="taxa_214" totalcount="4" value="TAGATGCATC"/>
+    <sequence id="215" spec="Sequence" taxon="taxa_215" totalcount="4" value="TGTGCCTTAG"/>
+    <sequence id="216" spec="Sequence" taxon="taxa_216" totalcount="4" value="CGGAGGCGTG"/>
+    <sequence id="217" spec="Sequence" taxon="taxa_217" totalcount="4" value="TGGAATTCAG"/>
+    <sequence id="218" spec="Sequence" taxon="taxa_218" totalcount="4" value="TAGGGCAAGA"/>
+    <sequence id="219" spec="Sequence" taxon="taxa_219" totalcount="4" value="CGTCAGCCTA"/>
+    <sequence id="220" spec="Sequence" taxon="taxa_220" totalcount="4" value="ATGTCATTAT"/>
+    <sequence id="221" spec="Sequence" taxon="taxa_221" totalcount="4" value="GGTATCAGAG"/>
+    <sequence id="222" spec="Sequence" taxon="taxa_222" totalcount="4" value="CTAGTTGGCT"/>
+    <sequence id="223" spec="Sequence" taxon="taxa_223" totalcount="4" value="CTACCTCCGG"/>
+    <sequence id="224" spec="Sequence" taxon="taxa_224" totalcount="4" value="ACGACACGTG"/>
+    <sequence id="225" spec="Sequence" taxon="taxa_225" totalcount="4" value="GTAACTACGC"/>
+    <sequence id="226" spec="Sequence" taxon="taxa_226" totalcount="4" value="AGAATGATGA"/>
+    <sequence id="227" spec="Sequence" taxon="taxa_227" totalcount="4" value="TTCTTTTACG"/>
+    <sequence id="228" spec="Sequence" taxon="taxa_228" totalcount="4" value="AGTCCTGTGT"/>
+    <sequence id="229" spec="Sequence" taxon="taxa_229" totalcount="4" value="CGCTAGCCCT"/>
+    <sequence id="230" spec="Sequence" taxon="taxa_230" totalcount="4" value="CCGTCGATTT"/>
+    <sequence id="231" spec="Sequence" taxon="taxa_231" totalcount="4" value="TAAGGGTCCT"/>
+    <sequence id="232" spec="Sequence" taxon="taxa_232" totalcount="4" value="TTTTTTGCAA"/>
+    <sequence id="233" spec="Sequence" taxon="taxa_233" totalcount="4" value="ACATAGGCTA"/>
+    <sequence id="234" spec="Sequence" taxon="taxa_234" totalcount="4" value="GGGTACTGGA"/>
+    <sequence id="235" spec="Sequence" taxon="taxa_235" totalcount="4" value="GGTATAATCA"/>
+    <sequence id="236" spec="Sequence" taxon="taxa_236" totalcount="4" value="GTATAGTGAC"/>
+    <sequence id="237" spec="Sequence" taxon="taxa_237" totalcount="4" value="ATATCCGTCC"/>
+    <sequence id="238" spec="Sequence" taxon="taxa_238" totalcount="4" value="GCATAAGTCT"/>
+    <sequence id="239" spec="Sequence" taxon="taxa_239" totalcount="4" value="GTTGCCCTTA"/>
+    <sequence id="240" spec="Sequence" taxon="taxa_240" totalcount="4" value="GGTGGTCCAT"/>
+    <sequence id="241" spec="Sequence" taxon="taxa_241" totalcount="4" value="CGAGCGCAAA"/>
+    <sequence id="242" spec="Sequence" taxon="taxa_242" totalcount="4" value="CACAGAGTGT"/>
+    <sequence id="243" spec="Sequence" taxon="taxa_243" totalcount="4" value="CCCTGAAGTA"/>
+    <sequence id="244" spec="Sequence" taxon="taxa_244" totalcount="4" value="AACACGATTG"/>
+    <sequence id="245" spec="Sequence" taxon="taxa_245" totalcount="4" value="AGGCAGGTAC"/>
+    <sequence id="246" spec="Sequence" taxon="taxa_246" totalcount="4" value="CTCTGTGTGT"/>
+    <sequence id="247" spec="Sequence" taxon="taxa_247" totalcount="4" value="ATCCAAACGG"/>
+    <sequence id="248" spec="Sequence" taxon="taxa_248" totalcount="4" value="GTGAAGATAT"/>
+    <sequence id="249" spec="Sequence" taxon="taxa_249" totalcount="4" value="ATTTGGTTTC"/>
+    <sequence id="250" spec="Sequence" taxon="taxa_250" totalcount="4" value="GCTTTTCCCG"/>
+    <sequence id="251" spec="Sequence" taxon="taxa_251" totalcount="4" value="CTTGTCAAGA"/>
+    <sequence id="252" spec="Sequence" taxon="taxa_252" totalcount="4" value="CCCAGTGCCC"/>
+    <sequence id="253" spec="Sequence" taxon="taxa_253" totalcount="4" value="TGACGATGGC"/>
+    <sequence id="254" spec="Sequence" taxon="taxa_254" totalcount="4" value="GTGCTAATGA"/>
+    <sequence id="255" spec="Sequence" taxon="taxa_255" totalcount="4" value="GGCGTAAAGA"/>
+    <sequence id="256" spec="Sequence" taxon="taxa_256" totalcount="4" value="CACTATTCCC"/>
+    <sequence id="257" spec="Sequence" taxon="taxa_257" totalcount="4" value="TGGCTCCTGA"/>
+    <sequence id="258" spec="Sequence" taxon="taxa_258" totalcount="4" value="GTACGCCACT"/>
+    <sequence id="259" spec="Sequence" taxon="taxa_259" totalcount="4" value="TGTCGGTCAA"/>
+    <sequence id="260" spec="Sequence" taxon="taxa_260" totalcount="4" value="CGCAGAAGAT"/>
+    <sequence id="261" spec="Sequence" taxon="taxa_261" totalcount="4" value="CTGTGGGGCA"/>
+    <sequence id="262" spec="Sequence" taxon="taxa_262" totalcount="4" value="GCAAGCCTCC"/>
+    <sequence id="263" spec="Sequence" taxon="taxa_263" totalcount="4" value="CATTGGGCGC"/>
+    <sequence id="264" spec="Sequence" taxon="taxa_264" totalcount="4" value="AATGGTTGCA"/>
+    <sequence id="265" spec="Sequence" taxon="taxa_265" totalcount="4" value="AAAATTCACC"/>
+    <sequence id="266" spec="Sequence" taxon="taxa_266" totalcount="4" value="GAGGACTGCA"/>
+    <sequence id="267" spec="Sequence" taxon="taxa_267" totalcount="4" value="GCAGACCTTT"/>
+    <sequence id="268" spec="Sequence" taxon="taxa_268" totalcount="4" value="TATTGAGCGG"/>
+    <sequence id="269" spec="Sequence" taxon="taxa_269" totalcount="4" value="GATATATACC"/>
+    <sequence id="270" spec="Sequence" taxon="taxa_270" totalcount="4" value="ATATCAGCAA"/>
+    <sequence id="271" spec="Sequence" taxon="taxa_271" totalcount="4" value="CAGGTTAGTT"/>
+    <sequence id="272" spec="Sequence" taxon="taxa_272" totalcount="4" value="AGGCCCTTGG"/>
+    <sequence id="273" spec="Sequence" taxon="taxa_273" totalcount="4" value="GAGCATGTTA"/>
+    <sequence id="274" spec="Sequence" taxon="taxa_274" totalcount="4" value="TGGAATATAG"/>
+    <sequence id="275" spec="Sequence" taxon="taxa_275" totalcount="4" value="TCACAGATAT"/>
+    <sequence id="276" spec="Sequence" taxon="taxa_276" totalcount="4" value="CTTCTAGTGG"/>
+    <sequence id="277" spec="Sequence" taxon="taxa_277" totalcount="4" value="AGTACACATG"/>
+    <sequence id="278" spec="Sequence" taxon="taxa_278" totalcount="4" value="CCTCGGTTCG"/>
+    <sequence id="279" spec="Sequence" taxon="taxa_279" totalcount="4" value="CGAGAACAAC"/>
+    <sequence id="280" spec="Sequence" taxon="taxa_280" totalcount="4" value="TAGTCCGCAG"/>
+    <sequence id="281" spec="Sequence" taxon="taxa_281" totalcount="4" value="GATTAGTTAA"/>
+    <sequence id="282" spec="Sequence" taxon="taxa_282" totalcount="4" value="TAGCAAGAAT"/>
+    <sequence id="283" spec="Sequence" taxon="taxa_283" totalcount="4" value="ATTTATACTG"/>
+    <sequence id="284" spec="Sequence" taxon="taxa_284" totalcount="4" value="GATTAGCTAG"/>
+    <sequence id="285" spec="Sequence" taxon="taxa_285" totalcount="4" value="TCCGCTAAAA"/>
+    <sequence id="286" spec="Sequence" taxon="taxa_286" totalcount="4" value="ACTAGAGTTC"/>
+    <sequence id="287" spec="Sequence" taxon="taxa_287" totalcount="4" value="GTAGCAGCGG"/>
+    <sequence id="288" spec="Sequence" taxon="taxa_288" totalcount="4" value="CATAACTACA"/>
+    <sequence id="289" spec="Sequence" taxon="taxa_289" totalcount="4" value="CTGGGTAACA"/>
+    <sequence id="290" spec="Sequence" taxon="taxa_290" totalcount="4" value="CAAACCTTTG"/>
+    <sequence id="291" spec="Sequence" taxon="taxa_291" totalcount="4" value="TGTGAACATA"/>
+    <sequence id="292" spec="Sequence" taxon="taxa_292" totalcount="4" value="ATCAAAAGCC"/>
+    <sequence id="293" spec="Sequence" taxon="taxa_293" totalcount="4" value="ATCTCAGGCT"/>
+    <sequence id="294" spec="Sequence" taxon="taxa_294" totalcount="4" value="GCAAGTCCTT"/>
+    <sequence id="295" spec="Sequence" taxon="taxa_295" totalcount="4" value="GGTGCTACAG"/>
+    <sequence id="296" spec="Sequence" taxon="taxa_296" totalcount="4" value="TGCATATATG"/>
+    <sequence id="297" spec="Sequence" taxon="taxa_297" totalcount="4" value="CGAGTACGTC"/>
+    <sequence id="298" spec="Sequence" taxon="taxa_298" totalcount="4" value="TGAGTGCGGT"/>
+    <sequence id="299" spec="Sequence" taxon="taxa_299" totalcount="4" value="AGATGCTCTG"/>
+    <sequence id="300" spec="Sequence" taxon="taxa_300" totalcount="4" value="AATGCTAGCC"/>
+    <sequence id="301" spec="Sequence" taxon="taxa_301" totalcount="4" value="CGTCGCAAAT"/>
+    <sequence id="302" spec="Sequence" taxon="taxa_302" totalcount="4" value="CGGGTTCCAT"/>
+    <sequence id="303" spec="Sequence" taxon="taxa_303" totalcount="4" value="CGACGAGGGA"/>
+    <sequence id="304" spec="Sequence" taxon="taxa_304" totalcount="4" value="AGCTGAATTT"/>
+    <sequence id="305" spec="Sequence" taxon="taxa_305" totalcount="4" value="AAATGGTTGT"/>
+    <sequence id="306" spec="Sequence" taxon="taxa_306" totalcount="4" value="GCGGAATCAG"/>
+    <sequence id="307" spec="Sequence" taxon="taxa_307" totalcount="4" value="CAGAAGTTGC"/>
+    <sequence id="308" spec="Sequence" taxon="taxa_308" totalcount="4" value="TATGGCTGTT"/>
+    <sequence id="309" spec="Sequence" taxon="taxa_309" totalcount="4" value="GGACGTGCGA"/>
+    <sequence id="310" spec="Sequence" taxon="taxa_310" totalcount="4" value="ATGCCAAATT"/>
+    <sequence id="311" spec="Sequence" taxon="taxa_311" totalcount="4" value="GTAAGCGCGG"/>
+    <sequence id="312" spec="Sequence" taxon="taxa_312" totalcount="4" value="GATTCGAGGG"/>
+    <sequence id="313" spec="Sequence" taxon="taxa_313" totalcount="4" value="ATGAGTGTGA"/>
+    <sequence id="314" spec="Sequence" taxon="taxa_314" totalcount="4" value="AGACGAATAT"/>
+    <sequence id="315" spec="Sequence" taxon="taxa_315" totalcount="4" value="GGGTTCTACT"/>
+    <sequence id="316" spec="Sequence" taxon="taxa_316" totalcount="4" value="CGGCGATTGA"/>
+    <sequence id="317" spec="Sequence" taxon="taxa_317" totalcount="4" value="TCTTACGAAA"/>
+    <sequence id="318" spec="Sequence" taxon="taxa_318" totalcount="4" value="AGACAGGGGA"/>
+    <sequence id="319" spec="Sequence" taxon="taxa_319" totalcount="4" value="TCACCTGCAG"/>
+    <sequence id="320" spec="Sequence" taxon="taxa_320" totalcount="4" value="AGTACGTCGT"/>
+    <sequence id="321" spec="Sequence" taxon="taxa_321" totalcount="4" value="TCTCCGTTCC"/>
+    <sequence id="322" spec="Sequence" taxon="taxa_322" totalcount="4" value="TGTGGTCGAC"/>
+    <sequence id="323" spec="Sequence" taxon="taxa_323" totalcount="4" value="CCTGATATGA"/>
+    <sequence id="324" spec="Sequence" taxon="taxa_324" totalcount="4" value="CATAGAACTC"/>
+    <sequence id="325" spec="Sequence" taxon="taxa_325" totalcount="4" value="GGTGTGGCAT"/>
+    <sequence id="326" spec="Sequence" taxon="taxa_326" totalcount="4" value="TTTCTGGCTC"/>
+    <sequence id="327" spec="Sequence" taxon="taxa_327" totalcount="4" value="CCCGGCGATA"/>
+    <sequence id="328" spec="Sequence" taxon="taxa_328" totalcount="4" value="TGCATGCTGA"/>
+    <sequence id="329" spec="Sequence" taxon="taxa_329" totalcount="4" value="CCGCTGGGCT"/>
+    <sequence id="330" spec="Sequence" taxon="taxa_330" totalcount="4" value="GCTGGTATAT"/>
+    <sequence id="331" spec="Sequence" taxon="taxa_331" totalcount="4" value="CCGTTCTTTC"/>
+    <sequence id="332" spec="Sequence" taxon="taxa_332" totalcount="4" value="CCCCGGATAA"/>
+    <sequence id="333" spec="Sequence" taxon="taxa_333" totalcount="4" value="GAGAAAACTC"/>
+    <sequence id="334" spec="Sequence" taxon="taxa_334" totalcount="4" value="CCTAGGGCTT"/>
+    <sequence id="335" spec="Sequence" taxon="taxa_335" totalcount="4" value="GCTAACCCAG"/>
+    <sequence id="336" spec="Sequence" taxon="taxa_336" totalcount="4" value="TAGATAGTCT"/>
+    <sequence id="337" spec="Sequence" taxon="taxa_337" totalcount="4" value="ATGGTCTCGT"/>
+    <sequence id="338" spec="Sequence" taxon="taxa_338" totalcount="4" value="TGACAAGTAC"/>
+    <sequence id="339" spec="Sequence" taxon="taxa_339" totalcount="4" value="CGCGGTTTCG"/>
+    <sequence id="340" spec="Sequence" taxon="taxa_340" totalcount="4" value="TGTCTCGTGC"/>
+    <sequence id="341" spec="Sequence" taxon="taxa_341" totalcount="4" value="AAGGTATCTC"/>
+    <sequence id="342" spec="Sequence" taxon="taxa_342" totalcount="4" value="TGCGACTTCT"/>
+    <sequence id="343" spec="Sequence" taxon="taxa_343" totalcount="4" value="AGCGGTATCC"/>
+    <sequence id="344" spec="Sequence" taxon="taxa_344" totalcount="4" value="AACTGGGTCC"/>
+    <sequence id="345" spec="Sequence" taxon="taxa_345" totalcount="4" value="GTAGAGGGTT"/>
+    <sequence id="346" spec="Sequence" taxon="taxa_346" totalcount="4" value="CTATATGACT"/>
+    <sequence id="347" spec="Sequence" taxon="taxa_347" totalcount="4" value="CGCAATCGAA"/>
+    <sequence id="348" spec="Sequence" taxon="taxa_348" totalcount="4" value="ATTATAAGAC"/>
+    <sequence id="349" spec="Sequence" taxon="taxa_349" totalcount="4" value="TGGGTCTCAG"/>
+    <sequence id="350" spec="Sequence" taxon="taxa_350" totalcount="4" value="CAAGTCCAAG"/>
+    <sequence id="351" spec="Sequence" taxon="taxa_351" totalcount="4" value="GACTTATCTA"/>
+    <sequence id="352" spec="Sequence" taxon="taxa_352" totalcount="4" value="GGTTCCGACC"/>
+    <sequence id="353" spec="Sequence" taxon="taxa_353" totalcount="4" value="CACAGGTGCC"/>
+    <sequence id="354" spec="Sequence" taxon="taxa_354" totalcount="4" value="TGGTTTACTT"/>
+    <sequence id="355" spec="Sequence" taxon="taxa_355" totalcount="4" value="CGCAGCTTAA"/>
+    <sequence id="356" spec="Sequence" taxon="taxa_356" totalcount="4" value="CCAAGGACGC"/>
+    <sequence id="357" spec="Sequence" taxon="taxa_357" totalcount="4" value="GATCGGTCGC"/>
+    <sequence id="358" spec="Sequence" taxon="taxa_358" totalcount="4" value="GCTTAAGGTC"/>
+    <sequence id="359" spec="Sequence" taxon="taxa_359" totalcount="4" value="CCTCCATAGT"/>
+    <sequence id="360" spec="Sequence" taxon="taxa_360" totalcount="4" value="GCCTGAGCTT"/>
+    <sequence id="361" spec="Sequence" taxon="taxa_361" totalcount="4" value="AGCCGTAGAC"/>
+    <sequence id="362" spec="Sequence" taxon="taxa_362" totalcount="4" value="AATTATTAAC"/>
+    <sequence id="363" spec="Sequence" taxon="taxa_363" totalcount="4" value="TTTGCCTTCA"/>
+    <sequence id="364" spec="Sequence" taxon="taxa_364" totalcount="4" value="ATGCTGGCAA"/>
+    <sequence id="365" spec="Sequence" taxon="taxa_365" totalcount="4" value="CCGACATTCG"/>
+    <sequence id="366" spec="Sequence" taxon="taxa_366" totalcount="4" value="TAGTCTCTTT"/>
+    <sequence id="367" spec="Sequence" taxon="taxa_367" totalcount="4" value="TTGATCACTC"/>
+    <sequence id="368" spec="Sequence" taxon="taxa_368" totalcount="4" value="GCGTGTCGTA"/>
+    <sequence id="369" spec="Sequence" taxon="taxa_369" totalcount="4" value="ATCCTGGGCT"/>
+    <sequence id="370" spec="Sequence" taxon="taxa_370" totalcount="4" value="CACCACCTGA"/>
+    <sequence id="371" spec="Sequence" taxon="taxa_371" totalcount="4" value="AATCGTCCCA"/>
+    <sequence id="372" spec="Sequence" taxon="taxa_372" totalcount="4" value="TCTTTTAGTG"/>
+    <sequence id="373" spec="Sequence" taxon="taxa_373" totalcount="4" value="TCTAGCTCGA"/>
+    <sequence id="374" spec="Sequence" taxon="taxa_374" totalcount="4" value="CCAGGTTAGT"/>
+    <sequence id="375" spec="Sequence" taxon="taxa_375" totalcount="4" value="AGGGCTTCTA"/>
+    <sequence id="376" spec="Sequence" taxon="taxa_376" totalcount="4" value="GCGGTGTGTC"/>
+    <sequence id="377" spec="Sequence" taxon="taxa_377" totalcount="4" value="CCACTTACGC"/>
+    <sequence id="378" spec="Sequence" taxon="taxa_378" totalcount="4" value="AAGAATCGGG"/>
+    <sequence id="379" spec="Sequence" taxon="taxa_379" totalcount="4" value="ACTCACTATG"/>
+    <sequence id="380" spec="Sequence" taxon="taxa_380" totalcount="4" value="GAGGCCTCAC"/>
+    <sequence id="381" spec="Sequence" taxon="taxa_381" totalcount="4" value="CTTCGTAGCC"/>
+    <sequence id="382" spec="Sequence" taxon="taxa_382" totalcount="4" value="CCCTTTAGAA"/>
+    <sequence id="383" spec="Sequence" taxon="taxa_383" totalcount="4" value="CCTGGTGGTT"/>
+    <sequence id="384" spec="Sequence" taxon="taxa_384" totalcount="4" value="GCAGCGATCC"/>
+    <sequence id="385" spec="Sequence" taxon="taxa_385" totalcount="4" value="GGAGATCGAC"/>
+    <sequence id="386" spec="Sequence" taxon="taxa_386" totalcount="4" value="CTAAAGATAA"/>
+    <sequence id="387" spec="Sequence" taxon="taxa_387" totalcount="4" value="GCCCGGTTCG"/>
+    <sequence id="388" spec="Sequence" taxon="taxa_388" totalcount="4" value="TAGTAGGCCC"/>
+    <sequence id="389" spec="Sequence" taxon="taxa_389" totalcount="4" value="TAAGAGCCAC"/>
+    <sequence id="390" spec="Sequence" taxon="taxa_390" totalcount="4" value="GGATCATAAC"/>
+    <sequence id="391" spec="Sequence" taxon="taxa_391" totalcount="4" value="CTTGACTTTG"/>
+    <sequence id="392" spec="Sequence" taxon="taxa_392" totalcount="4" value="GGGCTCCGGA"/>
+    <sequence id="393" spec="Sequence" taxon="taxa_393" totalcount="4" value="GGATCAGGCA"/>
+    <sequence id="394" spec="Sequence" taxon="taxa_394" totalcount="4" value="GGGACTCCAG"/>
+    <sequence id="395" spec="Sequence" taxon="taxa_395" totalcount="4" value="TAGCAGTTGG"/>
+    <sequence id="396" spec="Sequence" taxon="taxa_396" totalcount="4" value="ATGTACGCAC"/>
+    <sequence id="397" spec="Sequence" taxon="taxa_397" totalcount="4" value="GTCGGCATGA"/>
+    <sequence id="398" spec="Sequence" taxon="taxa_398" totalcount="4" value="CCGAGTAGGG"/>
+    <sequence id="399" spec="Sequence" taxon="taxa_399" totalcount="4" value="TCCGTTGATA"/>
+    <sequence id="400" spec="Sequence" taxon="taxa_400" totalcount="4" value="CGTGCTGGAG"/>
+    <sequence id="401" spec="Sequence" taxon="taxa_401" totalcount="4" value="CTCAGGAGCC"/>
+    <sequence id="402" spec="Sequence" taxon="taxa_402" totalcount="4" value="CATGAAAAAC"/>
+    <sequence id="403" spec="Sequence" taxon="taxa_403" totalcount="4" value="GTATCCTAAG"/>
+    <sequence id="404" spec="Sequence" taxon="taxa_404" totalcount="4" value="AATTGAATGC"/>
+    <sequence id="405" spec="Sequence" taxon="taxa_405" totalcount="4" value="CCGGAGCGAA"/>
+    <sequence id="406" spec="Sequence" taxon="taxa_406" totalcount="4" value="CCCCCCTAGT"/>
+    <sequence id="407" spec="Sequence" taxon="taxa_407" totalcount="4" value="AGGGCTCTAC"/>
+    <sequence id="408" spec="Sequence" taxon="taxa_408" totalcount="4" value="AGGACTCCGA"/>
+    <sequence id="409" spec="Sequence" taxon="taxa_409" totalcount="4" value="GATCGGAACC"/>
+    <sequence id="410" spec="Sequence" taxon="taxa_410" totalcount="4" value="TAGCGACGCG"/>
+    <sequence id="411" spec="Sequence" taxon="taxa_411" totalcount="4" value="CTCAGTCAAT"/>
+    <sequence id="412" spec="Sequence" taxon="taxa_412" totalcount="4" value="CCACAGTAAC"/>
+    <sequence id="413" spec="Sequence" taxon="taxa_413" totalcount="4" value="ACGGCTCACA"/>
+    <sequence id="414" spec="Sequence" taxon="taxa_414" totalcount="4" value="TAGGTGTGAA"/>
+    <sequence id="415" spec="Sequence" taxon="taxa_415" totalcount="4" value="TAGGGCGCTG"/>
+    <sequence id="416" spec="Sequence" taxon="taxa_416" totalcount="4" value="CCCACCTGAT"/>
+    <sequence id="417" spec="Sequence" taxon="taxa_417" totalcount="4" value="AGGAGTTATC"/>
+    <sequence id="418" spec="Sequence" taxon="taxa_418" totalcount="4" value="CATCACCCCC"/>
+    <sequence id="419" spec="Sequence" taxon="taxa_419" totalcount="4" value="ACTTCCACGC"/>
+    <sequence id="420" spec="Sequence" taxon="taxa_420" totalcount="4" value="TACTGACTAC"/>
+    <sequence id="421" spec="Sequence" taxon="taxa_421" totalcount="4" value="CTTAACGCAC"/>
+    <sequence id="422" spec="Sequence" taxon="taxa_422" totalcount="4" value="ACAAGTTCTT"/>
+    <sequence id="423" spec="Sequence" taxon="taxa_423" totalcount="4" value="ATGATTATTG"/>
+    <sequence id="424" spec="Sequence" taxon="taxa_424" totalcount="4" value="CTGTGCCGGA"/>
+    <sequence id="425" spec="Sequence" taxon="taxa_425" totalcount="4" value="AGTCCCGCAG"/>
+    <sequence id="426" spec="Sequence" taxon="taxa_426" totalcount="4" value="CCCCGCATCC"/>
+    <sequence id="427" spec="Sequence" taxon="taxa_427" totalcount="4" value="ATCCAGAGCA"/>
+    <sequence id="428" spec="Sequence" taxon="taxa_428" totalcount="4" value="TAGTACACTA"/>
+    <sequence id="429" spec="Sequence" taxon="taxa_429" totalcount="4" value="AGCGATCATC"/>
+    <sequence id="430" spec="Sequence" taxon="taxa_430" totalcount="4" value="CCCACCTCGT"/>
+    <sequence id="431" spec="Sequence" taxon="taxa_431" totalcount="4" value="TACTTACTGC"/>
+    <sequence id="432" spec="Sequence" taxon="taxa_432" totalcount="4" value="TTTCAATCAC"/>
+    <sequence id="433" spec="Sequence" taxon="taxa_433" totalcount="4" value="TTTACCCTCT"/>
+    <sequence id="434" spec="Sequence" taxon="taxa_434" totalcount="4" value="GTTGGGTGTC"/>
+    <sequence id="435" spec="Sequence" taxon="taxa_435" totalcount="4" value="GACACAGGCT"/>
+    <sequence id="436" spec="Sequence" taxon="taxa_436" totalcount="4" value="CGCTATTTTG"/>
+    <sequence id="437" spec="Sequence" taxon="taxa_437" totalcount="4" value="ATCTAGTATT"/>
+    <sequence id="438" spec="Sequence" taxon="taxa_438" totalcount="4" value="ATATGGTCTA"/>
+    <sequence id="439" spec="Sequence" taxon="taxa_439" totalcount="4" value="TAATCACGTG"/>
+    <sequence id="440" spec="Sequence" taxon="taxa_440" totalcount="4" value="GCGAGTCGTT"/>
+    <sequence id="441" spec="Sequence" taxon="taxa_441" totalcount="4" value="TTCCAACATT"/>
+    <sequence id="442" spec="Sequence" taxon="taxa_442" totalcount="4" value="GCATGAAGCT"/>
+    <sequence id="443" spec="Sequence" taxon="taxa_443" totalcount="4" value="TCTGCCTATC"/>
+    <sequence id="444" spec="Sequence" taxon="taxa_444" totalcount="4" value="TTGCGACCAC"/>
+    <sequence id="445" spec="Sequence" taxon="taxa_445" totalcount="4" value="TTTACTGCGC"/>
+    <sequence id="446" spec="Sequence" taxon="taxa_446" totalcount="4" value="TCCGCGAACT"/>
+    <sequence id="447" spec="Sequence" taxon="taxa_447" totalcount="4" value="GGGCCCTTTA"/>
+    <sequence id="448" spec="Sequence" taxon="taxa_448" totalcount="4" value="TCTCACACGG"/>
+    <sequence id="449" spec="Sequence" taxon="taxa_449" totalcount="4" value="CGACGCAACC"/>
+    <sequence id="450" spec="Sequence" taxon="taxa_450" totalcount="4" value="CTTTGCTACA"/>
+    <sequence id="451" spec="Sequence" taxon="taxa_451" totalcount="4" value="AGTATAACGT"/>
+    <sequence id="452" spec="Sequence" taxon="taxa_452" totalcount="4" value="ACCCCTTTAT"/>
+    <sequence id="453" spec="Sequence" taxon="taxa_453" totalcount="4" value="AAGTGGTACA"/>
+    <sequence id="454" spec="Sequence" taxon="taxa_454" totalcount="4" value="TATCTTTAGC"/>
+    <sequence id="455" spec="Sequence" taxon="taxa_455" totalcount="4" value="GGGTTTTAGA"/>
+    <sequence id="456" spec="Sequence" taxon="taxa_456" totalcount="4" value="ATATGGATAA"/>
+    <sequence id="457" spec="Sequence" taxon="taxa_457" totalcount="4" value="CACACAAAAT"/>
+    <sequence id="458" spec="Sequence" taxon="taxa_458" totalcount="4" value="TTGATCCCCA"/>
+    <sequence id="459" spec="Sequence" taxon="taxa_459" totalcount="4" value="GAAAGCACGC"/>
+    <sequence id="460" spec="Sequence" taxon="taxa_460" totalcount="4" value="AGTCGCGGTA"/>
+    <sequence id="461" spec="Sequence" taxon="taxa_461" totalcount="4" value="GAGGCGTTAT"/>
+    <sequence id="462" spec="Sequence" taxon="taxa_462" totalcount="4" value="TTGCATTGGT"/>
+    <sequence id="463" spec="Sequence" taxon="taxa_463" totalcount="4" value="AAGAATCGAA"/>
+    <sequence id="464" spec="Sequence" taxon="taxa_464" totalcount="4" value="GCTCTTCTCT"/>
+    <sequence id="465" spec="Sequence" taxon="taxa_465" totalcount="4" value="TTTACGTCGA"/>
+    <sequence id="466" spec="Sequence" taxon="taxa_466" totalcount="4" value="TCTATGGGGC"/>
+    <sequence id="467" spec="Sequence" taxon="taxa_467" totalcount="4" value="GAAGGATAGC"/>
+    <sequence id="468" spec="Sequence" taxon="taxa_468" totalcount="4" value="ACGGTATAGC"/>
+    <sequence id="469" spec="Sequence" taxon="taxa_469" totalcount="4" value="CAGAGGCAGC"/>
+    <sequence id="470" spec="Sequence" taxon="taxa_470" totalcount="4" value="ATATTGCGTG"/>
+    <sequence id="471" spec="Sequence" taxon="taxa_471" totalcount="4" value="CTCAAGCGTC"/>
+    <sequence id="472" spec="Sequence" taxon="taxa_472" totalcount="4" value="TAACGCAGAA"/>
+    <sequence id="473" spec="Sequence" taxon="taxa_473" totalcount="4" value="GGGTTCTTAC"/>
+    <sequence id="474" spec="Sequence" taxon="taxa_474" totalcount="4" value="AGCGTTACGA"/>
+    <sequence id="475" spec="Sequence" taxon="taxa_475" totalcount="4" value="GGACCGGGCA"/>
+    <sequence id="476" spec="Sequence" taxon="taxa_476" totalcount="4" value="GCTTCAACTG"/>
+    <sequence id="477" spec="Sequence" taxon="taxa_477" totalcount="4" value="TTACTGTGCC"/>
+    <sequence id="478" spec="Sequence" taxon="taxa_478" totalcount="4" value="AGGAATCTCA"/>
+    <sequence id="479" spec="Sequence" taxon="taxa_479" totalcount="4" value="TCATGAAGCC"/>
+    <sequence id="480" spec="Sequence" taxon="taxa_480" totalcount="4" value="AGTCATCCGC"/>
+    <sequence id="481" spec="Sequence" taxon="taxa_481" totalcount="4" value="TAGCTTACGC"/>
+    <sequence id="482" spec="Sequence" taxon="taxa_482" totalcount="4" value="GGCTCGTTCT"/>
+    <sequence id="483" spec="Sequence" taxon="taxa_483" totalcount="4" value="CTCCATTTGC"/>
+    <sequence id="484" spec="Sequence" taxon="taxa_484" totalcount="4" value="GCTCGCGGCC"/>
+    <sequence id="485" spec="Sequence" taxon="taxa_485" totalcount="4" value="GCAGGCTGAC"/>
+    <sequence id="486" spec="Sequence" taxon="taxa_486" totalcount="4" value="AAAGTGCCTT"/>
+    <sequence id="487" spec="Sequence" taxon="taxa_487" totalcount="4" value="TATGATGCCA"/>
+    <sequence id="488" spec="Sequence" taxon="taxa_488" totalcount="4" value="GTTCGAATTT"/>
+    <sequence id="489" spec="Sequence" taxon="taxa_489" totalcount="4" value="GTTGAAGCAC"/>
+    <sequence id="490" spec="Sequence" taxon="taxa_490" totalcount="4" value="AGCCTTTGCC"/>
+    <sequence id="491" spec="Sequence" taxon="taxa_491" totalcount="4" value="TACCGCAGCG"/>
+    <sequence id="492" spec="Sequence" taxon="taxa_492" totalcount="4" value="GCTTAGGAGT"/>
+    <sequence id="493" spec="Sequence" taxon="taxa_493" totalcount="4" value="TATCGTTAGC"/>
+    <sequence id="494" spec="Sequence" taxon="taxa_494" totalcount="4" value="GACGCCGAGG"/>
+    <sequence id="495" spec="Sequence" taxon="taxa_495" totalcount="4" value="CTCGCCTTAT"/>
+    <sequence id="496" spec="Sequence" taxon="taxa_496" totalcount="4" value="AATGTTCGAC"/>
+    <sequence id="497" spec="Sequence" taxon="taxa_497" totalcount="4" value="TGTCGCCAGA"/>
+    <sequence id="498" spec="Sequence" taxon="taxa_498" totalcount="4" value="CCATGTTCTA"/>
+    <sequence id="499" spec="Sequence" taxon="taxa_499" totalcount="4" value="GTGACGATAC"/>
+    <sequence id="500" spec="Sequence" taxon="taxa_500" totalcount="4" value="CACTCCAGGT"/>
+    <sequence id="501" spec="Sequence" taxon="taxa_501" totalcount="4" value="GCCTCAGCAT"/>
+    <sequence id="502" spec="Sequence" taxon="taxa_502" totalcount="4" value="GCCTATGCGA"/>
+    <sequence id="503" spec="Sequence" taxon="taxa_503" totalcount="4" value="TCCTACGAGC"/>
+    <sequence id="504" spec="Sequence" taxon="taxa_504" totalcount="4" value="GCTTAAGCCA"/>
+    <sequence id="505" spec="Sequence" taxon="taxa_505" totalcount="4" value="TTACCTCACA"/>
+    <sequence id="506" spec="Sequence" taxon="taxa_506" totalcount="4" value="TGGGGAAGGG"/>
+    <sequence id="507" spec="Sequence" taxon="taxa_507" totalcount="4" value="GGCGCTCGCT"/>
+    <sequence id="508" spec="Sequence" taxon="taxa_508" totalcount="4" value="AATTATAAAG"/>
+    <sequence id="509" spec="Sequence" taxon="taxa_509" totalcount="4" value="CATAGAGCAC"/>
+    <sequence id="510" spec="Sequence" taxon="taxa_510" totalcount="4" value="CATCCTGCTA"/>
+    <sequence id="511" spec="Sequence" taxon="taxa_511" totalcount="4" value="ATGGAATGCA"/>
+    <sequence id="512" spec="Sequence" taxon="taxa_512" totalcount="4" value="TCGCGTGCCG"/>
+    <sequence id="513" spec="Sequence" taxon="taxa_513" totalcount="4" value="CCCAAGGCTT"/>
+    <sequence id="514" spec="Sequence" taxon="taxa_514" totalcount="4" value="ACGAATTCAT"/>
+    <sequence id="515" spec="Sequence" taxon="taxa_515" totalcount="4" value="GCCCACCCCT"/>
+    <sequence id="516" spec="Sequence" taxon="taxa_516" totalcount="4" value="TCCCATATCA"/>
+    <sequence id="517" spec="Sequence" taxon="taxa_517" totalcount="4" value="CTGATGCCTC"/>
+    <sequence id="518" spec="Sequence" taxon="taxa_518" totalcount="4" value="ACCCTATCAG"/>
+    <sequence id="519" spec="Sequence" taxon="taxa_519" totalcount="4" value="CCGTGCTCCC"/>
+    <sequence id="520" spec="Sequence" taxon="taxa_520" totalcount="4" value="TCCCTAAATA"/>
+    <sequence id="521" spec="Sequence" taxon="taxa_521" totalcount="4" value="CCAACCCGAC"/>
+    <sequence id="522" spec="Sequence" taxon="taxa_522" totalcount="4" value="CCCTCGACAG"/>
+    <sequence id="523" spec="Sequence" taxon="taxa_523" totalcount="4" value="ATCTAGCGGA"/>
+    <sequence id="524" spec="Sequence" taxon="taxa_524" totalcount="4" value="GTGCCTCATG"/>
+    <sequence id="525" spec="Sequence" taxon="taxa_525" totalcount="4" value="ACCAGCGCTG"/>
+    <sequence id="526" spec="Sequence" taxon="taxa_526" totalcount="4" value="GTTCCTGCTG"/>
+    <sequence id="527" spec="Sequence" taxon="taxa_527" totalcount="4" value="ATTGCTATTT"/>
+    <sequence id="528" spec="Sequence" taxon="taxa_528" totalcount="4" value="GAGTCCATGA"/>
+    <sequence id="529" spec="Sequence" taxon="taxa_529" totalcount="4" value="AAAGTTCGTT"/>
+    <sequence id="530" spec="Sequence" taxon="taxa_530" totalcount="4" value="TAGCTCCAGT"/>
+    <sequence id="531" spec="Sequence" taxon="taxa_531" totalcount="4" value="GGCTTCCGAG"/>
+    <sequence id="532" spec="Sequence" taxon="taxa_532" totalcount="4" value="AGACTTGGGG"/>
+    <sequence id="533" spec="Sequence" taxon="taxa_533" totalcount="4" value="GATCCGTTCC"/>
+    <sequence id="534" spec="Sequence" taxon="taxa_534" totalcount="4" value="CGCCGCCTAG"/>
+    <sequence id="535" spec="Sequence" taxon="taxa_535" totalcount="4" value="GTTCCGAAGT"/>
+    <sequence id="536" spec="Sequence" taxon="taxa_536" totalcount="4" value="AACCTAAAAG"/>
+    <sequence id="537" spec="Sequence" taxon="taxa_537" totalcount="4" value="GCTCAATTTA"/>
+    <sequence id="538" spec="Sequence" taxon="taxa_538" totalcount="4" value="CCCCAAGCCG"/>
+    <sequence id="539" spec="Sequence" taxon="taxa_539" totalcount="4" value="CCCTTTTTGA"/>
+    <sequence id="540" spec="Sequence" taxon="taxa_540" totalcount="4" value="ATCGGCAGAT"/>
+    <sequence id="541" spec="Sequence" taxon="taxa_541" totalcount="4" value="CTAAAATATG"/>
+    <sequence id="542" spec="Sequence" taxon="taxa_542" totalcount="4" value="GCTGGTGTCG"/>
+    <sequence id="543" spec="Sequence" taxon="taxa_543" totalcount="4" value="AATCGAGTAC"/>
+    <sequence id="544" spec="Sequence" taxon="taxa_544" totalcount="4" value="GTAGACATGA"/>
+    <sequence id="545" spec="Sequence" taxon="taxa_545" totalcount="4" value="GCGATAGAAG"/>
+    <sequence id="546" spec="Sequence" taxon="taxa_546" totalcount="4" value="TAAGTCTTGC"/>
+    <sequence id="547" spec="Sequence" taxon="taxa_547" totalcount="4" value="ATTTTCTCAA"/>
+    <sequence id="548" spec="Sequence" taxon="taxa_548" totalcount="4" value="ATGAGATCAG"/>
+    <sequence id="549" spec="Sequence" taxon="taxa_549" totalcount="4" value="GTTCCCCGTG"/>
+    <sequence id="550" spec="Sequence" taxon="taxa_550" totalcount="4" value="TGATCTCGGC"/>
+    <sequence id="551" spec="Sequence" taxon="taxa_551" totalcount="4" value="TGCCGCAATA"/>
+    <sequence id="552" spec="Sequence" taxon="taxa_552" totalcount="4" value="AGGTCAGTGT"/>
+    <sequence id="553" spec="Sequence" taxon="taxa_553" totalcount="4" value="TGGGTCAAGC"/>
+    <sequence id="554" spec="Sequence" taxon="taxa_554" totalcount="4" value="TCCCTCCCCT"/>
+    <sequence id="555" spec="Sequence" taxon="taxa_555" totalcount="4" value="CGCTGTGTAC"/>
+    <sequence id="556" spec="Sequence" taxon="taxa_556" totalcount="4" value="ATGCAAGATC"/>
+    <sequence id="557" spec="Sequence" taxon="taxa_557" totalcount="4" value="CGTTTACCAA"/>
+    <sequence id="558" spec="Sequence" taxon="taxa_558" totalcount="4" value="AACATCGCTT"/>
+    <sequence id="559" spec="Sequence" taxon="taxa_559" totalcount="4" value="GCCACCCACC"/>
+    <sequence id="560" spec="Sequence" taxon="taxa_560" totalcount="4" value="CGAGAAAGTA"/>
+    <sequence id="561" spec="Sequence" taxon="taxa_561" totalcount="4" value="GCGTTGTTGA"/>
+    <sequence id="562" spec="Sequence" taxon="taxa_562" totalcount="4" value="GAGCTGCAAG"/>
+    <sequence id="563" spec="Sequence" taxon="taxa_563" totalcount="4" value="GAACGGTTAC"/>
+    <sequence id="564" spec="Sequence" taxon="taxa_564" totalcount="4" value="CACATAGAAG"/>
+    <sequence id="565" spec="Sequence" taxon="taxa_565" totalcount="4" value="CGTACATAGG"/>
+    <sequence id="566" spec="Sequence" taxon="taxa_566" totalcount="4" value="TAAGATTTGC"/>
+    <sequence id="567" spec="Sequence" taxon="taxa_567" totalcount="4" value="GTTACCTGCA"/>
+    <sequence id="568" spec="Sequence" taxon="taxa_568" totalcount="4" value="CTAGTGCTTG"/>
+    <sequence id="569" spec="Sequence" taxon="taxa_569" totalcount="4" value="GCTAGGTAAT"/>
+    <sequence id="570" spec="Sequence" taxon="taxa_570" totalcount="4" value="CACCTATAAT"/>
+    <sequence id="571" spec="Sequence" taxon="taxa_571" totalcount="4" value="TTTATATAGT"/>
+    <sequence id="572" spec="Sequence" taxon="taxa_572" totalcount="4" value="GTGCACAGCG"/>
+    <sequence id="573" spec="Sequence" taxon="taxa_573" totalcount="4" value="GCCAGGTCCT"/>
+    <sequence id="574" spec="Sequence" taxon="taxa_574" totalcount="4" value="ACGCTAAGGG"/>
+    <sequence id="575" spec="Sequence" taxon="taxa_575" totalcount="4" value="TTAGGAAATA"/>
+    <sequence id="576" spec="Sequence" taxon="taxa_576" totalcount="4" value="CTATAGCTCG"/>
+    <sequence id="577" spec="Sequence" taxon="taxa_577" totalcount="4" value="ACTGTCACAC"/>
+    <sequence id="578" spec="Sequence" taxon="taxa_578" totalcount="4" value="ACACTCAGTT"/>
+    <sequence id="579" spec="Sequence" taxon="taxa_579" totalcount="4" value="TGACACTTCG"/>
+    <sequence id="580" spec="Sequence" taxon="taxa_580" totalcount="4" value="TGATGGACGG"/>
+    <sequence id="581" spec="Sequence" taxon="taxa_581" totalcount="4" value="GGATGGCTTA"/>
+    <sequence id="582" spec="Sequence" taxon="taxa_582" totalcount="4" value="ACTGCCGCCG"/>
+    <sequence id="583" spec="Sequence" taxon="taxa_583" totalcount="4" value="CAACTCACGA"/>
+    <sequence id="584" spec="Sequence" taxon="taxa_584" totalcount="4" value="TGATTTCGGT"/>
+    <sequence id="585" spec="Sequence" taxon="taxa_585" totalcount="4" value="GTATGAGCGG"/>
+    <sequence id="586" spec="Sequence" taxon="taxa_586" totalcount="4" value="CTACGCGCCT"/>
+    <sequence id="587" spec="Sequence" taxon="taxa_587" totalcount="4" value="CTCGTAAAAG"/>
+    <sequence id="588" spec="Sequence" taxon="taxa_588" totalcount="4" value="GCTACAATCA"/>
+    <sequence id="589" spec="Sequence" taxon="taxa_589" totalcount="4" value="CAATCCCTTG"/>
+    <sequence id="590" spec="Sequence" taxon="taxa_590" totalcount="4" value="AAATCTACTC"/>
+    <sequence id="591" spec="Sequence" taxon="taxa_591" totalcount="4" value="TTGAAGGGTC"/>
+    <sequence id="592" spec="Sequence" taxon="taxa_592" totalcount="4" value="CCATATCTAA"/>
+    <sequence id="593" spec="Sequence" taxon="taxa_593" totalcount="4" value="ACGGGTATAA"/>
+    <sequence id="594" spec="Sequence" taxon="taxa_594" totalcount="4" value="TTCGTGCTGG"/>
+    <sequence id="595" spec="Sequence" taxon="taxa_595" totalcount="4" value="CAGCTCAGGG"/>
+    <sequence id="596" spec="Sequence" taxon="taxa_596" totalcount="4" value="TCGATAGGGC"/>
+    <sequence id="597" spec="Sequence" taxon="taxa_597" totalcount="4" value="TCTCGTTACA"/>
+    <sequence id="598" spec="Sequence" taxon="taxa_598" totalcount="4" value="ACTGGGCGCT"/>
+    <sequence id="599" spec="Sequence" taxon="taxa_599" totalcount="4" value="GGGAGTGATG"/>
+    <sequence id="600" spec="Sequence" taxon="taxa_600" totalcount="4" value="TGGAGGGTCT"/>
+    <sequence id="601" spec="Sequence" taxon="taxa_601" totalcount="4" value="ATCTTTACCC"/>
+    <sequence id="602" spec="Sequence" taxon="taxa_602" totalcount="4" value="GGTAGTAGGT"/>
+    <sequence id="603" spec="Sequence" taxon="taxa_603" totalcount="4" value="ATAACAAGGG"/>
+    <sequence id="604" spec="Sequence" taxon="taxa_604" totalcount="4" value="GTTTTCACAA"/>
+    <sequence id="605" spec="Sequence" taxon="taxa_605" totalcount="4" value="CGGGAAGTAT"/>
+    <sequence id="606" spec="Sequence" taxon="taxa_606" totalcount="4" value="GAGGGCTGAT"/>
+    <sequence id="607" spec="Sequence" taxon="taxa_607" totalcount="4" value="TCGACGCCAT"/>
+    <sequence id="608" spec="Sequence" taxon="taxa_608" totalcount="4" value="CACATACCGG"/>
+    <sequence id="609" spec="Sequence" taxon="taxa_609" totalcount="4" value="ACATTCCTCT"/>
+    <sequence id="610" spec="Sequence" taxon="taxa_610" totalcount="4" value="AGTAAGCCAT"/>
+    <sequence id="611" spec="Sequence" taxon="taxa_611" totalcount="4" value="ATTTTAAACC"/>
+    <sequence id="612" spec="Sequence" taxon="taxa_612" totalcount="4" value="TTCCATATTC"/>
+    <sequence id="613" spec="Sequence" taxon="taxa_613" totalcount="4" value="TGGGTTGAAA"/>
+    <sequence id="614" spec="Sequence" taxon="taxa_614" totalcount="4" value="TCAACGTAAT"/>
+    <sequence id="615" spec="Sequence" taxon="taxa_615" totalcount="4" value="CTCCATTCCC"/>
+    <sequence id="616" spec="Sequence" taxon="taxa_616" totalcount="4" value="CTACTATTCC"/>
+    <sequence id="617" spec="Sequence" taxon="taxa_617" totalcount="4" value="TTCCCCTCCC"/>
+    <sequence id="618" spec="Sequence" taxon="taxa_618" totalcount="4" value="ATAGTGGCGA"/>
+    <sequence id="619" spec="Sequence" taxon="taxa_619" totalcount="4" value="GACATCGAAG"/>
+    <sequence id="620" spec="Sequence" taxon="taxa_620" totalcount="4" value="CCCCTTCGAA"/>
+    <sequence id="621" spec="Sequence" taxon="taxa_621" totalcount="4" value="TACGCAACAG"/>
+    <sequence id="622" spec="Sequence" taxon="taxa_622" totalcount="4" value="TCGCGGCCGA"/>
+    <sequence id="623" spec="Sequence" taxon="taxa_623" totalcount="4" value="TCCTTACCTG"/>
+    <sequence id="624" spec="Sequence" taxon="taxa_624" totalcount="4" value="TGTCCACGGC"/>
+    <sequence id="625" spec="Sequence" taxon="taxa_625" totalcount="4" value="AGGCAAATTA"/>
+    <sequence id="626" spec="Sequence" taxon="taxa_626" totalcount="4" value="TCACTCCAGT"/>
+    <sequence id="627" spec="Sequence" taxon="taxa_627" totalcount="4" value="GAGAGGGAGT"/>
+    <sequence id="628" spec="Sequence" taxon="taxa_628" totalcount="4" value="AACACGGCAG"/>
+    <sequence id="629" spec="Sequence" taxon="taxa_629" totalcount="4" value="GACATTTGCA"/>
+    <sequence id="630" spec="Sequence" taxon="taxa_630" totalcount="4" value="ACGCGTTACA"/>
+    <sequence id="631" spec="Sequence" taxon="taxa_631" totalcount="4" value="CCCGTCAAGG"/>
+    <sequence id="632" spec="Sequence" taxon="taxa_632" totalcount="4" value="GACCCTATGC"/>
+    <sequence id="633" spec="Sequence" taxon="taxa_633" totalcount="4" value="ATGCGTTGTA"/>
+    <sequence id="634" spec="Sequence" taxon="taxa_634" totalcount="4" value="TGCATTAGCT"/>
+    <sequence id="635" spec="Sequence" taxon="taxa_635" totalcount="4" value="GACCCCGCCT"/>
+    <sequence id="636" spec="Sequence" taxon="taxa_636" totalcount="4" value="TTCTACATTG"/>
+    <sequence id="637" spec="Sequence" taxon="taxa_637" totalcount="4" value="ATACCCCCTG"/>
+    <sequence id="638" spec="Sequence" taxon="taxa_638" totalcount="4" value="TTGGCAAATC"/>
+    <sequence id="639" spec="Sequence" taxon="taxa_639" totalcount="4" value="GCCCCCACGT"/>
+    <sequence id="640" spec="Sequence" taxon="taxa_640" totalcount="4" value="ATATGATGAT"/>
+    <sequence id="641" spec="Sequence" taxon="taxa_641" totalcount="4" value="GTTGGGTCGG"/>
+    <sequence id="642" spec="Sequence" taxon="taxa_642" totalcount="4" value="ATCGGACCGA"/>
+    <sequence id="643" spec="Sequence" taxon="taxa_643" totalcount="4" value="ACCATATTTT"/>
+    <sequence id="644" spec="Sequence" taxon="taxa_644" totalcount="4" value="GAGTCAAAAG"/>
+    <sequence id="645" spec="Sequence" taxon="taxa_645" totalcount="4" value="CCTAACTGAA"/>
+    <sequence id="646" spec="Sequence" taxon="taxa_646" totalcount="4" value="ACTGCCGTCA"/>
+    <sequence id="647" spec="Sequence" taxon="taxa_647" totalcount="4" value="AACTCAAATT"/>
+    <sequence id="648" spec="Sequence" taxon="taxa_648" totalcount="4" value="GACTGACAGA"/>
+    <sequence id="649" spec="Sequence" taxon="taxa_649" totalcount="4" value="GGCCTCCAAA"/>
+    <sequence id="650" spec="Sequence" taxon="taxa_650" totalcount="4" value="GGGGAACTGC"/>
+    <sequence id="651" spec="Sequence" taxon="taxa_651" totalcount="4" value="GATGGTTACA"/>
+    <sequence id="652" spec="Sequence" taxon="taxa_652" totalcount="4" value="ATAAACTGCC"/>
+    <sequence id="653" spec="Sequence" taxon="taxa_653" totalcount="4" value="AGTGTCTGTA"/>
+    <sequence id="654" spec="Sequence" taxon="taxa_654" totalcount="4" value="CTTGATTTGC"/>
+    <sequence id="655" spec="Sequence" taxon="taxa_655" totalcount="4" value="TAATAGGTCA"/>
+    <sequence id="656" spec="Sequence" taxon="taxa_656" totalcount="4" value="AACGCTGCAC"/>
+    <sequence id="657" spec="Sequence" taxon="taxa_657" totalcount="4" value="TCAGTGACCC"/>
+    <sequence id="658" spec="Sequence" taxon="taxa_658" totalcount="4" value="GCCGCTCCGG"/>
+    <sequence id="659" spec="Sequence" taxon="taxa_659" totalcount="4" value="GTAAAGGTAT"/>
+    <sequence id="660" spec="Sequence" taxon="taxa_660" totalcount="4" value="CCATCAATTG"/>
+    <sequence id="661" spec="Sequence" taxon="taxa_661" totalcount="4" value="CCTACCTATA"/>
+    <sequence id="662" spec="Sequence" taxon="taxa_662" totalcount="4" value="TACCGATGCG"/>
+    <sequence id="663" spec="Sequence" taxon="taxa_663" totalcount="4" value="GTTAGTAGGG"/>
+    <sequence id="664" spec="Sequence" taxon="taxa_664" totalcount="4" value="GAATTCCCTT"/>
+    <sequence id="665" spec="Sequence" taxon="taxa_665" totalcount="4" value="CCCCATGCAA"/>
+    <sequence id="666" spec="Sequence" taxon="taxa_666" totalcount="4" value="TACTGTTTTT"/>
+    <sequence id="667" spec="Sequence" taxon="taxa_667" totalcount="4" value="TCGAGCTCAG"/>
+    <sequence id="668" spec="Sequence" taxon="taxa_668" totalcount="4" value="TGGGTGACGG"/>
+    <sequence id="669" spec="Sequence" taxon="taxa_669" totalcount="4" value="CAGCATGGGA"/>
+    <sequence id="670" spec="Sequence" taxon="taxa_670" totalcount="4" value="TACACGTAAG"/>
+    <sequence id="671" spec="Sequence" taxon="taxa_671" totalcount="4" value="ACAATTTGGT"/>
+    <sequence id="672" spec="Sequence" taxon="taxa_672" totalcount="4" value="CTCCCGATGA"/>
+    <sequence id="673" spec="Sequence" taxon="taxa_673" totalcount="4" value="TCCGATGGAC"/>
+    <sequence id="674" spec="Sequence" taxon="taxa_674" totalcount="4" value="AAGAACATCG"/>
+    <sequence id="675" spec="Sequence" taxon="taxa_675" totalcount="4" value="CGTCACGTTG"/>
+    <sequence id="676" spec="Sequence" taxon="taxa_676" totalcount="4" value="CTCTTACGAG"/>
+    <sequence id="677" spec="Sequence" taxon="taxa_677" totalcount="4" value="ATGTAAATGT"/>
+    <sequence id="678" spec="Sequence" taxon="taxa_678" totalcount="4" value="CTCCCTTGCG"/>
+    <sequence id="679" spec="Sequence" taxon="taxa_679" totalcount="4" value="AAATTGAATT"/>
+    <sequence id="680" spec="Sequence" taxon="taxa_680" totalcount="4" value="TGTGGTATCA"/>
+    <sequence id="681" spec="Sequence" taxon="taxa_681" totalcount="4" value="GGCTTGCACT"/>
+    <sequence id="682" spec="Sequence" taxon="taxa_682" totalcount="4" value="TGCGGTCCGG"/>
+    <sequence id="683" spec="Sequence" taxon="taxa_683" totalcount="4" value="AGTTAAGTTA"/>
+    <sequence id="684" spec="Sequence" taxon="taxa_684" totalcount="4" value="ATGACCGCCA"/>
+    <sequence id="685" spec="Sequence" taxon="taxa_685" totalcount="4" value="GGTGCGCTAG"/>
+    <sequence id="686" spec="Sequence" taxon="taxa_686" totalcount="4" value="AGTAGGCAAG"/>
+    <sequence id="687" spec="Sequence" taxon="taxa_687" totalcount="4" value="AGTAAAAGTA"/>
+    <sequence id="688" spec="Sequence" taxon="taxa_688" totalcount="4" value="GTGATCTAAG"/>
+    <sequence id="689" spec="Sequence" taxon="taxa_689" totalcount="4" value="GGTTAGGGTA"/>
+    <sequence id="690" spec="Sequence" taxon="taxa_690" totalcount="4" value="CGGATAAAAC"/>
+    <sequence id="691" spec="Sequence" taxon="taxa_691" totalcount="4" value="AGTCAGGATG"/>
+    <sequence id="692" spec="Sequence" taxon="taxa_692" totalcount="4" value="CGCCGATTCT"/>
+    <sequence id="693" spec="Sequence" taxon="taxa_693" totalcount="4" value="CCATGTGGCG"/>
+    <sequence id="694" spec="Sequence" taxon="taxa_694" totalcount="4" value="CCATATCAAA"/>
+    <sequence id="695" spec="Sequence" taxon="taxa_695" totalcount="4" value="ACGCTTTGAA"/>
+    <sequence id="696" spec="Sequence" taxon="taxa_696" totalcount="4" value="CAGTTTGCAC"/>
+    <sequence id="697" spec="Sequence" taxon="taxa_697" totalcount="4" value="GGTTCACAGT"/>
+    <sequence id="698" spec="Sequence" taxon="taxa_698" totalcount="4" value="GTTATCGAGT"/>
+    <sequence id="699" spec="Sequence" taxon="taxa_699" totalcount="4" value="CATATGAACT"/>
+    <sequence id="700" spec="Sequence" taxon="taxa_700" totalcount="4" value="GTCTGCAATA"/>
+    <sequence id="701" spec="Sequence" taxon="taxa_701" totalcount="4" value="GGGTTCAGTT"/>
+    <sequence id="702" spec="Sequence" taxon="taxa_702" totalcount="4" value="GCAGTCAATA"/>
+    <sequence id="703" spec="Sequence" taxon="taxa_703" totalcount="4" value="ACGGGATCAG"/>
+    <sequence id="704" spec="Sequence" taxon="taxa_704" totalcount="4" value="GTCCTGGGAA"/>
+    <sequence id="705" spec="Sequence" taxon="taxa_705" totalcount="4" value="GTTTGCTTCG"/>
+    <sequence id="706" spec="Sequence" taxon="taxa_706" totalcount="4" value="CGTAGGTAAG"/>
+    <sequence id="707" spec="Sequence" taxon="taxa_707" totalcount="4" value="TCGGGAGGGA"/>
+    <sequence id="708" spec="Sequence" taxon="taxa_708" totalcount="4" value="GACTGACCTC"/>
+    <sequence id="709" spec="Sequence" taxon="taxa_709" totalcount="4" value="ACGGGTAGCG"/>
+    <sequence id="710" spec="Sequence" taxon="taxa_710" totalcount="4" value="TTTCCGTTAG"/>
+    <sequence id="711" spec="Sequence" taxon="taxa_711" totalcount="4" value="CGTCGCTACA"/>
+    <sequence id="712" spec="Sequence" taxon="taxa_712" totalcount="4" value="TTGCCCCAGT"/>
+    <sequence id="713" spec="Sequence" taxon="taxa_713" totalcount="4" value="CAAAAAAGCC"/>
+    <sequence id="714" spec="Sequence" taxon="taxa_714" totalcount="4" value="CTTGATTGTA"/>
+    <sequence id="715" spec="Sequence" taxon="taxa_715" totalcount="4" value="CCCTAAAACA"/>
+    <sequence id="716" spec="Sequence" taxon="taxa_716" totalcount="4" value="CTCTGGGAAA"/>
+    <sequence id="717" spec="Sequence" taxon="taxa_717" totalcount="4" value="GACTCCTAGG"/>
+    <sequence id="718" spec="Sequence" taxon="taxa_718" totalcount="4" value="GTAGACTCAT"/>
+    <sequence id="719" spec="Sequence" taxon="taxa_719" totalcount="4" value="CATTGCACAT"/>
+    <sequence id="720" spec="Sequence" taxon="taxa_720" totalcount="4" value="CATTATCTAG"/>
+    <sequence id="721" spec="Sequence" taxon="taxa_721" totalcount="4" value="ACTGGCGACG"/>
+    <sequence id="722" spec="Sequence" taxon="taxa_722" totalcount="4" value="GTGGGAAATC"/>
+    <sequence id="723" spec="Sequence" taxon="taxa_723" totalcount="4" value="CTGGGGCTTG"/>
+    <sequence id="724" spec="Sequence" taxon="taxa_724" totalcount="4" value="ACTCACTCGC"/>
+    <sequence id="725" spec="Sequence" taxon="taxa_725" totalcount="4" value="CCCTCTCCGC"/>
+    <sequence id="726" spec="Sequence" taxon="taxa_726" totalcount="4" value="ATAAGTAAGT"/>
+    <sequence id="727" spec="Sequence" taxon="taxa_727" totalcount="4" value="ACATTAGTCT"/>
+    <sequence id="728" spec="Sequence" taxon="taxa_728" totalcount="4" value="ATTGATCATT"/>
+    <sequence id="729" spec="Sequence" taxon="taxa_729" totalcount="4" value="GGGCTTTTTT"/>
+    <sequence id="730" spec="Sequence" taxon="taxa_730" totalcount="4" value="CCGTGCTGTA"/>
+    <sequence id="731" spec="Sequence" taxon="taxa_731" totalcount="4" value="ACATAAGAGC"/>
+    <sequence id="732" spec="Sequence" taxon="taxa_732" totalcount="4" value="TTATAGCTAA"/>
+    <sequence id="733" spec="Sequence" taxon="taxa_733" totalcount="4" value="AACACTCCAG"/>
+    <sequence id="734" spec="Sequence" taxon="taxa_734" totalcount="4" value="TCACGCCCAA"/>
+    <sequence id="735" spec="Sequence" taxon="taxa_735" totalcount="4" value="CGCCTGATCG"/>
+    <sequence id="736" spec="Sequence" taxon="taxa_736" totalcount="4" value="GTCCAGTAGA"/>
+    <sequence id="737" spec="Sequence" taxon="taxa_737" totalcount="4" value="GATTACGAGG"/>
+    <sequence id="738" spec="Sequence" taxon="taxa_738" totalcount="4" value="AGAGCTTGGT"/>
+    <sequence id="739" spec="Sequence" taxon="taxa_739" totalcount="4" value="CCGGATGCGA"/>
+    <sequence id="740" spec="Sequence" taxon="taxa_740" totalcount="4" value="CTCACGCCCG"/>
+    <sequence id="741" spec="Sequence" taxon="taxa_741" totalcount="4" value="CTTGCCCAGG"/>
+    <sequence id="742" spec="Sequence" taxon="taxa_742" totalcount="4" value="GAGGGACATG"/>
+    <sequence id="743" spec="Sequence" taxon="taxa_743" totalcount="4" value="CTTATGCGCT"/>
+    <sequence id="744" spec="Sequence" taxon="taxa_744" totalcount="4" value="GCGATGTGCC"/>
+    <sequence id="745" spec="Sequence" taxon="taxa_745" totalcount="4" value="GAGACGTAAC"/>
+    <sequence id="746" spec="Sequence" taxon="taxa_746" totalcount="4" value="TTCGGGGGCG"/>
+    <sequence id="747" spec="Sequence" taxon="taxa_747" totalcount="4" value="AACCGTGAGA"/>
+    <sequence id="748" spec="Sequence" taxon="taxa_748" totalcount="4" value="GGCCACCGGT"/>
+    <sequence id="749" spec="Sequence" taxon="taxa_749" totalcount="4" value="TCTGACCTGA"/>
+    <sequence id="750" spec="Sequence" taxon="taxa_750" totalcount="4" value="TGGAAAATCG"/>
+</alignment>
+
+
+    <typeTraitSet id="typeTraitSet" spec="TraitSet" traitname="type">
+taxa_1=deme0,taxa_2=deme0,taxa_3=deme0,taxa_4=deme0,taxa_5=deme0,taxa_6=deme0,taxa_7=deme0,taxa_8=deme0,taxa_9=deme0,taxa_10=deme0,taxa_11=deme0,taxa_12=deme0,taxa_13=deme0,taxa_14=deme0,taxa_15=deme0,taxa_16=deme0,taxa_17=deme0,taxa_18=deme0,taxa_19=deme0,taxa_20=deme0,taxa_21=deme0,taxa_22=deme0,taxa_23=deme0,taxa_24=deme0,taxa_25=deme0,taxa_26=deme0,taxa_27=deme0,taxa_28=deme0,taxa_29=deme0,taxa_30=deme0,taxa_31=deme0,taxa_32=deme0,taxa_33=deme0,taxa_34=deme0,taxa_35=deme0,taxa_36=deme0,taxa_37=deme0,taxa_38=deme0,taxa_39=deme0,taxa_40=deme0,taxa_41=deme0,taxa_42=deme0,taxa_43=deme0,taxa_44=deme0,taxa_45=deme0,taxa_46=deme0,taxa_47=deme0,taxa_48=deme0,taxa_49=deme0,taxa_50=deme0,taxa_51=deme0,taxa_52=deme0,taxa_53=deme0,taxa_54=deme0,taxa_55=deme0,taxa_56=deme0,taxa_57=deme0,taxa_58=deme0,taxa_59=deme0,taxa_60=deme0,taxa_61=deme0,taxa_62=deme0,taxa_63=deme0,taxa_64=deme0,taxa_65=deme0,taxa_66=deme0,taxa_67=deme0,taxa_68=deme0,taxa_69=deme0,taxa_70=deme0,taxa_71=deme0,taxa_72=deme0,taxa_73=deme0,taxa_74=deme0,taxa_75=deme0,taxa_76=deme0,taxa_77=deme0,taxa_78=deme0,taxa_79=deme0,taxa_80=deme0,taxa_81=deme1,taxa_82=deme1,taxa_83=deme1,taxa_84=deme1,taxa_85=deme1,taxa_86=deme1,taxa_87=deme1,taxa_88=deme1,taxa_89=deme1,taxa_90=deme1,taxa_91=deme1,taxa_92=deme1,taxa_93=deme1,taxa_94=deme1,taxa_95=deme1,taxa_96=deme1,taxa_97=deme1,taxa_98=deme1,taxa_99=deme1,taxa_100=deme1,taxa_101=deme1,taxa_102=deme1,taxa_103=deme1,taxa_104=deme1,taxa_105=deme1,taxa_106=deme1,taxa_107=deme1,taxa_108=deme1,taxa_109=deme1,taxa_110=deme1,taxa_111=deme1,taxa_112=deme1,taxa_113=deme1,taxa_114=deme1,taxa_115=deme1,taxa_116=deme1,taxa_117=deme1,taxa_118=deme1,taxa_119=deme1,taxa_120=deme1,taxa_121=deme2,taxa_122=deme2,taxa_123=deme2,taxa_124=deme2,taxa_125=deme2,taxa_126=deme2,taxa_127=deme2,taxa_128=deme2,taxa_129=deme2,taxa_130=deme2,taxa_131=deme2,taxa_132=deme2,taxa_133=deme2,taxa_134=deme2,taxa_135=deme2,taxa_136=deme2,taxa_137=deme2,taxa_138=deme2,taxa_139=deme2,taxa_140=deme2,taxa_141=deme2,taxa_142=deme2,taxa_143=deme2,taxa_144=deme2,taxa_145=deme2,taxa_146=deme2,taxa_147=deme2,taxa_148=deme2,taxa_149=deme2,taxa_150=deme2,taxa_151=deme3,taxa_152=deme3,taxa_153=deme3,taxa_154=deme3,taxa_155=deme3,taxa_156=deme3,taxa_157=deme3,taxa_158=deme3,taxa_159=deme3,taxa_160=deme3,taxa_161=deme3,taxa_162=deme3,taxa_163=deme3,taxa_164=deme3,taxa_165=deme3,taxa_166=deme3,taxa_167=deme3,taxa_168=deme3,taxa_169=deme3,taxa_170=deme3,taxa_171=deme3,taxa_172=deme3,taxa_173=deme3,taxa_174=deme3,taxa_175=deme3,taxa_176=deme3,taxa_177=deme3,taxa_178=deme3,taxa_179=deme3,taxa_180=deme3,taxa_181=deme3,taxa_182=deme3,taxa_183=deme3,taxa_184=deme3,taxa_185=deme3,taxa_186=deme3,taxa_187=deme3,taxa_188=deme3,taxa_189=deme3,taxa_190=deme3,taxa_191=deme3,taxa_192=deme3,taxa_193=deme3,taxa_194=deme3,taxa_195=deme3,taxa_196=deme3,taxa_197=deme3,taxa_198=deme3,taxa_199=deme3,taxa_200=deme3,taxa_201=deme3,taxa_202=deme3,taxa_203=deme3,taxa_204=deme3,taxa_205=deme3,taxa_206=deme3,taxa_207=deme3,taxa_208=deme3,taxa_209=deme3,taxa_210=deme3,taxa_211=deme3,taxa_212=deme3,taxa_213=deme3,taxa_214=deme3,taxa_215=deme3,taxa_216=deme3,taxa_217=deme3,taxa_218=deme3,taxa_219=deme3,taxa_220=deme3,taxa_221=deme3,taxa_222=deme3,taxa_223=deme3,taxa_224=deme3,taxa_225=deme3,taxa_226=deme3,taxa_227=deme3,taxa_228=deme3,taxa_229=deme3,taxa_230=deme3,taxa_231=deme3,taxa_232=deme3,taxa_233=deme3,taxa_234=deme3,taxa_235=deme3,taxa_236=deme3,taxa_237=deme3,taxa_238=deme3,taxa_239=deme3,taxa_240=deme3,taxa_241=deme3,taxa_242=deme3,taxa_243=deme3,taxa_244=deme3,taxa_245=deme3,taxa_246=deme3,taxa_247=deme3,taxa_248=deme3,taxa_249=deme3,taxa_250=deme3,taxa_251=deme3,taxa_252=deme3,taxa_253=deme3,taxa_254=deme3,taxa_255=deme3,taxa_256=deme3,taxa_257=deme3,taxa_258=deme3,taxa_259=deme3,taxa_260=deme3,taxa_261=deme3,taxa_262=deme3,taxa_263=deme3,taxa_264=deme3,taxa_265=deme3,taxa_266=deme3,taxa_267=deme3,taxa_268=deme3,taxa_269=deme3,taxa_270=deme3,taxa_271=deme4,taxa_272=deme4,taxa_273=deme4,taxa_274=deme4,taxa_275=deme4,taxa_276=deme4,taxa_277=deme4,taxa_278=deme4,taxa_279=deme4,taxa_280=deme4,taxa_281=deme4,taxa_282=deme4,taxa_283=deme4,taxa_284=deme4,taxa_285=deme4,taxa_286=deme4,taxa_287=deme4,taxa_288=deme4,taxa_289=deme4,taxa_290=deme4,taxa_291=deme4,taxa_292=deme4,taxa_293=deme4,taxa_294=deme4,taxa_295=deme4,taxa_296=deme4,taxa_297=deme4,taxa_298=deme4,taxa_299=deme4,taxa_300=deme4,taxa_301=deme4,taxa_302=deme4,taxa_303=deme4,taxa_304=deme4,taxa_305=deme4,taxa_306=deme4,taxa_307=deme4,taxa_308=deme4,taxa_309=deme4,taxa_310=deme4,taxa_311=deme4,taxa_312=deme4,taxa_313=deme4,taxa_314=deme4,taxa_315=deme4,taxa_316=deme4,taxa_317=deme4,taxa_318=deme4,taxa_319=deme4,taxa_320=deme4,taxa_321=deme4,taxa_322=deme4,taxa_323=deme4,taxa_324=deme4,taxa_325=deme4,taxa_326=deme4,taxa_327=deme4,taxa_328=deme4,taxa_329=deme4,taxa_330=deme4,taxa_331=deme4,taxa_332=deme4,taxa_333=deme4,taxa_334=deme4,taxa_335=deme4,taxa_336=deme4,taxa_337=deme4,taxa_338=deme4,taxa_339=deme4,taxa_340=deme4,taxa_341=deme4,taxa_342=deme4,taxa_343=deme4,taxa_344=deme4,taxa_345=deme4,taxa_346=deme4,taxa_347=deme4,taxa_348=deme4,taxa_349=deme4,taxa_350=deme4,taxa_351=deme4,taxa_352=deme4,taxa_353=deme4,taxa_354=deme4,taxa_355=deme4,taxa_356=deme4,taxa_357=deme4,taxa_358=deme4,taxa_359=deme4,taxa_360=deme4,taxa_361=deme4,taxa_362=deme4,taxa_363=deme4,taxa_364=deme4,taxa_365=deme4,taxa_366=deme4,taxa_367=deme4,taxa_368=deme4,taxa_369=deme4,taxa_370=deme4,taxa_371=deme4,taxa_372=deme4,taxa_373=deme4,taxa_374=deme4,taxa_375=deme4,taxa_376=deme4,taxa_377=deme4,taxa_378=deme4,taxa_379=deme4,taxa_380=deme4,taxa_381=deme4,taxa_382=deme4,taxa_383=deme4,taxa_384=deme4,taxa_385=deme4,taxa_386=deme4,taxa_387=deme4,taxa_388=deme4,taxa_389=deme4,taxa_390=deme4,taxa_391=deme5,taxa_392=deme5,taxa_393=deme5,taxa_394=deme5,taxa_395=deme5,taxa_396=deme5,taxa_397=deme5,taxa_398=deme5,taxa_399=deme5,taxa_400=deme5,taxa_401=deme5,taxa_402=deme5,taxa_403=deme5,taxa_404=deme5,taxa_405=deme5,taxa_406=deme5,taxa_407=deme5,taxa_408=deme5,taxa_409=deme5,taxa_410=deme5,taxa_411=deme5,taxa_412=deme5,taxa_413=deme5,taxa_414=deme5,taxa_415=deme5,taxa_416=deme5,taxa_417=deme5,taxa_418=deme5,taxa_419=deme5,taxa_420=deme5,taxa_421=deme5,taxa_422=deme5,taxa_423=deme5,taxa_424=deme5,taxa_425=deme5,taxa_426=deme5,taxa_427=deme5,taxa_428=deme5,taxa_429=deme5,taxa_430=deme5,taxa_431=deme5,taxa_432=deme5,taxa_433=deme5,taxa_434=deme5,taxa_435=deme5,taxa_436=deme5,taxa_437=deme5,taxa_438=deme5,taxa_439=deme5,taxa_440=deme5,taxa_441=deme5,taxa_442=deme5,taxa_443=deme5,taxa_444=deme5,taxa_445=deme5,taxa_446=deme5,taxa_447=deme5,taxa_448=deme5,taxa_449=deme5,taxa_450=deme5,taxa_451=deme5,taxa_452=deme5,taxa_453=deme5,taxa_454=deme5,taxa_455=deme5,taxa_456=deme5,taxa_457=deme5,taxa_458=deme5,taxa_459=deme5,taxa_460=deme5,taxa_461=deme5,taxa_462=deme5,taxa_463=deme5,taxa_464=deme5,taxa_465=deme5,taxa_466=deme5,taxa_467=deme5,taxa_468=deme5,taxa_469=deme5,taxa_470=deme5,taxa_471=deme5,taxa_472=deme5,taxa_473=deme5,taxa_474=deme5,taxa_475=deme5,taxa_476=deme5,taxa_477=deme5,taxa_478=deme5,taxa_479=deme5,taxa_480=deme5,taxa_481=deme5,taxa_482=deme5,taxa_483=deme5,taxa_484=deme5,taxa_485=deme5,taxa_486=deme5,taxa_487=deme5,taxa_488=deme5,taxa_489=deme5,taxa_490=deme5,taxa_491=deme6,taxa_492=deme6,taxa_493=deme6,taxa_494=deme6,taxa_495=deme6,taxa_496=deme6,taxa_497=deme6,taxa_498=deme6,taxa_499=deme6,taxa_500=deme6,taxa_501=deme6,taxa_502=deme6,taxa_503=deme6,taxa_504=deme6,taxa_505=deme6,taxa_506=deme6,taxa_507=deme6,taxa_508=deme6,taxa_509=deme6,taxa_510=deme6,taxa_511=deme6,taxa_512=deme6,taxa_513=deme6,taxa_514=deme6,taxa_515=deme6,taxa_516=deme6,taxa_517=deme6,taxa_518=deme6,taxa_519=deme6,taxa_520=deme6,taxa_521=deme6,taxa_522=deme6,taxa_523=deme6,taxa_524=deme6,taxa_525=deme6,taxa_526=deme6,taxa_527=deme6,taxa_528=deme6,taxa_529=deme6,taxa_530=deme6,taxa_531=deme6,taxa_532=deme6,taxa_533=deme6,taxa_534=deme6,taxa_535=deme6,taxa_536=deme6,taxa_537=deme6,taxa_538=deme6,taxa_539=deme6,taxa_540=deme6,taxa_541=deme6,taxa_542=deme6,taxa_543=deme6,taxa_544=deme6,taxa_545=deme6,taxa_546=deme6,taxa_547=deme6,taxa_548=deme6,taxa_549=deme6,taxa_550=deme6,taxa_551=deme6,taxa_552=deme6,taxa_553=deme6,taxa_554=deme6,taxa_555=deme6,taxa_556=deme6,taxa_557=deme6,taxa_558=deme6,taxa_559=deme6,taxa_560=deme6,taxa_561=deme7,taxa_562=deme7,taxa_563=deme7,taxa_564=deme7,taxa_565=deme7,taxa_566=deme7,taxa_567=deme7,taxa_568=deme7,taxa_569=deme7,taxa_570=deme7,taxa_571=deme7,taxa_572=deme7,taxa_573=deme7,taxa_574=deme7,taxa_575=deme7,taxa_576=deme7,taxa_577=deme7,taxa_578=deme7,taxa_579=deme7,taxa_580=deme7,taxa_581=deme7,taxa_582=deme7,taxa_583=deme7,taxa_584=deme7,taxa_585=deme7,taxa_586=deme7,taxa_587=deme7,taxa_588=deme7,taxa_589=deme7,taxa_590=deme7,taxa_591=deme7,taxa_592=deme7,taxa_593=deme7,taxa_594=deme7,taxa_595=deme7,taxa_596=deme7,taxa_597=deme7,taxa_598=deme7,taxa_599=deme7,taxa_600=deme7,taxa_601=deme7,taxa_602=deme7,taxa_603=deme7,taxa_604=deme7,taxa_605=deme7,taxa_606=deme7,taxa_607=deme7,taxa_608=deme7,taxa_609=deme7,taxa_610=deme7,taxa_611=deme7,taxa_612=deme7,taxa_613=deme7,taxa_614=deme7,taxa_615=deme7,taxa_616=deme7,taxa_617=deme7,taxa_618=deme7,taxa_619=deme7,taxa_620=deme7,taxa_621=deme7,taxa_622=deme7,taxa_623=deme7,taxa_624=deme7,taxa_625=deme7,taxa_626=deme7,taxa_627=deme7,taxa_628=deme7,taxa_629=deme7,taxa_630=deme7,taxa_631=deme7,taxa_632=deme7,taxa_633=deme7,taxa_634=deme7,taxa_635=deme7,taxa_636=deme7,taxa_637=deme7,taxa_638=deme7,taxa_639=deme7,taxa_640=deme7,taxa_641=deme8,taxa_642=deme8,taxa_643=deme8,taxa_644=deme8,taxa_645=deme8,taxa_646=deme8,taxa_647=deme8,taxa_648=deme8,taxa_649=deme8,taxa_650=deme8,taxa_651=deme8,taxa_652=deme8,taxa_653=deme8,taxa_654=deme8,taxa_655=deme8,taxa_656=deme8,taxa_657=deme8,taxa_658=deme8,taxa_659=deme8,taxa_660=deme8,taxa_661=deme8,taxa_662=deme8,taxa_663=deme8,taxa_664=deme8,taxa_665=deme8,taxa_666=deme8,taxa_667=deme8,taxa_668=deme8,taxa_669=deme8,taxa_670=deme8,taxa_671=deme8,taxa_672=deme8,taxa_673=deme8,taxa_674=deme8,taxa_675=deme8,taxa_676=deme8,taxa_677=deme8,taxa_678=deme8,taxa_679=deme8,taxa_680=deme8,taxa_681=deme8,taxa_682=deme8,taxa_683=deme8,taxa_684=deme8,taxa_685=deme8,taxa_686=deme8,taxa_687=deme8,taxa_688=deme8,taxa_689=deme8,taxa_690=deme8,taxa_691=deme8,taxa_692=deme8,taxa_693=deme8,taxa_694=deme8,taxa_695=deme8,taxa_696=deme8,taxa_697=deme8,taxa_698=deme8,taxa_699=deme8,taxa_700=deme8,taxa_701=deme8,taxa_702=deme8,taxa_703=deme8,taxa_704=deme8,taxa_705=deme8,taxa_706=deme8,taxa_707=deme8,taxa_708=deme8,taxa_709=deme8,taxa_710=deme8,taxa_711=deme8,taxa_712=deme8,taxa_713=deme8,taxa_714=deme8,taxa_715=deme8,taxa_716=deme8,taxa_717=deme8,taxa_718=deme8,taxa_719=deme8,taxa_720=deme8,taxa_721=deme8,taxa_722=deme8,taxa_723=deme8,taxa_724=deme8,taxa_725=deme8,taxa_726=deme8,taxa_727=deme8,taxa_728=deme8,taxa_729=deme8,taxa_730=deme8,taxa_731=deme9,taxa_732=deme9,taxa_733=deme9,taxa_734=deme9,taxa_735=deme9,taxa_736=deme9,taxa_737=deme9,taxa_738=deme9,taxa_739=deme9,taxa_740=deme9,taxa_741=deme9,taxa_742=deme9,taxa_743=deme9,taxa_744=deme9,taxa_745=deme9,taxa_746=deme9,taxa_747=deme9,taxa_748=deme9,taxa_749=deme9,taxa_750=deme9
+    <taxa spec="TaxonSet" alignment="@alignment1"/>
+  </typeTraitSet>
+
+<timeTraitSet spec="TraitSet" id="timeTraitSet" dateFormat="yyyy-M-dd" traitname="date">
+taxa_1=0.7666000000,taxa_2=1.1660000000,taxa_3=2.2749000000,taxa_4=4.3885000000,taxa_5=0.2431000000,taxa_6=3.2939000000,taxa_7=2.9856000000,taxa_8=2.0560000000,taxa_9=3.3146000000,taxa_10=2.6246000000,taxa_11=3.9139000000,taxa_12=0.0067000000,taxa_13=3.2690000000,taxa_14=0.9392000000,taxa_15=3.5754000000,taxa_16=1.1247000000,taxa_17=4.3295000000,taxa_18=4.7472000000,taxa_19=3.9385000000,taxa_20=1.9858000000,taxa_21=1.8189000000,taxa_22=1.4870000000,taxa_23=3.6201000000,taxa_24=4.0971000000,taxa_25=2.5816000000,taxa_26=3.3116000000,taxa_27=4.6488000000,taxa_28=2.5798000000,taxa_29=4.2686000000,taxa_30=4.9663000000,taxa_31=1.0523000000,taxa_32=4.9073000000,taxa_33=0.9110000000,taxa_34=3.8527000000,taxa_35=3.7502000000,taxa_36=1.6692000000,taxa_37=2.2740000000,taxa_38=2.8752000000,taxa_39=0.1387000000,taxa_40=1.4697000000,taxa_41=0.7689000000,taxa_42=0.0851000000,taxa_43=0.2259000000,taxa_44=2.1739000000,taxa_45=3.6097000000,taxa_46=1.8173000000,taxa_47=0.7903000000,taxa_48=2.9759000000,taxa_49=4.3129000000,taxa_50=3.4865000000,taxa_51=0.4179000000,taxa_52=4.3300000000,taxa_53=0.9374000000,taxa_54=0.9644000000,taxa_55=0.5482000000,taxa_56=2.5023000000,taxa_57=4.4626000000,taxa_58=3.2872000000,taxa_59=2.3157000000,taxa_60=1.7313000000,taxa_61=2.8923000000,taxa_62=0.6525000000,taxa_63=1.2797000000,taxa_64=1.5707000000,taxa_65=0.8428000000,taxa_66=1.6464000000,taxa_67=1.1993000000,taxa_68=2.1350000000,taxa_69=3.3340000000,taxa_70=1.2403000000,taxa_71=1.6897000000,taxa_72=1.2656000000,taxa_73=3.4854000000,taxa_74=2.7348000000,taxa_75=0.0540000000,taxa_76=2.1506000000,taxa_77=4.0252000000,taxa_78=0.1980000000,taxa_79=1.3146000000,taxa_80=4.6164000000,taxa_81=1.6926000000,taxa_82=2.3808000000,taxa_83=0.6757000000,taxa_84=3.5673000000,taxa_85=3.3699000000,taxa_86=1.4234000000,taxa_87=3.9151000000,taxa_88=1.2670000000,taxa_89=2.3354000000,taxa_90=2.6248000000,taxa_91=0.6324000000,taxa_92=4.8363000000,taxa_93=3.1645000000,taxa_94=3.1361000000,taxa_95=1.1454000000,taxa_96=4.5011000000,taxa_97=0.1524000000,taxa_98=0.8430000000,taxa_99=2.8329000000,taxa_100=1.1180000000,taxa_101=2.5895000000,taxa_102=1.1831000000,taxa_103=2.9884000000,taxa_104=4.8313000000,taxa_105=2.6604000000,taxa_106=1.5467000000,taxa_107=2.4681000000,taxa_108=1.1002000000,taxa_109=0.8783000000,taxa_110=2.0641000000,taxa_111=0.9200000000,taxa_112=2.4653000000,taxa_113=4.3728000000,taxa_114=3.6641000000,taxa_115=4.0028000000,taxa_116=4.5006000000,taxa_117=2.6002000000,taxa_118=1.1375000000,taxa_119=4.9679000000,taxa_120=1.3956000000,taxa_121=3.6018000000,taxa_122=4.2506000000,taxa_123=4.5115000000,taxa_124=3.4098000000,taxa_125=4.9814000000,taxa_126=0.1274000000,taxa_127=2.3373000000,taxa_128=2.8130000000,taxa_129=2.2307000000,taxa_130=1.1482000000,taxa_131=0.8488000000,taxa_132=3.9435000000,taxa_133=1.4821000000,taxa_134=0.7921000000,taxa_135=4.4254000000,taxa_136=1.8842000000,taxa_137=0.5658000000,taxa_138=1.9581000000,taxa_139=0.6938000000,taxa_140=3.0399000000,taxa_141=3.7599000000,taxa_142=4.4102000000,taxa_143=4.2819000000,taxa_144=2.4112000000,taxa_145=1.9045000000,taxa_146=0.5498000000,taxa_147=4.4243000000,taxa_148=0.0998000000,taxa_149=4.2073000000,taxa_150=1.3072000000,taxa_151=3.6782000000,taxa_152=4.8452000000,taxa_153=3.9634000000,taxa_154=0.5950000000,taxa_155=0.7901000000,taxa_156=0.7998000000,taxa_157=4.0134000000,taxa_158=1.7905000000,taxa_159=0.1895000000,taxa_160=1.6117000000,taxa_161=2.3367000000,taxa_162=0.4671000000,taxa_163=3.0716000000,taxa_164=1.7967000000,taxa_165=0.4470000000,taxa_166=1.0505000000,taxa_167=2.3623000000,taxa_168=0.8795000000,taxa_169=1.0379000000,taxa_170=0.3225000000,taxa_171=2.1234000000,taxa_172=1.0531000000,taxa_173=3.9050000000,taxa_174=1.3435000000,taxa_175=3.6604000000,taxa_176=2.0861000000,taxa_177=3.4039000000,taxa_178=1.2365000000,taxa_179=1.5426000000,taxa_180=4.8588000000,taxa_181=3.2924000000,taxa_182=1.1944000000,taxa_183=3.0147000000,taxa_184=3.4255000000,taxa_185=3.2726000000,taxa_186=1.7159000000,taxa_187=3.5422000000,taxa_188=2.4341000000,taxa_189=4.6796000000,taxa_190=0.0230000000,taxa_191=2.9302000000,taxa_192=2.4733000000,taxa_193=4.6827000000,taxa_194=4.0770000000,taxa_195=4.4467000000,taxa_196=0.9784000000,taxa_197=2.5819000000,taxa_198=0.0031000000,taxa_199=4.4942000000,taxa_200=2.2031000000,taxa_201=1.2997000000,taxa_202=1.7938000000,taxa_203=2.5058000000,taxa_204=2.7787000000,taxa_205=2.8291000000,taxa_206=3.1192000000,taxa_207=4.7273000000,taxa_208=2.9036000000,taxa_209=0.3838000000,taxa_210=0.0736000000,taxa_211=3.1200000000,taxa_212=0.4216000000,taxa_213=0.3950000000,taxa_214=1.1996000000,taxa_215=1.6609000000,taxa_216=4.7973000000,taxa_217=1.4603000000,taxa_218=3.8873000000,taxa_219=3.7239000000,taxa_220=2.4859000000,taxa_221=4.9858000000,taxa_222=4.4794000000,taxa_223=3.4373000000,taxa_224=3.0318000000,taxa_225=3.9413000000,taxa_226=4.6320000000,taxa_227=3.3611000000,taxa_228=2.1425000000,taxa_229=0.2691000000,taxa_230=3.5981000000,taxa_231=4.7059000000,taxa_232=4.4327000000,taxa_233=2.8629000000,taxa_234=4.1701000000,taxa_235=2.3119000000,taxa_236=2.8225000000,taxa_237=1.7120000000,taxa_238=1.8626000000,taxa_239=1.8655000000,taxa_240=2.1564000000,taxa_241=0.6409000000,taxa_242=1.3715000000,taxa_243=2.9373000000,taxa_244=0.5404000000,taxa_245=1.1875000000,taxa_246=0.7600000000,taxa_247=4.1137000000,taxa_248=2.0925000000,taxa_249=3.8884000000,taxa_250=0.3133000000,taxa_251=0.7419000000,taxa_252=3.6673000000,taxa_253=0.7001000000,taxa_254=4.6890000000,taxa_255=0.9949000000,taxa_256=0.7850000000,taxa_257=3.4558000000,taxa_258=3.8080000000,taxa_259=0.6254000000,taxa_260=3.7718000000,taxa_261=4.1629000000,taxa_262=1.8047000000,taxa_263=2.5115000000,taxa_264=3.0250000000,taxa_265=3.6697000000,taxa_266=4.0305000000,taxa_267=4.6125000000,taxa_268=4.1401000000,taxa_269=4.8413000000,taxa_270=3.5865000000,taxa_271=4.0189000000,taxa_272=4.1196000000,taxa_273=3.7241000000,taxa_274=2.5614000000,taxa_275=1.9603000000,taxa_276=1.7556000000,taxa_277=3.6125000000,taxa_278=3.3332000000,taxa_279=4.8072000000,taxa_280=3.8927000000,taxa_281=2.9404000000,taxa_282=2.6987000000,taxa_283=3.3635000000,taxa_284=0.7336000000,taxa_285=3.3764000000,taxa_286=1.7707000000,taxa_287=3.1051000000,taxa_288=4.0253000000,taxa_289=3.5871000000,taxa_290=4.2892000000,taxa_291=4.0689000000,taxa_292=0.3104000000,taxa_293=3.1812000000,taxa_294=1.5925000000,taxa_295=2.3547000000,taxa_296=2.4147000000,taxa_297=0.0511000000,taxa_298=3.5270000000,taxa_299=3.2991000000,taxa_300=0.6120000000,taxa_301=2.5280000000,taxa_302=4.8908000000,taxa_303=0.9097000000,taxa_304=3.4185000000,taxa_305=3.4340000000,taxa_306=4.4538000000,taxa_307=0.6228000000,taxa_308=1.8172000000,taxa_309=2.2956000000,taxa_310=1.8664000000,taxa_311=1.3767000000,taxa_312=3.5645000000,taxa_313=4.3086000000,taxa_314=4.5741000000,taxa_315=4.0435000000,taxa_316=3.9260000000,taxa_317=4.9520000000,taxa_318=1.5761000000,taxa_319=4.9163000000,taxa_320=2.9766000000,taxa_321=4.5272000000,taxa_322=3.5015000000,taxa_323=4.9215000000,taxa_324=2.2770000000,taxa_325=4.6663000000,taxa_326=4.3593000000,taxa_327=0.6881000000,taxa_328=4.6162000000,taxa_329=4.5628000000,taxa_330=2.0760000000,taxa_331=1.7618000000,taxa_332=4.5650000000,taxa_333=3.1476000000,taxa_334=0.8523000000,taxa_335=1.2601000000,taxa_336=1.2129000000,taxa_337=1.0748000000,taxa_338=4.7743000000,taxa_339=1.8606000000,taxa_340=1.6149000000,taxa_341=4.2021000000,taxa_342=1.4199000000,taxa_343=1.3138000000,taxa_344=4.2778000000,taxa_345=0.2565000000,taxa_346=4.7857000000,taxa_347=4.5389000000,taxa_348=4.1453000000,taxa_349=1.8126000000,taxa_350=0.0393000000,taxa_351=1.9546000000,taxa_352=4.1593000000,taxa_353=0.4461000000,taxa_354=3.4445000000,taxa_355=2.9777000000,taxa_356=3.4935000000,taxa_357=0.0166000000,taxa_358=3.5339000000,taxa_359=2.7973000000,taxa_360=0.2818000000,taxa_361=4.0831000000,taxa_362=2.4325000000,taxa_363=2.8738000000,taxa_364=4.0737000000,taxa_365=2.4211000000,taxa_366=0.5925000000,taxa_367=4.1971000000,taxa_368=0.2204000000,taxa_369=4.3029000000,taxa_370=2.0155000000,taxa_371=3.7412000000,taxa_372=2.3107000000,taxa_373=1.9776000000,taxa_374=1.5558000000,taxa_375=0.6267000000,taxa_376=1.6315000000,taxa_377=3.9813000000,taxa_378=2.0433000000,taxa_379=1.3569000000,taxa_380=3.1754000000,taxa_381=4.7941000000,taxa_382=0.5836000000,taxa_383=0.0836000000,taxa_384=1.8510000000,taxa_385=4.3200000000,taxa_386=3.4586000000,taxa_387=0.7015000000,taxa_388=2.1557000000,taxa_389=2.5915000000,taxa_390=3.0075000000,taxa_391=1.6843000000,taxa_392=1.3401000000,taxa_393=0.5089000000,taxa_394=0.6681000000,taxa_395=3.9968000000,taxa_396=0.0750000000,taxa_397=3.5270000000,taxa_398=2.4376000000,taxa_399=4.8456000000,taxa_400=1.9864000000,taxa_401=3.3583000000,taxa_402=3.5174000000,taxa_403=1.1407000000,taxa_404=1.4397000000,taxa_405=0.1395000000,taxa_406=4.7306000000,taxa_407=4.5654000000,taxa_408=3.5556000000,taxa_409=3.8406000000,taxa_410=2.8681000000,taxa_411=4.5818000000,taxa_412=0.7465000000,taxa_413=2.7807000000,taxa_414=1.7908000000,taxa_415=4.4486000000,taxa_416=0.4214000000,taxa_417=4.5081000000,taxa_418=1.4808000000,taxa_419=4.4791000000,taxa_420=3.0414000000,taxa_421=4.1022000000,taxa_422=4.5293000000,taxa_423=4.4181000000,taxa_424=2.1616000000,taxa_425=1.5965000000,taxa_426=4.6302000000,taxa_427=1.0505000000,taxa_428=4.7512000000,taxa_429=0.8662000000,taxa_430=4.2229000000,taxa_431=2.7848000000,taxa_432=2.6061000000,taxa_433=0.3805000000,taxa_434=4.1984000000,taxa_435=1.0394000000,taxa_436=0.2434000000,taxa_437=2.3007000000,taxa_438=2.7823000000,taxa_439=2.6609000000,taxa_440=1.2521000000,taxa_441=2.3420000000,taxa_442=0.3733000000,taxa_443=1.2262000000,taxa_444=3.9867000000,taxa_445=0.6845000000,taxa_446=3.0063000000,taxa_447=4.3267000000,taxa_448=1.2309000000,taxa_449=0.6076000000,taxa_450=2.4694000000,taxa_451=3.3757000000,taxa_452=0.9809000000,taxa_453=3.4068000000,taxa_454=0.1530000000,taxa_455=2.3152000000,taxa_456=3.8534000000,taxa_457=1.5987000000,taxa_458=1.8231000000,taxa_459=3.5541000000,taxa_460=0.4089000000,taxa_461=2.5913000000,taxa_462=1.0865000000,taxa_463=1.3543000000,taxa_464=3.6569000000,taxa_465=2.3546000000,taxa_466=1.9571000000,taxa_467=1.3404000000,taxa_468=4.7262000000,taxa_469=1.8848000000,taxa_470=2.2022000000,taxa_471=4.4034000000,taxa_472=4.6731000000,taxa_473=2.2027000000,taxa_474=3.3050000000,taxa_475=0.9344000000,taxa_476=1.1512000000,taxa_477=3.1238000000,taxa_478=0.2683000000,taxa_479=3.8087000000,taxa_480=1.5105000000,taxa_481=3.3417000000,taxa_482=4.4077000000,taxa_483=1.6112000000,taxa_484=2.9150000000,taxa_485=1.6605000000,taxa_486=2.0891000000,taxa_487=1.7159000000,taxa_488=0.6629000000,taxa_489=2.3486000000,taxa_490=4.8346000000,taxa_491=1.6276000000,taxa_492=1.2123000000,taxa_493=1.4095000000,taxa_494=4.0575000000,taxa_495=4.4856000000,taxa_496=3.9501000000,taxa_497=4.5315000000,taxa_498=3.1809000000,taxa_499=3.6389000000,taxa_500=4.5556000000,taxa_501=1.7932000000,taxa_502=1.3103000000,taxa_503=4.8700000000,taxa_504=4.5954000000,taxa_505=4.7385000000,taxa_506=4.4533000000,taxa_507=3.6812000000,taxa_508=3.0780000000,taxa_509=4.1768000000,taxa_510=4.9932000000,taxa_511=3.9758000000,taxa_512=2.7042000000,taxa_513=1.8956000000,taxa_514=1.9009000000,taxa_515=0.0932000000,taxa_516=3.0469000000,taxa_517=1.6922000000,taxa_518=0.3341000000,taxa_519=0.4676000000,taxa_520=0.5791000000,taxa_521=2.2018000000,taxa_522=0.8952000000,taxa_523=2.9793000000,taxa_524=2.7736000000,taxa_525=4.5030000000,taxa_526=0.7505000000,taxa_527=4.9533000000,taxa_528=1.6066000000,taxa_529=3.7579000000,taxa_530=2.4616000000,taxa_531=1.4129000000,taxa_532=4.3511000000,taxa_533=3.2543000000,taxa_534=2.9831000000,taxa_535=4.8425000000,taxa_536=3.8083000000,taxa_537=0.3146000000,taxa_538=0.5418000000,taxa_539=1.8888000000,taxa_540=0.7538000000,taxa_541=1.9329000000,taxa_542=1.7334000000,taxa_543=1.0359000000,taxa_544=1.6329000000,taxa_545=4.4653000000,taxa_546=2.0181000000,taxa_547=3.1364000000,taxa_548=4.1086000000,taxa_549=1.2635000000,taxa_550=4.6647000000,taxa_551=0.6017000000,taxa_552=3.0542000000,taxa_553=3.1321000000,taxa_554=2.4186000000,taxa_555=0.1155000000,taxa_556=2.4335000000,taxa_557=0.5116000000,taxa_558=1.2659000000,taxa_559=4.2592000000,taxa_560=4.1344000000,taxa_561=1.7590000000,taxa_562=2.1737000000,taxa_563=4.2802000000,taxa_564=3.9269000000,taxa_565=1.0858000000,taxa_566=0.1119000000,taxa_567=2.9250000000,taxa_568=1.3177000000,taxa_569=1.2586000000,taxa_570=4.3480000000,taxa_571=1.0275000000,taxa_572=1.0222000000,taxa_573=4.3099000000,taxa_574=4.1782000000,taxa_575=1.1851000000,taxa_576=0.2016000000,taxa_577=0.2573000000,taxa_578=1.0484000000,taxa_579=1.7596000000,taxa_580=1.5338000000,taxa_581=2.8147000000,taxa_582=0.3148000000,taxa_583=4.3140000000,taxa_584=2.9102000000,taxa_585=1.4364000000,taxa_586=1.4308000000,taxa_587=3.9668000000,taxa_588=1.4333000000,taxa_589=0.8643000000,taxa_590=1.9359000000,taxa_591=0.7033000000,taxa_592=4.3937000000,taxa_593=2.6168000000,taxa_594=4.8920000000,taxa_595=3.0347000000,taxa_596=1.9761000000,taxa_597=4.7429000000,taxa_598=2.3418000000,taxa_599=2.7421000000,taxa_600=1.9866000000,taxa_601=0.4598000000,taxa_602=3.7121000000,taxa_603=0.7641000000,taxa_604=4.1516000000,taxa_605=1.4705000000,taxa_606=4.9993000000,taxa_607=0.7411000000,taxa_608=1.0928000000,taxa_609=0.7314000000,taxa_610=0.0285000000,taxa_611=1.8333000000,taxa_612=0.5675000000,taxa_613=0.0945000000,taxa_614=1.3358000000,taxa_615=4.7309000000,taxa_616=4.6032000000,taxa_617=0.3694000000,taxa_618=3.5955000000,taxa_619=3.0173000000,taxa_620=2.9843000000,taxa_621=0.8252000000,taxa_622=1.2362000000,taxa_623=3.0880000000,taxa_624=4.5638000000,taxa_625=1.6877000000,taxa_626=0.5577000000,taxa_627=2.1476000000,taxa_628=1.5249000000,taxa_629=2.2775000000,taxa_630=4.9757000000,taxa_631=1.8475000000,taxa_632=1.1497000000,taxa_633=1.3122000000,taxa_634=1.0101000000,taxa_635=2.2975000000,taxa_636=2.0787000000,taxa_637=0.3461000000,taxa_638=2.6054000000,taxa_639=1.0081000000,taxa_640=1.0461000000,taxa_641=0.7981000000,taxa_642=0.8747000000,taxa_643=4.1721000000,taxa_644=1.0509000000,taxa_645=3.0206000000,taxa_646=4.9505000000,taxa_647=2.8210000000,taxa_648=1.8646000000,taxa_649=1.9339000000,taxa_650=4.7818000000,taxa_651=2.4452000000,taxa_652=4.9439000000,taxa_653=3.8645000000,taxa_654=3.6731000000,taxa_655=3.5180000000,taxa_656=2.6818000000,taxa_657=0.3507000000,taxa_658=2.9656000000,taxa_659=1.7243000000,taxa_660=2.7738000000,taxa_661=1.9206000000,taxa_662=3.9733000000,taxa_663=2.1951000000,taxa_664=2.4573000000,taxa_665=3.2551000000,taxa_666=3.6029000000,taxa_667=4.9917000000,taxa_668=0.5116000000,taxa_669=1.1050000000,taxa_670=0.2058000000,taxa_671=0.0305000000,taxa_672=2.8895000000,taxa_673=2.9996000000,taxa_674=4.2362000000,taxa_675=1.1686000000,taxa_676=3.7028000000,taxa_677=2.1914000000,taxa_678=1.1455000000,taxa_679=1.9908000000,taxa_680=0.0616000000,taxa_681=4.2185000000,taxa_682=0.3263000000,taxa_683=2.7218000000,taxa_684=0.1560000000,taxa_685=2.4470000000,taxa_686=4.6933000000,taxa_687=2.1336000000,taxa_688=3.4960000000,taxa_689=0.7304000000,taxa_690=2.1054000000,taxa_691=3.5945000000,taxa_692=0.5664000000,taxa_693=3.5580000000,taxa_694=1.6828000000,taxa_695=0.1332000000,taxa_696=2.6728000000,taxa_697=1.1942000000,taxa_698=0.7738000000,taxa_699=0.3028000000,taxa_700=4.2597000000,taxa_701=3.6771000000,taxa_702=1.0495000000,taxa_703=3.6847000000,taxa_704=1.2592000000,taxa_705=4.0613000000,taxa_706=4.2513000000,taxa_707=0.5667000000,taxa_708=1.8379000000,taxa_709=2.9335000000,taxa_710=0.3923000000,taxa_711=4.1424000000,taxa_712=3.1027000000,taxa_713=2.1355000000,taxa_714=1.2681000000,taxa_715=1.3092000000,taxa_716=1.9899000000,taxa_717=4.1770000000,taxa_718=0.7180000000,taxa_719=2.7447000000,taxa_720=2.8911000000,taxa_721=3.9597000000,taxa_722=0.0645000000,taxa_723=1.6640000000,taxa_724=0.1551000000,taxa_725=0.1115000000,taxa_726=4.5793000000,taxa_727=3.2793000000,taxa_728=3.7283000000,taxa_729=0.2868000000,taxa_730=2.2455000000,taxa_731=0.2828000000,taxa_732=3.0193000000,taxa_733=0.3792000000,taxa_734=1.8734000000,taxa_735=3.3985000000,taxa_736=4.6518000000,taxa_737=2.4390000000,taxa_738=2.3663000000,taxa_739=3.3106000000,taxa_740=2.0125000000,taxa_741=0.5738000000,taxa_742=4.3653000000,taxa_743=4.4165000000,taxa_744=4.2949000000,taxa_745=0.9166000000,taxa_746=2.3069000000,taxa_747=3.2479000000,taxa_748=3.7860000000,taxa_749=4.3019000000,taxa_750=2.1959000000
+    <taxa spec="TaxonSet" alignment="@alignment1"/>
+  </timeTraitSet>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+	<tree spec='basta.evolution.tree.MultiTypeTreeFromNewickVolz' typeLabel="type" adjustTipHeights='false' id='tree' newick="(((((((taxa_58:0.8525472670276595,((taxa_248:0.6950874085907359,taxa_294:1.1950874085907357):1.140803156399162,taxa_459:0.37429056498989777):0.21135670203776158):1.4571343278149538,taxa_84:2.0295815948426132):21.318872100196874,((taxa_302:0.1972813100044668,taxa_52:0.7580813100044663):7.996795798118492,(taxa_706:2.4364424214721447,taxa_341:2.4856424214721446):6.397134686650814):13.83087658691653):49.20147785604611,((((taxa_119:0.010251914284082453,taxa_226:0.346151914284083):0.5909339172108989,taxa_323:0.6475858314949816):7.440059249727654,taxa_280:9.116445081222636):12.57642645653028,(taxa_333:1.9608188958523338,(taxa_11:0.4778511851820548,taxa_260:0.6199511851820549):0.7166677106702792):20.47715264190058):50.53166001333268):20.96515258154406,((((((((((taxa_86:0.8242634448500255,((taxa_308:0.09381970996529798,taxa_95:0.7656197099652979):0.2354706136471314,(taxa_429:0.5839071741235885,taxa_253:0.7500071741235885):0.6963831494888408):0.10117312123759614):0.672050785083723,taxa_110:0.8556142299337486):0.7660654406460243,taxa_693:0.1277796705797729):1.2571382479107434,taxa_504:0.3475179184905164):0.15686004251311214,((((taxa_513:0.014186853517294873,taxa_539:0.02098685351729479):1.2014646942689324,((taxa_588:0.4379764574180476,taxa_631:0.02377645741804768):0.923262452433099,taxa_192:0.32123890985114656):0.31671263793508064):0.5537047771534396,(taxa_240:0.09786322858630792,taxa_644:1.203363228586308):1.4106930963533588):1.187295454497559,taxa_290:0.5630517794372256):0.2475261815664025):1.3892558734154443,(taxa_507:0.9458258912153625,(taxa_541:1.977442400468294,(taxa_359:0.9843001774725715,taxa_114:0.11750017747257147):0.1287422229957227):0.7166834907470685):1.86200794320371):0.1785753538224064,(taxa_261:1.3339969296737815,taxa_545:1.031596929673781):1.170712258567698):4.618844878211241,((taxa_216:4.516017709274394,taxa_181:6.020917709274393):0.6872004558039784,(taxa_204:4.929696770484583,(taxa_310:2.0053807537521506,(((taxa_70:0.8733565797895286,taxa_342:0.6937565797895286):1.6759361169409304,taxa_277:0.17709269673045913):0.03136078257782193,taxa_618:0.22545347930828097):0.05082727444386981):3.8366160167324326):2.2921213945937886):1.2859359013743479):35.115067898790855,(((((taxa_409:0.565361596321504,(taxa_564:0.06942812854329272,taxa_312:0.4318281285432928):0.4096334677782112):2.3811909336402746,((taxa_198:2.488317112438132,taxa_611:0.658117112438132):0.7264814169432947,taxa_627:1.0702985293814264):3.5692540005803517):2.493525380312146,(((((taxa_65:0.11503440543304577,taxa_621:0.13263440543304572):1.373528446868589,taxa_520:1.752262852301635):1.4860608551409142,(((taxa_293:0.1155227711479414,(taxa_375:0.8763439374018944,(taxa_537:1.0812726580755898,(taxa_436:0.7561520861155204,taxa_642:0.12485208611552046):0.3963205719600693):0.10717127932630466):1.793678833746047):0.021000929239607835,taxa_486:1.228623700387549):0.0758477051164661,taxa_590:1.4576714055040154):0.42385230193853385):0.3305502514047105,(taxa_107:1.3550357696589965,taxa_366:3.2306357696589965):0.324838189188263):2.7633392773965832,(taxa_346:0.33314108313226676,(taxa_116:0.19470886963358058,taxa_417:0.1872088696335812):0.4235322134986861):1.792472153111576):2.3693646740300816):2.017330683082271,((taxa_550:2.5744390488549103,((taxa_421:0.9842912002722066,taxa_141:1.3265912002722064):0.037100262368213954,(taxa_646:0.16123732006334723,taxa_143:0.8298373200633469):0.01185414257707329):2.1155475862144897):0.42382426657794703,taxa_225:3.721663315432857):3.6350452779233384):32.66778556236477,(((((taxa_686:0.10380212247206622,taxa_406:0.0665021224720661):0.6855124161107833,taxa_211:2.362614538582849):0.6809332583684036,(taxa_338:1.349455232330719,(taxa_121:0.4233381548704278,taxa_453:0.6183381548704276):2.0986170774602915):0.03979256462053371):29.75500161404717,(((taxa_199:11.19242314869512,(((taxa_509:0.7480790461947047,(taxa_163:0.4956257381805802,(((taxa_531:0.13605143279485254,((taxa_382:0.3854532417947263,taxa_710:0.5767532417947263):0.563560043495637,taxa_412:0.7861132852903633):0.016338147504489253):1.1050034856186102,(taxa_579:0.15950155718247205,taxa_384:0.06810155718247213):0.7348533612309907):0.8611000696100004,taxa_74:0.7802549880234633):0.05217075015711714):1.3576533080141244):1.9248569346362494,(((taxa_497:0.5295747482215605,taxa_377:1.0797747482215607):0.6688937499044583,(taxa_93:1.2893958441712248,taxa_19:0.5153958441712247):1.2760726539547944):0.5424834021498688,((((taxa_69:1.2607238938698502,(taxa_77:0.2658453519153925,(taxa_593:0.8313809249414055,taxa_552:0.3939809249414057):0.8428644269739869):0.30367854195445787):0.4035727056462166,(((((taxa_484:0.40528987271316863,(taxa_491:0.5663432696913822,taxa_158:0.4034432696913821):1.1263466030217866):0.3027708198301613,(taxa_557:1.9776899165916015,taxa_200:0.28618991659160153):1.1337707759517284):0.03150488263625828,taxa_6:0.3606655751795884):0.9453012830240048,(taxa_676:0.836088974175266,((taxa_56:0.2238749069171697,taxa_551:2.1244749069171696):1.2223862343344165,(((taxa_61:0.2874786919249779,taxa_176:1.093678691924978):0.2184256983011159,(taxa_591:2.643648611966225,(taxa_715:1.3901324611518906,taxa_750:0.5034324611518906):0.6476161508143345):0.05125577825986882):0.10197166754787146,(taxa_97:2.8300122322176864,taxa_410:0.11431223221768638):0.5177638255562789):0.44838508347762085):0.5903278329236796):0.06097788402832727):0.3419650600828721,(((taxa_734:1.7896524102199576,taxa_230:0.06495241021995746):0.5900862777059568,((taxa_311:1.552818709111282,taxa_398:0.49191870911128177):0.8070380839506734,((taxa_448:0.6210051396329725,taxa_120:0.4563051396329727):1.6657428191835844,taxa_723:1.853647958816557):0.21890883424539842):0.5165818948639589):0.37885929088539516,taxa_525:0.12899797881130937):0.3098339394751557):0.05646468122960169):0.25677834577428005,(taxa_339:0.7649252431376581,((taxa_601:0.3914491417735879,taxa_307:0.22844914177358788):1.6057562315024942,taxa_102:1.273905373276082):0.16851986986157597):2.629549702152689):0.7965094150900622,(taxa_270:1.2830961764726263,(taxa_347:0.05894727059245852,((((taxa_26:0.13854053147097867,taxa_727:0.17084053147097844):0.2076704574618753,(taxa_534:0.15940126635018936,taxa_546:1.1244012663501892):0.5153097225826646):0.16789797675460116,taxa_402:0.30830896568745514):0.6958222290496208,taxa_315:0.4780311947370759):0.07631607585538269):0.27174890588016787):1.1819881839077828):0.2208675398954787):0.5772840805550663):6.828868383177231,((taxa_30:2.9012983501495304,(((taxa_726:0.4488265212890141,((taxa_297:3.2407093783977414,(taxa_432:0.395105079196334,(taxa_90:0.08915978175694761,taxa_81:1.0213597817569475):0.2872452974393864):0.2906042992014073):0.7159110465528258,(((taxa_708:0.6728346331838757,((((taxa_699:0.10593353853929649,taxa_190:0.3857335385392965):1.3167628912282434,taxa_327:1.03739642976754):0.05305173847949529,(taxa_66:0.0968664096446703,taxa_695:1.6100664096446704):0.03528175860236482):0.6257702102102765,taxa_466:0.4472183784573116):0.10641625472656413):0.08714029606543283,(taxa_729:1.557292843529124,taxa_565:0.7582928435291239):0.7537820857201847):1.0305636655836308,taxa_208:0.7248385948329394):0.3792818301176277):1.020406096338447):0.40424285974307406,taxa_532:1.0812693810320884):0.6814915182072765,taxa_510:1.1206608992393647):1.7537374509101662):1.8169046081629228,((((taxa_296:0.8837754384908663,(taxa_343:1.7158284255665754,taxa_746:0.7227284255665753):0.2688470129242906):1.1405917704333546,((taxa_561:1.7052888777528552,(taxa_635:0.013994539859279342,taxa_612:1.7439945398592793):1.1527943378935759):0.732927018034184,((taxa_101:0.11042330569217107,taxa_136:0.8157233056921711):1.248674246781364,taxa_748:0.16259755247353525):0.24861834331350385):0.24185131313718156):4.201280184585868,(taxa_749:2.2009049063104813,(taxa_306:0.4086912883516458,taxa_344:0.584691288351646):1.6403136179588351):2.1375424871996076):0.46286092983965865,(taxa_173:0.8876258492700413,(taxa_115:0.11150403949684051,taxa_662:0.14100403949684015):0.6783218097732009):4.310582474079706):0.5812946349627062):3.994101405695732):2.008018784686934):2.7563055111806314,(((taxa_257:0.06219738639241834,(taxa_431:0.3070630598523878,taxa_556:0.658363059852388):0.42613432654003036):0.6542024363162153,taxa_34:0.31949982270863364):0.9028809684024814,((taxa_643:0.450146867738769,taxa_29:0.3536468677387692):0.09212683517914844,((taxa_45:0.16776163753442308,taxa_739:0.4668616375344232):0.023461419843672005,(((taxa_250:2.000998638339431,((taxa_572:0.765939121297754,(taxa_689:1.0344071444515497,taxa_492:0.5525071444515499):0.02333197684620414):0.4989238009575907,taxa_201:0.9873629222553446):0.02723571608408637):0.3194204770861928,taxa_544:1.0008191154256239):0.47676837847417497,(taxa_233:0.13381393062793467,taxa_128:0.18371393062793429):0.11377356327186439):0.6904355634782964):0.9134506455398226):0.3607070881931973):13.367847868764635):2.1117266276503557,(((taxa_477:0.5692579780929932,(taxa_636:0.8804509943742529,taxa_236:0.1366509943742531):0.7339069837187404):3.4599349964637054,(((((taxa_623:0.17195464467131671,taxa_547:0.12355464467131672):1.1715912672650397,(((taxa_215:0.3763222165072071,taxa_483:0.4260222165072072):1.5370743560996498,((taxa_295:0.3823235428943983,taxa_106:1.1903235428943981):0.7044968203436293,(taxa_661:1.3553668019915202,taxa_673:0.2763668019915202):0.1655535612465071):0.1327762093688296):0.14519486987848174,(taxa_718:2.0429645000386087,taxa_301:0.2329645000386087):0.95852694244673):0.7120544694510178):0.6674433970126348,taxa_602:1.3868893089489913):0.29982473867914194,taxa_249:1.5104140476281334):1.452703478474211,(taxa_577:5.338315612883907,(taxa_104:0.5237998673066038,(taxa_496:0.07971874148484392,(taxa_262:1.5128862452227962,(taxa_33:0.3600595904754129,taxa_488:0.6081595904754129):2.0465266547473835):0.7122324962620477):1.3252811258217596):0.24051574557730326):1.2559019132184375):0.3014754484543545):10.560981549450862,((((((taxa_124:1.3543782608618646,((((taxa_40:0.5586911625220563,taxa_202:0.23459116252205625):0.6339037640510448,(taxa_575:0.04341257799232312,taxa_640:0.18241257799232313):1.433782348580778):0.025281956196743227,taxa_745:1.7709768827698444):0.7476492595010127,((taxa_331:0.4441897114487805,((taxa_14:0.650674963666662,taxa_241:0.948974963666662):0.5129424016315394,taxa_669:0.9978173652982014):0.10317234615057913):0.49961779373378423,(taxa_131:0.5322597931930086,taxa_210:1.3074597931930088):1.3245477119895561):0.7296186370882922):1.3289521185910078):0.6297300864598405,((taxa_283:0.4963833409053877,taxa_523:0.880583340905388):1.3353281416038834,taxa_348:1.0499114825092715):0.1986968648124341):0.8997828283277176,(((taxa_43:4.319546066298314,taxa_395:0.5486460662983146):0.5347704435201148,taxa_252:1.4129165098184293):0.7315109713037442,taxa_180:0.952927481122174):0.4819636945272494):1.3878228567499624,(((((taxa_373:0.3748967756567516,(taxa_404:0.16405158204544024,taxa_403:0.46305158204544017):0.7487451936113114):1.569031829963893,taxa_89:1.5861286056206447):0.8925143531250477,taxa_415:0.36544295874569244):0.46723427029929265,taxa_563:1.0010772290449852):0.09345799785260844,((taxa_50:1.7595874569345926,(taxa_606:9.619338365727259E-4,(((taxa_637:0.45776955274154013,taxa_617:0.43446955274154014):3.421393276062962,(taxa_530:0.5224630380047954,taxa_164:1.1873630380047953):1.241199790799707):0.2850606802712621,(taxa_99:0.6566005424152475,taxa_651:1.0443005424152476):1.0208229666605169):0.4899384247608083):0.24582552309801997):0.09225764604458764,(taxa_381:0.32305823956946345,(taxa_284:1.4039219173755448,taxa_379:0.7806219173755449):2.979636322193919):0.2211868634097165):0.03639012391841323):2.306778805501792):0.6944994500527519,taxa_472:3.7029134824521375):0.06211571545490813,(taxa_653:0.4051184233776275,((((taxa_622:0.14619263074401267,taxa_639:0.37429263074401264):1.4430420400029769,taxa_445:2.1409346707469896):0.04579930134630894,taxa_641:2.0731339720932986):0.7920656619150783,(taxa_645:0.4884056891467101,taxa_747:0.26110568914671006):0.1542939448616667):0.6063187893692508):4.168510774529418):9.275845326100516):2.840680763518545):15.363894123472317):7.154907871924223,((((taxa_218:0.4510696943416117,(taxa_258:0.48105875498802586,taxa_299:0.9899587549880255):0.049310939353586214):0.9957613331497361,taxa_422:0.8048310274913479):3.6269053152174893,(((taxa_543:1.5136833553678584,taxa_155:1.7594833553678584):1.0804412202736664,taxa_289:0.042924575641524854):1.8982117987234761,(taxa_49:0.5547701946324377,taxa_656:2.1858701946324377):0.6605661797325633):3.4327999683438364):5.045674622709447,(taxa_7:1.0853447215247716,taxa_456:0.21754472152477122):9.935766243893513):29.06674631750436):0.8923368727983174):2.4357278095226107):48.47263815800494,((((((taxa_265:2.683691157085659,(taxa_326:1.7027539560440292,taxa_597:1.3191539560440297):0.29133720104162997):0.03143519970526931,((((taxa_604:0.535956796710134,taxa_743:0.27105679671013405):0.5806408737517934,(taxa_167:0.273483881063056,taxa_518:2.301683881063056):2.6324137893988717):0.4238570914612083,taxa_325:1.0257547619231362):0.5040673001611866,((taxa_238:1.8191136582231264,taxa_15:0.10631365822312633):0.4655854423123382,taxa_268:0.007199100535464353):2.048822961548858):0.1887042947066062):0.9068720545181739,(((((taxa_64:0.27130641553893664,taxa_585:0.4056064155389367):0.18662365905520684,(taxa_179:0.05579242548631069,(taxa_118:0.30973833001644,taxa_62:0.79473833001644):0.1511540954698707):0.4302376491078328):1.0231587688187593,(taxa_741:1.5421603012504037,(taxa_582:1.3051657378895944,(taxa_522:0.6312846399534504,taxa_334:0.6741846399534505):0.09348109793614401):0.49599456336080916):0.9358285421624992):3.7162833992186326,((taxa_428:0.6049827984825882,taxa_321:0.8289827984825884):1.4035789016691318,(((taxa_369:0.7909086298723178,(taxa_224:1.4109576013709675,(taxa_243:0.22478097463532887,((taxa_178:1.242748321518207,taxa_21:0.6603483215182069):0.4569058566748696,(taxa_555:1.743220714539461,taxa_613:1.7642207145394608):1.0774334636536156):0.22592679644225244):1.2806766267356386):0.6510510285013504):0.6464287508345992,taxa_157:1.7268373807069173):0.6903722233760874,taxa_278:3.0974096040830044):0.3291520960687153):0.008310542479815552):0.4042531719969471,taxa_594:2.280325414628482):0.11937299668062007):20.99303255424906,(((taxa_314:0.09599005614900857,taxa_529:0.9121900561490084):6.875541188825262,(taxa_279:3.9234608109933475,(taxa_735:0.21442294049889954,taxa_600:1.6263229404988995):5.117737870494448):2.814970433980923):2.7053763535143887,taxa_505:9.512507598488659):14.033723367069502):6.539846299614801,(taxa_681:7.130025253714801,(taxa_135:6.060522622765493,((taxa_426:0.016830519652237363,(taxa_51:2.023548029266234,taxa_161:0.10474802926623372):2.205582490386004):2.446860616212314,(taxa_482:2.15331782527511,((taxa_247:0.4289188570935414,(taxa_324:1.4216371909150354,(taxa_59:0.702168685696622,taxa_571:1.990368685696622):0.6807685052184134):0.8439816661785056):0.8729841540223813,(taxa_371:1.5610073819626784,taxa_27:0.6534073819626789):0.11339562915324386):1.1454148141591878):0.5328733105894417):3.392031486900941):0.8626026309493078):23.47605201145816):12.10906975587946,((((taxa_234:1.121375692171351,taxa_407:0.7260756921713503):1.5586862988755916,(taxa_696:1.29735964894537,((taxa_473:0.7113418218212342,taxa_286:1.1433418218212343):0.7792870673862029,taxa_320:0.7167288892074373):0.2768307597379329):2.880002342101572):4.097725573209285,((taxa_103:1.6537850701818395,taxa_703:0.9574850701818396):0.792605964672858,(((taxa_672:0.16426304181955143,taxa_309:0.7581630418195515):2.210927126038098,taxa_476:4.113490167857649):0.005124368391411949,((((((taxa_542:0.7436101170194762,taxa_138:0.5189101170194763):0.5151104156069275,taxa_620:0.007820532626403587):0.9248583492642912,(taxa_298:0.32084691798167775,(taxa_719:0.25536744448357984,taxa_365:0.5789674444835797):0.8477794734980981):0.0691319639090171):0.23386705305671374,(((taxa_569:0.4298600876903311,taxa_443:0.4622600876903311):0.40264283229096787,taxa_549:0.8276029199812989):1.0382941212361025,(taxa_489:0.25387165403970613,taxa_521:0.40067165403970595):0.5269253871776955):1.0214488937300072):0.14195019360485528,(((taxa_470:0.613686798757779,(taxa_394:1.9199694418651316,(taxa_437:0.05782400932080245,taxa_318:0.7824240093208024):0.22954543254432913):0.22781735689264737):0.06905223316054965,(taxa_487:1.0746118964113736,taxa_469:0.9057118964113735):0.09442713550695503):0.08082936456863843,(taxa_186:1.084162634468076,taxa_259:2.174662634468076):0.1657057620188911):1.327027732065297):0.6678864471605923,((taxa_386:1.0667179760714922,taxa_499:0.8864179760714923):0.14564981598234983,taxa_184:1.2454677920538422):0.28971478365901415):0.30913196053620506):0.16497649860563612):5.51309652940153):6.05645876789718,((((((taxa_54:0.0548963186652206,(taxa_671:0.789131980455097,taxa_692:0.253231980455097):0.19966433821012364):1.6401486171211461,taxa_82:0.27864493578636695):0.13493431155494173,taxa_76:0.6437792473413086):1.0522240092732411,taxa_305:0.41260325661454944):0.14981882600649676,(taxa_282:0.0614308088223825,taxa_174:1.4166308088223827):1.2362912737986638):10.248445904474986,(((taxa_399:0.37097284430516275,(taxa_463:0.259075628064249,taxa_16:0.488675628064249):3.603197216240914):3.8451625443037374,((taxa_587:1.384079822832951,(taxa_595:2.213759628826235,taxa_619:2.231159628826235):0.10242019400671598):1.2175342972830796,(taxa_281:1.0827216300981921,(taxa_304:0.42293906072537624,(((taxa_609:0.2864169438836208,taxa_668:0.5062169438836208):0.4496843784010154,taxa_108:0.3673013222846362):1.5026226303956447,taxa_467:1.629723952680281):0.8713151080450952):0.1816825693728159):2.5452924900178386):2.4933212684928696):0.8634750777448748,(((((((taxa_123:0.15682506740076363,taxa_195:0.2216250674007636):1.1707955515946136,taxa_490:1.004520618995377):0.45559039591826256,(((taxa_273:2.062306264907333,((taxa_13:0.8655465048023094,taxa_205:1.3054465048023096):1.5480540473171223,(taxa_328:0.15344952171508108,taxa_574:0.5914495217150808):0.9129510304043507):0.10380571278790107):0.02801031018559552,taxa_423:1.3963165750929285):0.2124720943870928,taxa_332:1.4618886694800208):0.2678223454336184):0.6924291171323729,((taxa_222:1.0231464967907877,taxa_185:2.2299464967907876):1.3922971425592934,((taxa_481:0.4182644595433058,taxa_688:0.2639644595433057):2.6188889153856882,(taxa_616:0.26861008231784034,(((((taxa_581:0.007639783192834759,taxa_303:1.912639783192835):0.4717764441884822,taxa_183:0.2794162273813172):0.7211092508334707,taxa_732:0.9959254782147879):0.44808401315760715,taxa_536:0.655009491372395):0.3668254164565887,taxa_329:0.2673349078289835):0.041675174488856825):1.5070432926111534):0.5159902644210872):0.09229649269593132):0.5242739474850442,((((taxa_446:0.3606482784270155,((taxa_558:0.5295007847190014,taxa_480:0.2849007847190015):1.1108540939037048,taxa_687:0.7726548786227063):0.46069339980430923):0.9333614516911002,(taxa_223:0.7097300528939745,taxa_361:0.06393005289397458):0.15327967722414115):1.3430077165564596,(taxa_232:0.9490616694909058,((taxa_720:1.441863057066926,taxa_352:0.17366305706692575):0.43395521867195175,((taxa_191:1.0133916694255305,((taxa_658:0.5139708058920776,taxa_274:0.9181708058920774):0.05385152574620866,(taxa_516:0.35993079474007406,(((taxa_733:0.6356760079363133,taxa_168:0.13537600793631333):0.41123896490208023,taxa_212:1.0045149728383935):0.03860732292928115,taxa_608:0.37192229576767466):1.9421084989723993):0.126591536898212):0.4101693377872446):0.3407684702592846,taxa_316:0.35836013968481506):0.4825581360540623):0.6148433937520279):0.26155577718366985):0.07432740418520378,(((taxa_57:0.7218554557446213,taxa_573:0.8745554557446216):0.12383534590088008,taxa_206:2.1890908016455013):0.23599975299575604,(taxa_113:0.8244635333911887,((((taxa_351:0.3868535003265017,taxa_127:0.004153500326501636):0.8112739481879987,((taxa_330:0.37549991778172487,taxa_239:0.585999917781725):0.3519124574355139,((taxa_53:1.5143756847311118,(taxa_731:1.7324941428860625,taxa_60:0.2839941428860624):0.4364815418450494):0.09066064965009124,(taxa_589:1.60019552038451,taxa_47:1.67419552038451):0.07794081399669306):0.26097604083603576):0.3493150732972614):1.0570146013267796,((taxa_475:2.420337422424913,taxa_508:0.27673742242491306):0.2316032167560511,(taxa_465:0.5649208065925864,(taxa_345:2.253080257633545,taxa_217:1.049280257633545):0.40994054895904153):0.6668198325883776):0.6234014106603158):0.2105642119269584,taxa_276:2.664706261768238):0.7769572716229503):0.347027021250069):0.1733542962185215):1.7937692286712776):1.6326630877164403,taxa_18:4.396877167247497):0.15726920922315735,taxa_317:4.349346376470654):0.6238640898831207):4.319657520742258):2.7594783450573743):29.929300688899016):47.94051310219609):2.2082240093811407):87.71510371200306,(((taxa_560:0.36878248781333856,taxa_147:0.07888248781333917):1.0442060986225705,(taxa_17:0.1446861374646211,(taxa_355:1.3238002120051076,taxa_430:0.07860021200510747):0.1726859254595139):1.073202448971288):26.118934582365824,(taxa_367:1.8921801494819137,(taxa_652:0.01760698651936199,(((taxa_28:0.15782939371300975,(taxa_353:1.6918666226522583,taxa_605:0.6674666226522583):0.5996627710607516):0.30023306656867366,(taxa_214:0.9609882919096748,(taxa_697:0.6400962876367275,taxa_659:0.10999628763672753):0.32629200427294736):0.8772741683720087):1.551419992495859,(taxa_8:1.5744644045290608,(taxa_177:0.21587851128113655,((taxa_607:0.37881669070678836,taxa_229:0.8508166907067883):1.6992522037432807,taxa_663:0.624068894450069):0.8006096168310677):0.010685893247924128):0.9588180482484816):0.37222453374181974):1.1277731629625514):25.577043019319824):153.13116467583097):28.914754445820734,((((((taxa_122:0.21469656937721826,(taxa_389:1.7916302946213136,(taxa_370:1.0870240343678232,taxa_111:2.182524034367823):1.2806062602534904):0.0821662747559051):5.889494177971453,(taxa_744:1.290679417732008,((taxa_712:0.3363010728785176,(taxa_171:1.2912865236426883,taxa_690:1.3092865236426885):0.024314549235829208):0.9987058938821294,((taxa_263:0.4152112557123604,taxa_493:1.5172112557123603):1.1731802957162851,taxa_194:0.022891551428645407):0.33781541533200166):1.1478724509713611):4.769211329616663):2.1175646017462046,(((taxa_291:0.2811784168661342,taxa_705:0.28877841686613426):2.719833434052396,taxa_444:3.0832118509185307):3.590513008587755,(taxa_41:1.5397378140912288,(taxa_517:0.28771717942043784,(taxa_449:0.4991271322169638,taxa_146:0.5569271322169639):0.8731900472034739):0.32872063467079093):8.351787045415056):1.8119304895885904):3.6368735681429882,((((taxa_112:0.10259875400748886,(taxa_425:0.44999403064171495,((taxa_462:0.6935562082712339,taxa_340:0.1651562082712339):0.01571297379656178,taxa_246:1.0357691820677957):0.2507248485739193):0.5214047233657739):3.300302002080583,(((taxa_213:1.0036393803310024,(taxa_148:1.150833283626071,taxa_12:1.2439332836260713):0.14800609670493126):0.018364450320161874,(taxa_137:0.4993002382036552,taxa_55:0.5169002382036552):0.35190359244750913):1.9842905892056788,taxa_129:1.170594419856843):2.466906336231229):1.393175470757222,((((taxa_700:0.2278779767204986,taxa_140:1.4476779767204984):0.2030512541485585,((taxa_85:0.6440738097695458,((taxa_20:0.6683831621641001,taxa_36:0.9849831621641001):1.2289980198761414,((taxa_439:0.01538911993693759,(taxa_678:0.8416478910377303,(taxa_485:0.1686274060612103,taxa_626:1.2714274060612105):0.15802048497651988):0.6891412288992071):0.5955597781049464,(((taxa_78:1.1144484917334292,taxa_98:0.4694484917334292):1.1740202004949183,((taxa_300:1.8306247022286186,(taxa_514:0.4185352110795777,(taxa_634:1.1301549842329197,(taxa_704:0.1421179620823243,taxa_392:0.06121796208232433):0.7389370221505953):0.17918022684665802):0.12318949114904099):0.03339595098760295,taxa_374:0.9202206532162216):0.010448039012125765):0.5164165906400542,(taxa_3:0.6108910782063153,taxa_117:0.28559107820631535):0.1170942046620862):0.2689636151734822):0.6113322839983577):0.1307926277293041):0.1526318901727377,((taxa_203:0.029267814178102647,taxa_237:0.8230678141781025):0.013296333919264214,taxa_196:1.5699641480973665):1.6182415518449167):0.5240235309267733):0.4715108077544743,((taxa_397:0.27535049113212073,taxa_625:2.114650491132121):1.2808235035727589,(taxa_559:0.5410145678764877,((taxa_576:1.6489037343565403,taxa_566:1.7386037343565404):1.0132647673031605,(taxa_586:1.425033461808792,(taxa_393:1.974102498368119,taxa_388:0.3273024983681192):0.372830963440673):0.007935039850908598):1.9364460662167868):0.28295942682839215):0.07896604391865125):0.9227650783544439,(taxa_583:0.10893488975450971,taxa_322:0.9214348897545097):1.661970227223465):1.176471109867319):2.7575578248367316,((((taxa_2:0.02250357996236363,taxa_256:0.4035035799623635):2.742419937084394,taxa_219:0.2070235170467578):2.4399200754996415,(((taxa_464:0.9204674125729544,taxa_419:0.09826741257295435):0.3559982203812231,((taxa_730:0.1576633971351633,taxa_528:0.7965633971351631):2.0755459192578734,(taxa_266:0.2554473360696141,taxa_271:0.2670473360696137):0.1927619803234224):0.4546563165611408):0.5344413480673893,(taxa_24:0.7791926167607173,((taxa_424:0.21866009065692227,taxa_245:1.1927600906569222):0.879669742318844,(((taxa_725:1.303598159842123,(taxa_72:4.379178242943649E-4,taxa_670:1.0602379178242944):0.14906024201782841):0.07377976275696185,(taxa_396:0.8216262373384778,taxa_460:0.4877262373384778):0.5922516852606069):0.47188471287913436,taxa_628:0.43586263547821913):1.2991671974975472):1.6163627837849512):0.5915143642608491):0.9030366115248327):2.905958289185624,(((taxa_227:1.4841650361481489,((taxa_405:0.9510612692120683,taxa_154:0.49556126921206833):1.1750847393238688,taxa_275:0.3053460085359372):2.5796190276122117):1.4776092477937182,(((taxa_383:1.954549858773084,taxa_242:0.666649858773084):0.4200114935214283,taxa_414:0.6673613522945123):1.0677421092327801,(taxa_540:1.9868965781681567,(taxa_372:0.16445873119185217,taxa_166:1.4246587311918524):0.26553784697630434):0.7852068833591357):2.7969708224145746):1.2910466167139854,((taxa_717:0.16828775994346934,((taxa_169:0.42802439965156247,taxa_633:0.15372439965156248):2.238736483846864,((taxa_702:0.34625454542681977,(taxa_675:0.2097849872642117,(taxa_170:1.0230930810522858,(taxa_657:0.5962734200173072,taxa_433:0.5664734200173072):0.3986196610349786):0.03279190621192596):0.0173695581626081):0.9624510920679596,taxa_501:0.5650056374947796):1.346455246003647):0.6406268764450425):2.9297064221699314,(taxa_96:2.739276066498646,((((taxa_254:0.12056686087520063,(taxa_10:2.1679941630495714,taxa_149:0.5852941630495714):0.016972697825629268):0.3931849581104103,(taxa_80:0.41874687602176763,taxa_152:0.18994687602176707):0.16760494296384376):0.5997853119138359,((taxa_724:0.4403514243295692,taxa_368:0.37505142432956917):4.6341630994452,taxa_535:0.38711452377476885):0.5729226071246778):0.7833535108156182,taxa_193:1.9031906417150655):0.654485424783581):0.03461811561475425):0.33892671854245204):1.6628809810761709):0.7421321699500023):6.090294865555839):7.4190209930702125,((((((taxa_356:0.9939028283936144,taxa_380:1.3120028283936147):0.9800166046400927,(taxa_736:0.58872043314134,((taxa_92:0.22933012158801258,taxa_667:0.07393012158801238):0.10560338762959454,(taxa_23:1.2776623917482857,taxa_494:0.8402623917482854):0.2734711174693212):0.06928692392373303):0.2268989998923674):1.957066342999414,((((((taxa_677:1.2580487982576782,((taxa_37:0.786993384280994,((taxa_614:0.08256751186633848,(taxa_83:0.11077080984790288,taxa_1:0.019870809847902904):0.6318967020184357):0.7141441792722305,taxa_648:0.26791169113856905):0.9284816931424249):0.37768061581996903,((taxa_336:0.12190108015257262,(taxa_165:0.4748798917263966,taxa_603:0.15777989172639661):0.4129211884261761):0.9129632428786261,taxa_562:0.07406432303119859):1.1909096770697642):0.010774798156715004):0.3435265461674666,taxa_420:0.7515753444251447):0.21334175930226706,(taxa_599:0.6482636050763215,(taxa_42:2.094140667939803,(((taxa_75:1.1024927282095975,taxa_454:1.0034927282095976):0.2520907326607287,(taxa_156:0.29142597295566397,taxa_209:0.707425972955664):0.31735748791466234):0.30892506737841385,taxa_360:1.43570852824874):0.46173213969106297):1.2111229371365186):0.61595349865109):0.1798010685880831,taxa_264:1.1611181723154949):0.14864387728234352,taxa_197:1.7528620495978382):0.3248140423712078,taxa_584:1.749376091969046):2.764909684064075):3.789573136674697,(((taxa_408:0.27980457888528365,(taxa_427:1.5920097174556562,taxa_44:0.46860971745565605):1.1928948614296275):0.1387508052357136,taxa_363:1.1003553841209972):5.037963288158291,((((taxa_434:0.5338033297262967,(taxa_738:0.5552829829631256,taxa_376:1.2900829829631255):1.8106203467631716):0.10126532841976044,taxa_142:0.42326865814605785):0.9799749667095483,taxa_674:1.5772436248556057):2.7723424885530425,((taxa_647:1.9566566043376574,taxa_495:0.2920566043376578):1.0551050180569232,taxa_189:1.153161622394581):2.7530244910140675):0.4263325588706408):2.201940240428529):9.606458369347282,(((((taxa_630:0.044737708316832325,taxa_624:0.4566377083168325):0.385427279466394,((taxa_162:0.14583160887626717,taxa_442:0.23963160887626717):3.514679556682374,(((taxa_130:0.00397050319455472,taxa_526:0.4016705031945549):0.16280738899591718,taxa_88:0.047977892190472105):2.724413991250865,taxa_709:1.1058918834413372):0.08821928211730423):1.2782538222245847):2.5640214460293285,(((((((taxa_435:0.7439305895514272,(taxa_440:0.20948077604318316,taxa_126:1.3341807760431832):0.32174981350824416):2.3923195783236544,((taxa_391:0.6158246522459114,(taxa_502:0.7028172561269412,taxa_255:1.0182172561269414):0.2870073961189701):1.5586607967955373,taxa_151:0.1805854490414487):0.3168647188336333):0.026694046938533056,taxa_235:1.890444214813615):0.37765837945307545,(taxa_385:0.10147912436703876,taxa_4:0.032979124367039425):0.15852346989965138):1.0694553287610482,((taxa_728:1.4720043374460436,(((((taxa_515:0.910220471159126,(taxa_478:0.375414426637691,taxa_538:0.10191442663769101):0.35970604452143495):0.2667735569253933,(taxa_680:0.4113815382624515,taxa_684:0.31698153826245146):0.7972124898220677):1.8324264278912539,(taxa_461:0.19125991252942143,((taxa_568:1.0641203466815765,taxa_228:0.23932034668157653):0.08836002434552181,taxa_63:1.1904803710270984):0.31237954150232294):0.3200605434463517):0.2793782515264662,taxa_498:0.20109870750223946):0.4096364894775939,(taxa_474:0.04889377568346287,taxa_9:0.03929377568346304):0.43774142129637017):1.4086691404662104):0.06959941073540321,(((taxa_596:1.9562316331227996,taxa_354:0.4878316331227994):1.0625478323919118,taxa_654:1.3217794655147115):0.12455510363094113,(((taxa_145:0.25662899181374277,taxa_649:0.2272289918137429):0.7205601274770483,(taxa_698:0.015789670323282046,taxa_251:0.047689670323282085):2.092099448967509):0.9620896618122199,(taxa_100:1.557933542782117,taxa_188:0.24183354278211722):1.167845238320894):1.2756557880426413):0.15046917903579438):0.37955417484629184):0.5013453428629813,taxa_285:2.77440326589072):0.71870235917467,(taxa_207:1.0332155218353174,(taxa_506:0.11499444850175244,taxa_450:2.098894448501752):1.192221073333565):1.1089901032300729):1.1003808087471647):3.9946263699362117,(((taxa_711:0.49471329871694447,((taxa_25:1.5866655514891628,taxa_694:2.4854655514891624):0.2713041081748484,taxa_548:0.33096965966401104):0.1975436390529337):0.5536201374933958,taxa_468:0.46453343621034016):0.4961488306865274,taxa_221:0.7010822668968677):6.277630536851898):3.6876353327372122,(((((taxa_441:0.33858990432836267,taxa_737:0.2415899043283627):1.6485029631172434,taxa_364:0.2553928674456065):0.05311951593619213,(taxa_400:0.9627941278599341,taxa_455:0.6339941278599341):1.4330182555218642):1.3088181586044723,(taxa_553:0.8481515163435676,taxa_187:0.43805151634356765):1.7107790256427031):5.260211276200051,(taxa_411:0.9692512812894902,(taxa_272:0.6448461804637358,((taxa_144:0.12916402852214048,taxa_716:0.5504640285221405):1.7533362900010374,(taxa_413:1.3386558591362498,(taxa_512:0.9591211546592588,taxa_220:1.177421154659259):0.4560347044769908):0.1743444593869281):0.470745861940558):0.7866051008257546):5.400190536896831):4.700906318299657):5.168369145569121):2.292882529002533,(taxa_125:3.6769913925892466,(taxa_287:1.1763397921190641,taxa_714:3.0133397921190643):4.376951600470182):14.455008418468386):0.4148500992504438):18.93705059192093,(((((taxa_132:0.18100005432956,(((taxa_160:1.624631273028914,(taxa_244:2.165223808532691,taxa_46:0.8883238085326912):0.5307074644962229):0.5576081455276891,(taxa_68:0.7253001943641468,taxa_638:0.2549001943641467):0.9336392241924565):0.14458961961312689,(taxa_378:1.6033697965447304,taxa_691:0.05216979654473031):0.29185924162499965):0.1859710161598298):3.3281923294747386,taxa_175:3.7922923838042983):1.3540876644316713,(taxa_650:0.04789356391426658,((taxa_48:0.6688061922672803,taxa_358:0.1108061922672805):0.09820126106102478,taxa_665:0.4878074533283052):1.0867861105859609):3.9770864843217035):1.7367949051452687,(((((taxa_632:2.84623249005052,(taxa_679:1.6640258981108176,taxa_105:0.9944258981108174):0.3411065919397025):0.8844841517593762,taxa_267:0.2679166418098964):0.04631815439223441,(taxa_390:1.4080880068186254,((taxa_655:0.6591201287027006,((taxa_660:0.27960582197070716,(taxa_458:0.125673348054691,((((taxa_292:0.9732014688473922,taxa_452:0.30270146884739224):0.35583983659188956,taxa_457:0.04074130543928178):0.011412122543553727,taxa_610:1.6223534279828355):0.09300926664276865,taxa_418:0.2630626946256043):0.20491065342908676):1.1046324739160163):0.15597712030110333,taxa_524:0.43578294227181047):0.9677371864308899):0.07018807770110058,((taxa_707:1.4882784431096225,taxa_172:1.0018784431096226):1.1091957370469299,taxa_685:0.7171741801565523):1.0831340262472486):0.16827980041482427):0.5111467893835053):0.35725550588767074,((taxa_150:0.32286025015244113,taxa_159:1.440560250152441):0.7809477982051305,taxa_349:0.5984080483575716):2.87298225373223):1.4418325073311342,(((taxa_153:1.2296937131926349,((((taxa_94:0.4943016607412525,(taxa_357:2.9382498133605672,taxa_554:0.5362498133605671):0.6755518473806852):0.3746360268068938,(taxa_133:0.5440412153881153,taxa_39:1.8874412153881153):1.9788964721600308):0.08617225878705081,taxa_401:0.7329099463351971):0.23683558328070475,taxa_598:1.9862455296159016):0.8650481835767332):0.9981599296432693,taxa_32:1.283953642835904):0.011675871575035579,(((taxa_721:0.2748486203410061,((taxa_511:0.02865717581706706,taxa_701:0.32735717581706725):0.20697799373089953,taxa_479:0.4027351695479666):0.023113450793039725):0.48788304131413884,taxa_471:0.31903166165514474):1.0687573491453595,taxa_503:0.9211890108005045):0.4117405036104351):0.5228932950099958):3.817752143960303):31.887465485351953,(((taxa_519:8.93051270202968,taxa_73:5.91271270202968):5.207872681108579,(((taxa_500:2.6019220472993085,((taxa_742:0.0014246855812203307,taxa_438:1.5844246855812205):0.5475040820554131,(((taxa_109:1.6506132195645606,taxa_578:1.4805132195645605):0.7634901450274496,((taxa_79:1.0032926416657735,taxa_22:0.8308926416657734):0.8141290593097135,taxa_362:0.6995217009754868):0.16038166361652317):0.8434689780952072,((taxa_629:0.3234279113365415,((taxa_335:0.8257357836567549,taxa_740:0.07333578365675475):0.41158335386206524,taxa_664:0.040119137518820125):0.10350877381772117):0.9176303662483067,(taxa_416:1.3817418513198945,(taxa_31:0.3583883082397832,taxa_134:0.6185883082397832):0.39245354308011127):1.7154164262649536):0.6173140651023692):0.7783564249494166):2.2432932796626748):0.034821830189633474,(taxa_313:0.011911863908461662,(((taxa_38:0.37878897310922754,taxa_567:0.3289889731092277):0.6364768341186906,taxa_35:0.14026580722791815):0.06615398592986033,taxa_451:0.5809197931577783):0.3638920707506834):2.8718320135804802):0.04544590398354398,((taxa_527:0.17712252892594993,((taxa_682:1.0858489139834655,taxa_67:0.2128489139834655):0.4942596987395804,((taxa_350:0.7438837392584488,taxa_722:0.7186837392584488):0.21372294688968319,(taxa_91:0.3356854856441073,taxa_5:0.7249854856441073):0.028821200504024702):0.909501926574914):3.2240139162029036):1.3603749512471923,(((taxa_387:2.3608235351366913,(taxa_182:1.2888639176533951,(taxa_580:0.4466678066435199,(taxa_71:0.0365686057986514,taxa_139:1.0324686057986514):0.2541992008448686):0.5027961110098751):0.5790596174832965):1.2541765829395297,(taxa_87:0.0850658125484598,(taxa_683:0.3964093080698663,taxa_713:0.9827093080698663):0.8819565044785933):0.31633430552776165):2.037804648865764,(taxa_615:0.06841239826213652,((taxa_592:0.019832558405448175,taxa_570:0.06553255840544825):0.08639715839173778,taxa_337:3.425129716797186):0.29938268146495073):1.5549923686798488):0.13649271323115642):0.7469923012993442):7.368195601665773):2.2847848757797724,(((taxa_231:4.314970974544348,(taxa_666:1.6412009032951298,taxa_269:0.4028009032951294):3.776770071249218):2.3777777015160755,((taxa_319:0.37771921493890837,taxa_533:2.039719214938908):2.5179793920686038,taxa_447:3.485298607007512):3.5866500690529115):1.3544164321742596,taxa_288:8.727765108234683):4.137705150683349):25.54027017981516):0.03426006349581456):171.24694178822443):0.0;">
+		<typeTrait idref='typeTraitSet'/>
+		<trait idref='timeTraitSet'/>
+	</tree>
+
+   <migrationModelVolz spec='MigrationModelVolz' nTypes="10" id='migModel'>
+     <rateMatrix spec='RealParameter' value="1.0" dimension="90" id="rateMatrix"/>
+     <popSizes spec='RealParameter' value="1.0" dimension="10" id="popSizes"/>
+   </migrationModelVolz>
+
+   <input spec="StructuredCoalescentTreeDensityVolz" id="treePrior">
+    <multiTypeTreeVolz idref="tree"/>
+    <migrationModelVolz idref="migModel"/>
+   </input>
+
+    <run id="mcmc" spec="MCMC" chainLength="30000">
+        <!-- <init spec="basta.evolution.tree.StructuredCoalescentMultiTypeTreeVolz" id="tree">
+            <migrationModelVolz spec="basta.evolution.tree.MigrationModelVolz" nTypes="6">
+                <rateMatrix spec="RealParameter" value="1.0" dimension="30"/>
+                <popSizes spec="RealParameter" value="1.0" dimension="6"/>
+            </migrationModelVolz>
+        <trait idref="typeTraitSet"/>
+        <trait idref="timeTraitSet"/>
+        </init> -->
+        <state id="state" spec="State" storeEvery="5000">
+            <stateNode idref="tree"/>
+            <parameter id="clockRate.c:output" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="rateAC.s:output" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateAG.s:output" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateAT.s:output" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateCG.s:output" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rateGT.s:output" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="freqParameter.s:output" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+            <parameter id="gammaShape.s:output" spec="parameter.RealParameter" name="stateNode">0.5</parameter>
+            <stateNode idref="rateMatrix"/>
+            <stateNode idref="popSizes"/>
+        </state>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <!-- <prior id="ClockPrior.c:output" name="distribution" x="@clockRate.c:output">
+                    <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="FrequenciesPrior.s:output" name="distribution" x="@freqParameter.s:output">
+                    <distr id="Dirichlet.0" spec="distribution.Dirichlet">
+                        <parameter id="RealParameter.16" spec="parameter.RealParameter" dimension="4" estimate="false" name="alpha">4.0 4.0 4.0 4.0</parameter>
+                    </distr>
+                </prior>
+                <prior id="GammaShapePrior.s:output" name="distribution" x="@gammaShape.s:output">
+                    <Exponential id="Exponential.1" name="distr">
+                        <parameter id="RealParameter.21" spec="parameter.RealParameter" estimate="false" name="mean">0.5</parameter>
+                    </Exponential>
+                </prior>
+                <prior id="RateACPrior.s:output" name="distribution" x="@rateAC.s:output">
+                    <Gamma id="Gamma.0" name="distr">
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateAGPrior.s:output" name="distribution" x="@rateAG.s:output">
+                    <Gamma id="Gamma.1" name="distr">
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateATPrior.s:output" name="distribution" x="@rateAT.s:output">
+                    <Gamma id="Gamma.2" name="distr">
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.9" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateCGPrior.s:output" name="distribution" x="@rateCG.s:output">
+                    <Gamma id="Gamma.3" name="distr">
+                        <parameter id="RealParameter.10" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="RateGTPrior.s:output" name="distribution" x="@rateGT.s:output">
+                    <Gamma id="Gamma.5" name="distr">
+                        <parameter id="RealParameter.14" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                        <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    </Gamma>
+                </prior> -->
+                <prior id="popSizesPrior.t:output" name="distribution" x="@popSizes">
+                    <Gamma id="Gamma.1" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.001</parameter>
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">1000.0</parameter>
+                    </Gamma>
+                </prior>
+                <!-- <prior id="popSizesPrior.t:output" name="distribution" x="@popSizes">
+                    <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="M">3</parameter>
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.25</parameter>
+                    </LogNormal>
+                </prior> -->
+
+
+                <prior id="rateMatrixPrior.t:output" name="distribution" x="@rateMatrix">
+                    <Exponential id="Exponential.1" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="mean">2</parameter>
+                    </Exponential>
+                </prior>
+
+            </distribution>
+            <distribution idref="treePrior"/>
+           <distribution id="likelihood" spec="CompoundDistribution">
+                <distribution id="treeLikelihood.alignment1" spec="ThreadedTreeLikelihood" data="@alignment1" tree="@tree">
+                    <siteModel id="SiteModel.s:output" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:output">
+                        <parameter id="mutationRate.s:output" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                        <parameter id="proportionInvariant.s:output" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="gtr.s:output" spec="GTR" rateAC="@rateAC.s:output" rateAG="@rateAG.s:output" rateAT="@rateAT.s:output" rateCG="@rateCG.s:output" rateGT="@rateGT.s:output">
+                            <parameter id="rateCT.s:output" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                            <frequencies id="estimatedFreqs.s:output" spec="Frequencies" frequencies="@freqParameter.s:output"/>
+                        </substModel>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:output" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:output"/>
+                </distribution>
+            </distribution>
+        </distribution>
+        <!-- <operator id="gammaShapeScaler.s:output" spec="ScaleOperator" parameter="@gammaShape.s:output" scaleFactor="0.5" weight="0.1"/>
+        <operator id="StrictClockRateScaler.c:output" spec="ScaleOperator" parameter="@clockRate.c:output" weight="3.0"/>
+        <operator id="RateACScaler.s:output" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="rateAC.s:output"/>
+            <operator id="AVMNOperator.output" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                <transformations id="AVMNSumTransform.output" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+                    <f idref="freqParameter.s:output"/>
+                </transformations>
+                <transformations id="AVMNLogTransform.output" spec="operator.kernel.Transform$LogTransform">
+                    <f idref="rateAC.s:output"/>
+                    <f idref="rateAG.s:output"/>
+                    <f idref="rateAT.s:output"/>
+                    <f idref="rateCG.s:output"/>
+                    <f idref="rateGT.s:output"/>
+                </transformations>
+                <transformations id="AVMNNoTransform.output" spec="operator.kernel.Transform$NoTransform"/>
+            </operator>
+            <operator id="RateACScalerX.s:output" spec="kernel.BactrianScaleOperator" parameter="@rateAC.s:output" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="RateAGScaler.s:output" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="rateAG.s:output"/>
+            <operator idref="AVMNOperator.output"/>
+            <operator id="RateAGScalerX.s:output" spec="kernel.BactrianScaleOperator" parameter="@rateAG.s:output" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="RateATScaler.s:output" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="rateAT.s:output"/>
+            <operator idref="AVMNOperator.output"/>
+            <operator id="RateATScalerX.s:output" spec="kernel.BactrianScaleOperator" parameter="@rateAT.s:output" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="RateCGScaler.s:output" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="rateCG.s:output"/>
+            <operator idref="AVMNOperator.output"/>
+            <operator id="RateCGScalerX.s:output" spec="kernel.BactrianScaleOperator" parameter="@rateCG.s:output" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="RateGTScaler.s:output" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="rateGT.s:output"/>
+            <operator idref="AVMNOperator.output"/>
+            <operator id="RateGTScalerX.s:output" spec="kernel.BactrianScaleOperator" parameter="@rateGT.s:output" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="FrequenciesExchanger.s:output" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="freqParameter.s:output"/>
+            <operator idref="AVMNOperator.output"/>
+            <operator id="FrequenciesExchangerX.s:output" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.01" weight="0.1">
+                <parameter idref="freqParameter.s:output"/>
+            </operator>
+        </operator> -->
+        <operator spec="ScaleOperator" id="RateScaler" parameter="@rateMatrix" scaleFactor="0.75" weight="3"/>
+        <operator spec="ScaleOperator" id="PopSizeScaler" parameter="@popSizes" degreesOfFreedom="1" scaleFactor="0.75" weight="3" scaleAll="True"/>
+
+    <!-- Multi-type tree operators -->
+        <!-- <operator spec="TypedSubtreeExchangeVolz" id="STX" weight="10" multiTypeTree="@tree" migrationModel="@migModel"/>
+        <operator spec="TypedWilsonBaldingVolz" id="TWB" weight="10" multiTypeTree="@tree" migrationModel="@migModel" alpha="0.2"/>
+        <operator spec="MultiTypeUniformVolz" id="MTU" weight="10" multiTypeTree="@tree" includeRoot="true" rootScaleFactor="0.9"/>
+        <operator spec="MultiTypeTreeScaleVolz" id="MTTS2" weight="10" multiTypeTree="@tree" scaleFactor="0.98" useOldTreeScaler="true"/> -->
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.alignment1"/>
+            <log id="TreeHeight.t:alignment1" spec="beast.base.evolution.tree.TreeStatLogger" tree="@tree"/>
+            <log idref="clockRate.c:output"/>
+            <log idref="rateAC.s:output"/>
+            <log idref="rateAG.s:output"/>
+            <log idref="rateAT.s:output"/>
+            <log idref="rateCG.s:output"/>
+            <log idref="rateGT.s:output"/>
+            <log idref="freqParameter.s:output"/>
+            <log idref="gammaShape.s:output"/>
+            <log spec="TreePriorLoggerVolz" structuredCoalescentTreeDensityVolz="@treePrior"/>
+            <log spec="TreeRootTypeLoggerVolz" structuredCoalescentTreeDensityVolz="@treePrior"/>
+            <log spec="MigrationModelLoggerVolz" migrationModel="@migModel"/>
+            <log spec="MigrationCountsLoggerVolz" density="@treePrior"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:alignment1" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log idref="treePrior"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>

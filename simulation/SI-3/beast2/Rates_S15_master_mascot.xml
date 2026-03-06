@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast beautitemplate="Standard" beautistatus=""
+       namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood"
+       required="" version="2.7">
+
+    <alignment spec="beast.base.evolution.alignment.Alignment" id="alignment1" dataType="nucleotide">
+        <sequence id="seq_inv234loc_1" spec="Sequence" taxon="inv234loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv478loc_3" spec="Sequence" taxon="inv478loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv470loc_3" spec="Sequence" taxon="inv470loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv159loc_1" spec="Sequence" taxon="inv159loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv280loc_2" spec="Sequence" taxon="inv280loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv170loc_1" spec="Sequence" taxon="inv170loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv473loc_3" spec="Sequence" taxon="inv473loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv329loc_2" spec="Sequence" taxon="inv329loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv129loc_0" spec="Sequence" taxon="inv129loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv255loc_2" spec="Sequence" taxon="inv255loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv464loc_3" spec="Sequence" taxon="inv464loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv376loc_3" spec="Sequence" taxon="inv376loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv40loc_0" spec="Sequence" taxon="inv40loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv143loc_1" spec="Sequence" taxon="inv143loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv45loc_0" spec="Sequence" taxon="inv45loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv381loc_3" spec="Sequence" taxon="inv381loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv353loc_3" spec="Sequence" taxon="inv353loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv232loc_1" spec="Sequence" taxon="inv232loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv106loc_0" spec="Sequence" taxon="inv106loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv72loc_0" spec="Sequence" taxon="inv72loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv160loc_1" spec="Sequence" taxon="inv160loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv466loc_3" spec="Sequence" taxon="inv466loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv388loc_3" spec="Sequence" taxon="inv388loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv148loc_1" spec="Sequence" taxon="inv148loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv192loc_1" spec="Sequence" taxon="inv192loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv100loc_0" spec="Sequence" taxon="inv100loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv173loc_1" spec="Sequence" taxon="inv173loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv6loc_0" spec="Sequence" taxon="inv6loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv141loc_1" spec="Sequence" taxon="inv141loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv109loc_0" spec="Sequence" taxon="inv109loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv455loc_3" spec="Sequence" taxon="inv455loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv454loc_3" spec="Sequence" taxon="inv454loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv424loc_3" spec="Sequence" taxon="inv424loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv152loc_1" spec="Sequence" taxon="inv152loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv85loc_0" spec="Sequence" taxon="inv85loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv387loc_3" spec="Sequence" taxon="inv387loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv313loc_2" spec="Sequence" taxon="inv313loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv77loc_0" spec="Sequence" taxon="inv77loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv35loc_0" spec="Sequence" taxon="inv35loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv4loc_0" spec="Sequence" taxon="inv4loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv237loc_1" spec="Sequence" taxon="inv237loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv266loc_2" spec="Sequence" taxon="inv266loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv278loc_2" spec="Sequence" taxon="inv278loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv223loc_1" spec="Sequence" taxon="inv223loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv352loc_3" spec="Sequence" taxon="inv352loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv340loc_2" spec="Sequence" taxon="inv340loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv86loc_0" spec="Sequence" taxon="inv86loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv445loc_3" spec="Sequence" taxon="inv445loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv477loc_3" spec="Sequence" taxon="inv477loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv399loc_3" spec="Sequence" taxon="inv399loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv176loc_1" spec="Sequence" taxon="inv176loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv327loc_2" spec="Sequence" taxon="inv327loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv126loc_0" spec="Sequence" taxon="inv126loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv82loc_0" spec="Sequence" taxon="inv82loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv413loc_3" spec="Sequence" taxon="inv413loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv138loc_0" spec="Sequence" taxon="inv138loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv492loc_3" spec="Sequence" taxon="inv492loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv119loc_0" spec="Sequence" taxon="inv119loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv187loc_1" spec="Sequence" taxon="inv187loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv299loc_2" spec="Sequence" taxon="inv299loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv9loc_0" spec="Sequence" taxon="inv9loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv431loc_3" spec="Sequence" taxon="inv431loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv361loc_3" spec="Sequence" taxon="inv361loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv341loc_3" spec="Sequence" taxon="inv341loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv91loc_0" spec="Sequence" taxon="inv91loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv56loc_0" spec="Sequence" taxon="inv56loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv135loc_0" spec="Sequence" taxon="inv135loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv397loc_3" spec="Sequence" taxon="inv397loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv107loc_0" spec="Sequence" taxon="inv107loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv456loc_3" spec="Sequence" taxon="inv456loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv309loc_2" spec="Sequence" taxon="inv309loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv195loc_1" spec="Sequence" taxon="inv195loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv476loc_3" spec="Sequence" taxon="inv476loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv211loc_1" spec="Sequence" taxon="inv211loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv451loc_3" spec="Sequence" taxon="inv451loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv131loc_0" spec="Sequence" taxon="inv131loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv112loc_0" spec="Sequence" taxon="inv112loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv41loc_0" spec="Sequence" taxon="inv41loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv246loc_2" spec="Sequence" taxon="inv246loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv488loc_3" spec="Sequence" taxon="inv488loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv76loc_0" spec="Sequence" taxon="inv76loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv448loc_3" spec="Sequence" taxon="inv448loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv182loc_1" spec="Sequence" taxon="inv182loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv10loc_0" spec="Sequence" taxon="inv10loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv122loc_0" spec="Sequence" taxon="inv122loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv326loc_2" spec="Sequence" taxon="inv326loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv377loc_3" spec="Sequence" taxon="inv377loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv198loc_1" spec="Sequence" taxon="inv198loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv438loc_3" spec="Sequence" taxon="inv438loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv78loc_0" spec="Sequence" taxon="inv78loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv174loc_1" spec="Sequence" taxon="inv174loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv345loc_3" spec="Sequence" taxon="inv345loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv34loc_0" spec="Sequence" taxon="inv34loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv331loc_2" spec="Sequence" taxon="inv331loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv114loc_0" spec="Sequence" taxon="inv114loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv490loc_3" spec="Sequence" taxon="inv490loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv293loc_2" spec="Sequence" taxon="inv293loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv335loc_2" spec="Sequence" taxon="inv335loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv288loc_2" spec="Sequence" taxon="inv288loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv14loc_0" spec="Sequence" taxon="inv14loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv235loc_1" spec="Sequence" taxon="inv235loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv423loc_3" spec="Sequence" taxon="inv423loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv380loc_3" spec="Sequence" taxon="inv380loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv233loc_1" spec="Sequence" taxon="inv233loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv61loc_0" spec="Sequence" taxon="inv61loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv134loc_0" spec="Sequence" taxon="inv134loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv390loc_3" spec="Sequence" taxon="inv390loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv128loc_0" spec="Sequence" taxon="inv128loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv452loc_3" spec="Sequence" taxon="inv452loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv70loc_0" spec="Sequence" taxon="inv70loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv204loc_1" spec="Sequence" taxon="inv204loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv453loc_3" spec="Sequence" taxon="inv453loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv46loc_0" spec="Sequence" taxon="inv46loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv94loc_0" spec="Sequence" taxon="inv94loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv7loc_0" spec="Sequence" taxon="inv7loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv125loc_0" spec="Sequence" taxon="inv125loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv263loc_2" spec="Sequence" taxon="inv263loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv257loc_2" spec="Sequence" taxon="inv257loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv300loc_2" spec="Sequence" taxon="inv300loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv481loc_3" spec="Sequence" taxon="inv481loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv215loc_1" spec="Sequence" taxon="inv215loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv271loc_2" spec="Sequence" taxon="inv271loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv500loc_3" spec="Sequence" taxon="inv500loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv8loc_0" spec="Sequence" taxon="inv8loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv190loc_1" spec="Sequence" taxon="inv190loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv407loc_3" spec="Sequence" taxon="inv407loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv38loc_0" spec="Sequence" taxon="inv38loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv296loc_2" spec="Sequence" taxon="inv296loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv475loc_3" spec="Sequence" taxon="inv475loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv97loc_0" spec="Sequence" taxon="inv97loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv189loc_1" spec="Sequence" taxon="inv189loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv105loc_0" spec="Sequence" taxon="inv105loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv137loc_0" spec="Sequence" taxon="inv137loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv115loc_0" spec="Sequence" taxon="inv115loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv179loc_1" spec="Sequence" taxon="inv179loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv425loc_3" spec="Sequence" taxon="inv425loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv33loc_0" spec="Sequence" taxon="inv33loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv11loc_0" spec="Sequence" taxon="inv11loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv207loc_1" spec="Sequence" taxon="inv207loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv358loc_3" spec="Sequence" taxon="inv358loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv415loc_3" spec="Sequence" taxon="inv415loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv450loc_3" spec="Sequence" taxon="inv450loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv162loc_1" spec="Sequence" taxon="inv162loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv479loc_3" spec="Sequence" taxon="inv479loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv374loc_3" spec="Sequence" taxon="inv374loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv344loc_3" spec="Sequence" taxon="inv344loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv202loc_1" spec="Sequence" taxon="inv202loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv291loc_2" spec="Sequence" taxon="inv291loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv396loc_3" spec="Sequence" taxon="inv396loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv121loc_0" spec="Sequence" taxon="inv121loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv436loc_3" spec="Sequence" taxon="inv436loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv371loc_3" spec="Sequence" taxon="inv371loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv368loc_3" spec="Sequence" taxon="inv368loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv256loc_2" spec="Sequence" taxon="inv256loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv336loc_2" spec="Sequence" taxon="inv336loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv154loc_1" spec="Sequence" taxon="inv154loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv264loc_2" spec="Sequence" taxon="inv264loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv90loc_0" spec="Sequence" taxon="inv90loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv356loc_3" spec="Sequence" taxon="inv356loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv75loc_0" spec="Sequence" taxon="inv75loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv15loc_0" spec="Sequence" taxon="inv15loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv236loc_1" spec="Sequence" taxon="inv236loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv26loc_0" spec="Sequence" taxon="inv26loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv238loc_1" spec="Sequence" taxon="inv238loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv57loc_0" spec="Sequence" taxon="inv57loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv485loc_3" spec="Sequence" taxon="inv485loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv79loc_0" spec="Sequence" taxon="inv79loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv261loc_2" spec="Sequence" taxon="inv261loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv73loc_0" spec="Sequence" taxon="inv73loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv316loc_2" spec="Sequence" taxon="inv316loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv169loc_1" spec="Sequence" taxon="inv169loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv196loc_1" spec="Sequence" taxon="inv196loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv116loc_0" spec="Sequence" taxon="inv116loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv120loc_0" spec="Sequence" taxon="inv120loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv269loc_2" spec="Sequence" taxon="inv269loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv342loc_3" spec="Sequence" taxon="inv342loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv498loc_3" spec="Sequence" taxon="inv498loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv260loc_2" spec="Sequence" taxon="inv260loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv80loc_0" spec="Sequence" taxon="inv80loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv158loc_1" spec="Sequence" taxon="inv158loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv268loc_2" spec="Sequence" taxon="inv268loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv44loc_0" spec="Sequence" taxon="inv44loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv220loc_1" spec="Sequence" taxon="inv220loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv178loc_1" spec="Sequence" taxon="inv178loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv124loc_0" spec="Sequence" taxon="inv124loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv156loc_1" spec="Sequence" taxon="inv156loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv434loc_3" spec="Sequence" taxon="inv434loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv491loc_3" spec="Sequence" taxon="inv491loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv480loc_3" spec="Sequence" taxon="inv480loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv242loc_2" spec="Sequence" taxon="inv242loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv71loc_0" spec="Sequence" taxon="inv71loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv214loc_1" spec="Sequence" taxon="inv214loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv250loc_2" spec="Sequence" taxon="inv250loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv310loc_2" spec="Sequence" taxon="inv310loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv29loc_0" spec="Sequence" taxon="inv29loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv446loc_3" spec="Sequence" taxon="inv446loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv369loc_3" spec="Sequence" taxon="inv369loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv382loc_3" spec="Sequence" taxon="inv382loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv314loc_2" spec="Sequence" taxon="inv314loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv297loc_2" spec="Sequence" taxon="inv297loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv13loc_0" spec="Sequence" taxon="inv13loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv370loc_3" spec="Sequence" taxon="inv370loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv175loc_1" spec="Sequence" taxon="inv175loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv307loc_2" spec="Sequence" taxon="inv307loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv319loc_2" spec="Sequence" taxon="inv319loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv393loc_3" spec="Sequence" taxon="inv393loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv67loc_0" spec="Sequence" taxon="inv67loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv346loc_3" spec="Sequence" taxon="inv346loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv147loc_1" spec="Sequence" taxon="inv147loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv23loc_0" spec="Sequence" taxon="inv23loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv96loc_0" spec="Sequence" taxon="inv96loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv305loc_2" spec="Sequence" taxon="inv305loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv54loc_0" spec="Sequence" taxon="inv54loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv274loc_2" spec="Sequence" taxon="inv274loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv36loc_0" spec="Sequence" taxon="inv36loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv153loc_1" spec="Sequence" taxon="inv153loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv99loc_0" spec="Sequence" taxon="inv99loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv409loc_3" spec="Sequence" taxon="inv409loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv206loc_1" spec="Sequence" taxon="inv206loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv95loc_0" spec="Sequence" taxon="inv95loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv102loc_0" spec="Sequence" taxon="inv102loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv384loc_3" spec="Sequence" taxon="inv384loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv200loc_1" spec="Sequence" taxon="inv200loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv471loc_3" spec="Sequence" taxon="inv471loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv259loc_2" spec="Sequence" taxon="inv259loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv372loc_3" spec="Sequence" taxon="inv372loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv39loc_0" spec="Sequence" taxon="inv39loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv304loc_2" spec="Sequence" taxon="inv304loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv362loc_3" spec="Sequence" taxon="inv362loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv43loc_0" spec="Sequence" taxon="inv43loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv270loc_2" spec="Sequence" taxon="inv270loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv337loc_2" spec="Sequence" taxon="inv337loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv317loc_2" spec="Sequence" taxon="inv317loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv400loc_3" spec="Sequence" taxon="inv400loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv249loc_2" spec="Sequence" taxon="inv249loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv285loc_2" spec="Sequence" taxon="inv285loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv383loc_3" spec="Sequence" taxon="inv383loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv416loc_3" spec="Sequence" taxon="inv416loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv435loc_3" spec="Sequence" taxon="inv435loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv52loc_0" spec="Sequence" taxon="inv52loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv267loc_2" spec="Sequence" taxon="inv267loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv149loc_1" spec="Sequence" taxon="inv149loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv25loc_0" spec="Sequence" taxon="inv25loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv146loc_1" spec="Sequence" taxon="inv146loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv118loc_0" spec="Sequence" taxon="inv118loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv458loc_3" spec="Sequence" taxon="inv458loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv161loc_1" spec="Sequence" taxon="inv161loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv484loc_3" spec="Sequence" taxon="inv484loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv287loc_2" spec="Sequence" taxon="inv287loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv65loc_0" spec="Sequence" taxon="inv65loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv449loc_3" spec="Sequence" taxon="inv449loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv315loc_2" spec="Sequence" taxon="inv315loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv171loc_1" spec="Sequence" taxon="inv171loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv439loc_3" spec="Sequence" taxon="inv439loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv273loc_2" spec="Sequence" taxon="inv273loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv92loc_0" spec="Sequence" taxon="inv92loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv167loc_1" spec="Sequence" taxon="inv167loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv3loc_0" spec="Sequence" taxon="inv3loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv318loc_2" spec="Sequence" taxon="inv318loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv151loc_1" spec="Sequence" taxon="inv151loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv463loc_3" spec="Sequence" taxon="inv463loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv241loc_2" spec="Sequence" taxon="inv241loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv322loc_2" spec="Sequence" taxon="inv322loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv333loc_2" spec="Sequence" taxon="inv333loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv348loc_3" spec="Sequence" taxon="inv348loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv414loc_3" spec="Sequence" taxon="inv414loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv321loc_2" spec="Sequence" taxon="inv321loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv469loc_3" spec="Sequence" taxon="inv469loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv359loc_3" spec="Sequence" taxon="inv359loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv19loc_0" spec="Sequence" taxon="inv19loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv444loc_3" spec="Sequence" taxon="inv444loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv279loc_2" spec="Sequence" taxon="inv279loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv389loc_3" spec="Sequence" taxon="inv389loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv191loc_1" spec="Sequence" taxon="inv191loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv47loc_0" spec="Sequence" taxon="inv47loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv17loc_0" spec="Sequence" taxon="inv17loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv320loc_2" spec="Sequence" taxon="inv320loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv441loc_3" spec="Sequence" taxon="inv441loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv230loc_1" spec="Sequence" taxon="inv230loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv217loc_1" spec="Sequence" taxon="inv217loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv258loc_2" spec="Sequence" taxon="inv258loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv251loc_2" spec="Sequence" taxon="inv251loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv457loc_3" spec="Sequence" taxon="inv457loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv62loc_0" spec="Sequence" taxon="inv62loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv12loc_0" spec="Sequence" taxon="inv12loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv27loc_0" spec="Sequence" taxon="inv27loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv88loc_0" spec="Sequence" taxon="inv88loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv22loc_0" spec="Sequence" taxon="inv22loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv197loc_1" spec="Sequence" taxon="inv197loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv306loc_2" spec="Sequence" taxon="inv306loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv398loc_3" spec="Sequence" taxon="inv398loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv323loc_2" spec="Sequence" taxon="inv323loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv74loc_0" spec="Sequence" taxon="inv74loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv332loc_2" spec="Sequence" taxon="inv332loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv272loc_2" spec="Sequence" taxon="inv272loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv184loc_1" spec="Sequence" taxon="inv184loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv59loc_0" spec="Sequence" taxon="inv59loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv385loc_3" spec="Sequence" taxon="inv385loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv89loc_0" spec="Sequence" taxon="inv89loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv93loc_0" spec="Sequence" taxon="inv93loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv467loc_3" spec="Sequence" taxon="inv467loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv420loc_3" spec="Sequence" taxon="inv420loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv194loc_1" spec="Sequence" taxon="inv194loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv245loc_2" spec="Sequence" taxon="inv245loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv201loc_1" spec="Sequence" taxon="inv201loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv225loc_1" spec="Sequence" taxon="inv225loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv275loc_2" spec="Sequence" taxon="inv275loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv437loc_3" spec="Sequence" taxon="inv437loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv28loc_0" spec="Sequence" taxon="inv28loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv218loc_1" spec="Sequence" taxon="inv218loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv5loc_0" spec="Sequence" taxon="inv5loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv495loc_3" spec="Sequence" taxon="inv495loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv132loc_0" spec="Sequence" taxon="inv132loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv366loc_3" spec="Sequence" taxon="inv366loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv139loc_0" spec="Sequence" taxon="inv139loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv42loc_0" spec="Sequence" taxon="inv42loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv402loc_3" spec="Sequence" taxon="inv402loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv240loc_1" spec="Sequence" taxon="inv240loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv157loc_1" spec="Sequence" taxon="inv157loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv404loc_3" spec="Sequence" taxon="inv404loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv386loc_3" spec="Sequence" taxon="inv386loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv301loc_2" spec="Sequence" taxon="inv301loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv48loc_0" spec="Sequence" taxon="inv48loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv334loc_2" spec="Sequence" taxon="inv334loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv30loc_0" spec="Sequence" taxon="inv30loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv108loc_0" spec="Sequence" taxon="inv108loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv226loc_1" spec="Sequence" taxon="inv226loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv227loc_1" spec="Sequence" taxon="inv227loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv298loc_2" spec="Sequence" taxon="inv298loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv355loc_3" spec="Sequence" taxon="inv355loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv203loc_1" spec="Sequence" taxon="inv203loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv461loc_3" spec="Sequence" taxon="inv461loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv378loc_3" spec="Sequence" taxon="inv378loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv183loc_1" spec="Sequence" taxon="inv183loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv349loc_3" spec="Sequence" taxon="inv349loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv18loc_0" spec="Sequence" taxon="inv18loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv295loc_2" spec="Sequence" taxon="inv295loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv411loc_3" spec="Sequence" taxon="inv411loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv252loc_2" spec="Sequence" taxon="inv252loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv379loc_3" spec="Sequence" taxon="inv379loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv360loc_3" spec="Sequence" taxon="inv360loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv84loc_0" spec="Sequence" taxon="inv84loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv24loc_0" spec="Sequence" taxon="inv24loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv289loc_2" spec="Sequence" taxon="inv289loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv222loc_1" spec="Sequence" taxon="inv222loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv224loc_1" spec="Sequence" taxon="inv224loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv145loc_1" spec="Sequence" taxon="inv145loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv247loc_2" spec="Sequence" taxon="inv247loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv290loc_2" spec="Sequence" taxon="inv290loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv373loc_3" spec="Sequence" taxon="inv373loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv64loc_0" spec="Sequence" taxon="inv64loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv113loc_0" spec="Sequence" taxon="inv113loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv210loc_1" spec="Sequence" taxon="inv210loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv447loc_3" spec="Sequence" taxon="inv447loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv406loc_3" spec="Sequence" taxon="inv406loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv31loc_0" spec="Sequence" taxon="inv31loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv53loc_0" spec="Sequence" taxon="inv53loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv283loc_2" spec="Sequence" taxon="inv283loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv32loc_0" spec="Sequence" taxon="inv32loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv433loc_3" spec="Sequence" taxon="inv433loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv482loc_3" spec="Sequence" taxon="inv482loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv442loc_3" spec="Sequence" taxon="inv442loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv103loc_0" spec="Sequence" taxon="inv103loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv69loc_0" spec="Sequence" taxon="inv69loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv392loc_3" spec="Sequence" taxon="inv392loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv443loc_3" spec="Sequence" taxon="inv443loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv282loc_2" spec="Sequence" taxon="inv282loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv410loc_3" spec="Sequence" taxon="inv410loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv239loc_1" spec="Sequence" taxon="inv239loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv244loc_2" spec="Sequence" taxon="inv244loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv472loc_3" spec="Sequence" taxon="inv472loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv164loc_1" spec="Sequence" taxon="inv164loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv276loc_2" spec="Sequence" taxon="inv276loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv343loc_3" spec="Sequence" taxon="inv343loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv117loc_0" spec="Sequence" taxon="inv117loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv150loc_1" spec="Sequence" taxon="inv150loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv440loc_3" spec="Sequence" taxon="inv440loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv21loc_0" spec="Sequence" taxon="inv21loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv229loc_1" spec="Sequence" taxon="inv229loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv391loc_3" spec="Sequence" taxon="inv391loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv308loc_2" spec="Sequence" taxon="inv308loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv418loc_3" spec="Sequence" taxon="inv418loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv284loc_2" spec="Sequence" taxon="inv284loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv213loc_1" spec="Sequence" taxon="inv213loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv186loc_1" spec="Sequence" taxon="inv186loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv465loc_3" spec="Sequence" taxon="inv465loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv253loc_2" spec="Sequence" taxon="inv253loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv181loc_1" spec="Sequence" taxon="inv181loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv421loc_3" spec="Sequence" taxon="inv421loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv428loc_3" spec="Sequence" taxon="inv428loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv136loc_0" spec="Sequence" taxon="inv136loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv110loc_0" spec="Sequence" taxon="inv110loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv81loc_0" spec="Sequence" taxon="inv81loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv265loc_2" spec="Sequence" taxon="inv265loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv248loc_2" spec="Sequence" taxon="inv248loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv37loc_0" spec="Sequence" taxon="inv37loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv104loc_0" spec="Sequence" taxon="inv104loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv412loc_3" spec="Sequence" taxon="inv412loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv221loc_1" spec="Sequence" taxon="inv221loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv254loc_2" spec="Sequence" taxon="inv254loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv212loc_1" spec="Sequence" taxon="inv212loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv60loc_0" spec="Sequence" taxon="inv60loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv144loc_1" spec="Sequence" taxon="inv144loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv367loc_3" spec="Sequence" taxon="inv367loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv166loc_1" spec="Sequence" taxon="inv166loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv496loc_3" spec="Sequence" taxon="inv496loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv325loc_2" spec="Sequence" taxon="inv325loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv231loc_1" spec="Sequence" taxon="inv231loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv219loc_1" spec="Sequence" taxon="inv219loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv303loc_2" spec="Sequence" taxon="inv303loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv165loc_1" spec="Sequence" taxon="inv165loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv16loc_0" spec="Sequence" taxon="inv16loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv354loc_3" spec="Sequence" taxon="inv354loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv487loc_3" spec="Sequence" taxon="inv487loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv101loc_0" spec="Sequence" taxon="inv101loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv350loc_3" spec="Sequence" taxon="inv350loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv474loc_3" spec="Sequence" taxon="inv474loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv312loc_2" spec="Sequence" taxon="inv312loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv302loc_2" spec="Sequence" taxon="inv302loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv66loc_0" spec="Sequence" taxon="inv66loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv262loc_2" spec="Sequence" taxon="inv262loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv87loc_0" spec="Sequence" taxon="inv87loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv281loc_2" spec="Sequence" taxon="inv281loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv277loc_2" spec="Sequence" taxon="inv277loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv417loc_3" spec="Sequence" taxon="inv417loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv375loc_3" spec="Sequence" taxon="inv375loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv330loc_2" spec="Sequence" taxon="inv330loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv405loc_3" spec="Sequence" taxon="inv405loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv357loc_3" spec="Sequence" taxon="inv357loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv1loc_0" spec="Sequence" taxon="inv1loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv243loc_2" spec="Sequence" taxon="inv243loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv168loc_1" spec="Sequence" taxon="inv168loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv483loc_3" spec="Sequence" taxon="inv483loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv426loc_3" spec="Sequence" taxon="inv426loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv324loc_2" spec="Sequence" taxon="inv324loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv123loc_0" spec="Sequence" taxon="inv123loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv401loc_3" spec="Sequence" taxon="inv401loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv422loc_3" spec="Sequence" taxon="inv422loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv427loc_3" spec="Sequence" taxon="inv427loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv177loc_1" spec="Sequence" taxon="inv177loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv460loc_3" spec="Sequence" taxon="inv460loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv339loc_2" spec="Sequence" taxon="inv339loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv286loc_2" spec="Sequence" taxon="inv286loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv180loc_1" spec="Sequence" taxon="inv180loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv462loc_3" spec="Sequence" taxon="inv462loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv468loc_3" spec="Sequence" taxon="inv468loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv363loc_3" spec="Sequence" taxon="inv363loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv216loc_1" spec="Sequence" taxon="inv216loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv205loc_1" spec="Sequence" taxon="inv205loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv68loc_0" spec="Sequence" taxon="inv68loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv419loc_3" spec="Sequence" taxon="inv419loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv172loc_1" spec="Sequence" taxon="inv172loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv140loc_0" spec="Sequence" taxon="inv140loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv351loc_3" spec="Sequence" taxon="inv351loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv55loc_0" spec="Sequence" taxon="inv55loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv365loc_3" spec="Sequence" taxon="inv365loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv489loc_3" spec="Sequence" taxon="inv489loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv188loc_1" spec="Sequence" taxon="inv188loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv499loc_3" spec="Sequence" taxon="inv499loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv486loc_3" spec="Sequence" taxon="inv486loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv328loc_2" spec="Sequence" taxon="inv328loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv228loc_1" spec="Sequence" taxon="inv228loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv185loc_1" spec="Sequence" taxon="inv185loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv209loc_1" spec="Sequence" taxon="inv209loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv83loc_0" spec="Sequence" taxon="inv83loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv494loc_3" spec="Sequence" taxon="inv494loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv394loc_3" spec="Sequence" taxon="inv394loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv111loc_0" spec="Sequence" taxon="inv111loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv497loc_3" spec="Sequence" taxon="inv497loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv142loc_1" spec="Sequence" taxon="inv142loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv193loc_1" spec="Sequence" taxon="inv193loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv163loc_1" spec="Sequence" taxon="inv163loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv20loc_0" spec="Sequence" taxon="inv20loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv51loc_0" spec="Sequence" taxon="inv51loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv403loc_3" spec="Sequence" taxon="inv403loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv63loc_0" spec="Sequence" taxon="inv63loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv408loc_3" spec="Sequence" taxon="inv408loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv2loc_0" spec="Sequence" taxon="inv2loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv199loc_1" spec="Sequence" taxon="inv199loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv364loc_3" spec="Sequence" taxon="inv364loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv98loc_0" spec="Sequence" taxon="inv98loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv338loc_2" spec="Sequence" taxon="inv338loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv130loc_0" spec="Sequence" taxon="inv130loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv58loc_0" spec="Sequence" taxon="inv58loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv311loc_2" spec="Sequence" taxon="inv311loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv292loc_2" spec="Sequence" taxon="inv292loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv432loc_3" spec="Sequence" taxon="inv432loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv429loc_3" spec="Sequence" taxon="inv429loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv127loc_0" spec="Sequence" taxon="inv127loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv395loc_3" spec="Sequence" taxon="inv395loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv294loc_2" spec="Sequence" taxon="inv294loc_2" totalcount="4" value="??"/>
+        <sequence id="seq_inv493loc_3" spec="Sequence" taxon="inv493loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv49loc_0" spec="Sequence" taxon="inv49loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv430loc_3" spec="Sequence" taxon="inv430loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv50loc_0" spec="Sequence" taxon="inv50loc_0" totalcount="4" value="??"/>
+        <sequence id="seq_inv459loc_3" spec="Sequence" taxon="inv459loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv347loc_3" spec="Sequence" taxon="inv347loc_3" totalcount="4" value="??"/>
+        <sequence id="seq_inv155loc_1" spec="Sequence" taxon="inv155loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv208loc_1" spec="Sequence" taxon="inv208loc_1" totalcount="4" value="??"/>
+        <sequence id="seq_inv133loc_0" spec="Sequence" taxon="inv133loc_0" totalcount="4" value="??"/>
+    </alignment>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="1000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:sim" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.sim" spec="beast.base.evolution.alignment.TaxonSet">
+                    <alignment idref="alignment1"/>
+                </taxonset>
+            </tree>
+            <parameter id="NeConstant.t:sim" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="migrationConstant.t:sim" spec="parameter.RealParameter" dimension="0" lower="0.0" name="stateNode">1.0</parameter>
+        </state>
+
+        <init spec="beast.base.evolution.tree.TreeParser" id="NewickTree.t"
+              adjustTipHeights="false"
+              initial="@Tree.t:sim"
+              taxa="@alignment1"
+              IsLabelledNewick="true"
+              newick="(((((((inv234loc_1:0.5460981866099894,((inv478loc_3:0.3958569753616934,inv470loc_3:0.2637569753616934):2.12611996340134,(inv159loc_1:0.18177015778024375,inv280loc_2:1.8022701577802438):0.95560678098279):0.9327212478469558):0.5527932981136816,(inv170loc_1:0.3532355291654481,(((inv473loc_3:0.27874220695012264,(inv329loc_2:0.14673920874117896,(inv129loc_0:0.5447207273877888,inv255loc_2:0.5020207273877887):1.0259184813533904):0.08440299820894359):1.2122308778590847,((inv464loc_3:0.6378124781556762,inv376loc_3:0.7476124781556761):0.19967544672904003,(inv40loc_0:0.01320659271289637,inv143loc_1:0.3633065927128962):0.5618813321718199):0.636085159924491):0.48219117379837906,(((inv45loc_0:0.10433777189166582,inv381loc_3:1.6769377718916658):0.65438336205021,inv353loc_3:0.41052113394187595):0.19378148741705692,(inv232loc_1:0.6159794311752433,inv106loc_0:1.3983794311752435):0.4368231901836892):0.40076163724865355):0.228371270557862):0.7725559555582229):0.8369472460624214,((inv72loc_0:0.7516485138051463,inv160loc_1:0.3238485138051459):0.3469946213779922,((inv466loc_3:0.006986983997272045,inv388loc_3:0.031586983997272):0.7190804965523032,(inv148loc_1:0.025118808273936644,inv192loc_1:0.2887188082739365):0.3985486722756386):0.836275654633563):0.14839559560295434):0.8483623805592782,(((((((inv100loc_0:0.3909553481575343,inv173loc_1:0.8669553481575343):0.2019241003520702,inv6loc_0:0.18107944850960456):0.16191555689820092,inv141loc_1:0.1327950054078051):2.1130700278550685,inv109loc_0:1.9325650332628737):0.145764459094738,(inv455loc_3:0.5162492642960332,inv454loc_3:0.7595492642960329):0.7863802280615788):0.21773224613929365,(((inv424loc_3:0.4414739270309034,inv152loc_1:1.3355739270309033):1.0927493127234431,((inv85loc_0:0.10174940307521041,(((inv387loc_3:0.7768687579018752,inv313loc_2:0.5875687579018751):0.09260719503581694,inv77loc_0:0.2888759529376921):1.3074283980036117,inv35loc_0:0.5419043509413035):0.8388450521339066):1.0458816999650087,inv4loc_0:2.809331103040219):0.5999921367141274):0.49761955708120453,(inv237loc_1:0.3191855689888703,(inv266loc_2:0.5100041975290113,(inv278loc_2:0.24117725478278862,(inv223loc_1:0.5557224470040678,inv352loc_3:0.6002224470040676):0.35655480777872084):0.7207269427462224):0.4394813714598591):0.18765722784668082):0.6126189416613546):0.08794132084558193,((inv340loc_2:0.07995554651830883,(inv86loc_0:0.06817279771258544,inv445loc_3:0.11287279771258563):0.42718274880572293):0.9317744031786894,inv477loc_3:0.35742994969699815):0.8152731096454895):0.5007980520028834):0.020885143033659403,((inv399loc_3:0.7261479176395591,inv176loc_1:0.4537479176395589):1.3222265616772688,inv327loc_2:0.5922744793168278):1.3873117750622024):18.810237393348103,((inv126loc_0:12.349972915835423,(((((inv82loc_0:0.36993840925302246,(inv413loc_3:0.40963284474874984,inv138loc_0:0.24853284474875004):1.0756055645042726):0.1188060207733197,inv492loc_3:0.20354443002634204):4.188511131825165,(((((inv119loc_0:0.47585624196051723,inv187loc_1:0.6535562419605172):1.2570375730121963,(inv299loc_2:0.03684135817140266,(inv9loc_0:0.23444882547836832,inv431loc_3:1.9499488254783683):0.7655925326930344):0.7193524568013108):1.6591472118271091,(inv361loc_3:1.5167998195267112,((inv341loc_3:0.47091350504059415,((((inv91loc_0:0.5238911335556027,inv56loc_0:0.49099113355560275):0.4177199643893903,inv135loc_0:0.479511097944993):0.06280970667673347,(inv397loc_3:0.44076257926071777,inv107loc_0:0.3297625792607178):0.6734582253610087):0.7430765198138658,(inv456loc_3:0.02436613436400825,inv309loc_2:1.2338661343640083):0.386331190071584):1.1537161806050018):1.284358524363514,(inv195loc_1:0.7728768866881235,inv476loc_3:0.6027768866881233):0.6222951427159846):0.357927790122603):0.40804120727311144):0.29162244661748904,((inv211loc_1:1.9439285315104984,(((inv451loc_3:0.09040800508612135,(inv131loc_0:0.4579970855932416,((inv112loc_0:0.2630136707083079,inv41loc_0:0.5246136707083079):1.0134395790254094,inv246loc_2:0.10405324973371721):0.13954383585952446):1.0336109194928798):0.46650747665243886,(inv488loc_3:0.14520691928148288,inv76loc_0:0.22350691928148292):0.35680856245707737):0.7988928342159012,((inv448loc_3:0.07344973169603719,inv182loc_1:0.24214973169603748):0.9973862877964321,(inv10loc_0:0.8451060857716954,inv122loc_0:0.9622060857716952):0.18272993372077417):0.6777722964619919):0.6053202155560369):0.459610092820256,inv326loc_2:1.8530386243307544):0.4489248490865574):1.2840725380076545,((((inv377loc_3:0.1285653189372895,inv198loc_1:0.025665318937289072):0.2937712377218684,inv438loc_3:0.23623655665915777):0.5341627644102802,inv78loc_0:0.8794993210694382):1.3899679931903517,(inv174loc_1:0.7576877388553163,inv345loc_3:0.8435877388553159):0.8656795754044735):0.6370686971651764):0.9328195504265411):3.370378908182892,((((inv34loc_0:0.7543405002939636,((inv331loc_2:0.7928171645808513,inv114loc_0:1.2007171645808512):1.6238146326521787,inv490loc_3:0.06273179723303013):1.3481087030609338):0.013036607474707473,(inv293loc_2:0.10239673398131188,inv335loc_2:0.9726967339813117):0.36258037378735963):0.3561899848396308,inv288loc_2:0.2286670926083021):0.20848977072710184,(inv14loc_0:0.3852246362012215,(inv235loc_1:0.044313679566310604,(((inv423loc_3:0.0975380088754636,inv380loc_3:0.48363800887546393):0.2585884337487041,inv233loc_1:0.9487264426241677):0.18970310819048564,((inv61loc_0:0.91368431001624,(inv134loc_0:0.1743119182351469,((inv390loc_3:0.8306434377164773,inv128loc_0:0.7433434377164773):0.06950872430383814,inv452loc_3:0.5000521620203155):0.41925975621483147):0.07157239178109309):0.4026718870638599,inv70loc_0:0.4287561970800997):0.5231733537345535):1.0026841287516572):0.4759109566349107):0.6395322271341826):6.025877606698995):1.9355309436227444,(inv204loc_1:2.7480116347099486,(inv453loc_3:4.419513855560811,inv46loc_0:0.2021138555608113):2.739597779149138):5.426253778947195):4.17210750217828):2.9907803388226455,((((inv94loc_0:1.3917850240782856,inv7loc_0:0.8688850240782857):0.3499402612263576,inv125loc_0:0.32312528530464313):1.0324585095306893,(inv263loc_2:0.5191713898333479,inv257loc_2:0.711571389833348):0.25501240500198463):5.147874863772066,(((inv300loc_2:0.271267980109267,inv481loc_3:0.2162679801092673):0.7263938070057026,inv215loc_1:0.5527617871149699):1.6625311728879608,inv271loc_2:0.7825929600029307):4.142865698604468):10.66719459605067):4.907870393069064):46.633830050241805,((((((inv500loc_3:3.0175018116175334,(inv8loc_0:1.1366068007988215,(((inv190loc_1:0.041232209268938114,inv407loc_3:0.17823220926893812):0.7268388503435093,((inv38loc_0:0.7334855017259749,((inv296loc_2:0.8320656331692389,inv475loc_3:1.039465633169239):1.2010337105374607,inv97loc_0:0.43999934370669935):0.6721861580192754):0.6842275474076343,(((inv189loc_1:0.14232947426581788,inv105loc_0:1.417829474265818):0.20021926476989282,inv137loc_0:1.6448487390357107):1.0229677074980308,inv115loc_0:0.7760164465337414):0.08079660259986765):0.22975801047883815):0.5449052193161465,inv179loc_1:0.27617627892859353):1.400430521870228):1.6732950108187117):0.9114807597487156,(inv425loc_3:3.3038761015259723,(inv33loc_0:0.08374985767670395,inv11loc_0:0.09424985767670435):2.910126243849268):1.0864064698402771):9.70078645490065,(inv207loc_1:2.0632121975887,inv358loc_3:1.0644121975887):12.316956828678197):8.878988904698524,(((((inv415loc_3:0.13185531324547206,inv450loc_3:0.31775531324547135):0.7287845770007086,(inv162loc_1:2.0374089529984163,inv479loc_3:0.5525089529984166):0.18733093724776406):0.520895574355797,(inv374loc_3:1.8774468269533742,inv344loc_3:0.13184682695337369):1.0308886376486033):5.995984154312081,(((inv202loc_1:3.6136292442097293,inv291loc_2:4.274629244209729):0.09191018258601069,inv396loc_3:3.8448394267957395):0.4051722696282436,((inv121loc_0:0.030692146791871266,(inv436loc_3:1.3371422093078307,((((inv371loc_3:0.21550972347560515,(inv368loc_3:0.9587131564626097,inv256loc_2:0.08061315646260958):0.04729656701299545):1.523261583730192,inv336loc_2:0.828171307205797):0.21337598674864422,inv154loc_1:1.3604472939544414):0.1175971620635714,(((inv264loc_2:0.11375169744156954,(inv90loc_0:0.0182779299282132,inv356loc_3:1.1133779299282132):0.6954737675133562):1.082649990143545,((inv75loc_0:0.002794728994589324,inv15loc_0:1.0114947289945895):0.06902848244739923,(inv236loc_1:1.1679915505886163,inv26loc_0:0.07509155058861605):0.9683316608533725):1.2361784761431256):0.24701804172748298,inv238loc_1:0.6060197293125973):0.5668247267054154):0.5031977532898182):0.2767499374840403):0.3425620083757659,inv57loc_0:0.40835415516763707):3.0351575412563463):3.2882079224900753):7.948657597540203,((inv485loc_3:1.8438579318757902,((inv79loc_0:0.12206699098663609,((inv261loc_2:1.640653257852177,inv73loc_0:0.009853257852177055):0.06461877202852317,inv316loc_2:1.1872720298807002):1.0374949611059359):0.9293263776238985,((((inv169loc_1:1.3724453479717453,(inv196loc_1:0.5740413100767796,inv116loc_0:2.61684131007678):0.23060403789496542):0.2874137114489619,(inv120loc_0:0.3046811452885714,(inv269loc_2:0.0390377306595493,inv342loc_3:1.0188377306595493):0.20674341462902213):0.4654779141321357):0.22777022466229946,inv498loc_3:0.27622928408300673):0.3567135222697244,(inv260loc_2:0.3099271057137978,inv80loc_0:0.02262710571379767):0.003815700638932995):0.15105056225780356):1.5309645632652558):2.6614465065430686,(((((inv158loc_1:0.37576647561112786,(inv268loc_2:0.48298033659057005,((inv44loc_0:0.45933504237054024,inv220loc_1:0.23243504237054058):0.12523651373926548,inv178loc_1:1.147271556109806):0.0600087804807643):1.4775861390205578):0.04903743051813514,((inv124loc_0:1.4199445838141878,((inv156loc_1:0.0935283997405314,(inv434loc_3:0.6242430569575806,inv491loc_3:1.3839430569575806):0.6975853427829508):0.004457532405552911,inv480loc_3:0.3309859321460844):0.9599586516681033):0.08583574666803884,(((inv242loc_2:0.45823580342011827,inv71loc_0:0.42273580342011824):0.8154058552606056,inv214loc_1:0.14974165868072387):0.19281636529720148,(inv250loc_2:0.16936858679339117,inv310loc_2:0.21006858679339113):0.006589437184534086):1.5988223065043012):1.2400235756470366):0.6114346327524318,(((inv29loc_0:1.864479799899916,inv446loc_3:0.23767979989991606):0.14549191095257807,inv369loc_3:0.06587171085249421):0.47283581503359473,(((inv382loc_3:1.3343537701901642,inv314loc_2:0.36095377019016417):0.9591739178836751,inv297loc_2:0.9492276880738393):0.7141833647389704,inv13loc_0:0.03281105281280983):0.2279964730732793):1.073331012995606):1.4093412922164967,inv370loc_3:1.5868798310981918):1.4497795752891065,(((inv175loc_1:2.808847348613971,(inv307loc_2:0.04887209533005521,inv319loc_2:0.0058720953300550605):1.2405752532839163):0.30074390914224747,inv393loc_3:1.1877912577562189):1.5379473324451478,inv67loc_0:3.5915385902013663):0.4248208161859317):0.4607450320315607):11.224872778035403):7.522680714511161):18.543680218718922,((((((inv346loc_3:0.6574302345857825,inv147loc_1:1.3673302345857825):0.12108375812417993,((((inv23loc_0:1.4615744704729374,inv96loc_0:0.44017447047293734):0.24272918954847023,(inv305loc_2:0.23893852204944038,inv54loc_0:0.3764385220494404):1.2137651379719672):0.2019845509050271,inv274loc_2:1.2654882109264347):0.03603677605072253,(inv36loc_0:0.7494398602712012,((inv153loc_1:0.9652054139435473,inv99loc_0:0.08390541394354734):0.06512333036805118,inv409loc_3:1.2278287443115985):0.10941111595960273):0.551385126705956):1.0273890057328052):1.8838050132370148,((((inv206loc_1:1.5628351016359852,(((inv95loc_0:0.5946292953265622,(inv102loc_0:0.4760184245031641,((inv384loc_3:0.7406920589754723,(inv200loc_1:0.4849928584762778,inv471loc_3:0.8130928584762778):0.06239920049919445):0.24785080993034758,(inv259loc_2:0.3563245903645812,inv372loc_3:0.5238245903645812):0.03561827854123867):0.04027555559734419):0.03671087082339808):0.5896843472700326,inv39loc_0:0.5846136425965947):0.852739316892948,inv304loc_2:0.5509529594895426):0.4031821421464423):0.654469487220048,((inv362loc_3:0.3762677079479815,(inv43loc_0:0.10955794130255692,inv270loc_2:0.3899579413025569):1.2873097666454245):0.03272480730490779,(inv337loc_2:0.16666234422736048,((inv317loc_2:0.2074099130667013,inv400loc_3:0.7562099130667013):1.135060106116157,(inv249loc_2:0.30337381044750433,inv285loc_2:0.3408738104475044):0.17629620873535368):0.22839232504450235):0.2479301710255286):0.25171207360314396):0.06228289392639841,inv383loc_3:1.4074874827824315):0.5859633057319877,inv416loc_3:0.34605078851441906):0.26606821743255793):1.1970715234587228,(inv435loc_3:1.266621230071154,((inv52loc_0:0.16263285316668563,(inv267loc_2:0.9097926167548525,((inv149loc_1:0.304713835543295,inv25loc_0:0.46561383554329483):0.3999386323908194,(inv146loc_1:0.04983519869302189,inv118loc_0:0.24403519869302226):0.11511726924109222):0.09794014882073832):0.601440236411833):0.04261849112534133,(((inv458loc_3:0.5727022138830962,inv161loc_1:0.8334022138830961):0.38466960077015067,((inv484loc_3:1.470866460657367,inv287loc_2:1.5940664606573671):0.5334661857414984,(inv65loc_0:1.518250218857057,inv449loc_3:1.0093502188570571):0.07008242754180838):0.7877391682543813):0.032742988266986295,inv315loc_2:0.8711148029202329):0.2164365413717939):1.764869885779127):0.6411692993345461):1.289840992991361,((inv171loc_1:0.7923815029318977,inv439loc_3:0.31298150293189764):0.03508717074345835,(inv273loc_2:0.6051384778802351,inv92loc_0:0.4326384778802348):0.5865301957951212):2.218962848721705):16.76523432973528,((((((((inv167loc_1:0.19914043554403893,(((inv3loc_0:0.5846516337325305,((inv318loc_2:0.5093777561233344,(inv151loc_1:0.47233193563053644,(inv463loc_3:0.37382073822952666,inv241loc_2:0.8019207382295266):0.07161119740100985):0.47044582049279793):1.6246436902392347,(inv322loc_2:2.5717271107827955E-4,inv333loc_2:0.9012571727110785):1.1203642736514907):0.3650301873699613):0.4828976915852885,((inv348loc_3:0.09433006976310532,(inv414loc_3:0.5038755786467757,((((inv321loc_2:0.0027443515522223016,inv469loc_3:0.12354435155222232):0.05421962866719321,(inv359loc_3:0.6412013950130917,inv19loc_0:1.0520013950130918):0.303062585206324):0.3033331090247908,(inv444loc_3:0.4192375905010589,inv279loc_2:0.30913759050105893):1.2171594987431475):0.467489627729782,inv389loc_3:0.22098671697398853):0.4207888616727873):0.03715449111632951):0.18826869254585477,(inv191loc_1:0.2826782397584404,inv47loc_0:0.24867823975844017):0.7617205225505197):0.8632505630088589):0.16565226151028067,((((((((inv17loc_0:0.4235247141650892,inv320loc_2:0.8865247141650892):0.24954049767471997,inv441loc_3:1.102565211839809):0.006568910671597594,inv230loc_1:0.5299341225114067):0.475450547655097,inv217loc_1:0.30808467016650365):1.08211134154608,(inv258loc_2:1.1901670115607568,inv251loc_2:0.3188670115607568):0.2886290001518268):0.21468387844237213,(inv457loc_3:1.309779004070932,(inv62loc_0:1.0818428039575338,inv12loc_0:0.799642803957534):0.320436200113398):1.1432008860840237):0.5643579783071493,inv27loc_0:2.403537868462105):0.018501202033097908,(inv88loc_0:0.19414825320978135,((((inv22loc_0:1.2878815613808898,(inv197loc_1:0.995027539766558,inv306loc_2:0.041527539766557986):0.1508540216143317):0.6011896035598998,(inv398loc_3:0.33038338831274183,inv323loc_2:0.3951833883127418):0.5564877766280478):1.2255065480489775,inv74loc_0:0.4192777129897669):0.08813615250297158,(inv332loc_2:0.9491983493275034,(inv272loc_2:1.234274037113519,inv184loc_1:0.011774037113518876):0.2585243122139844):1.1284155161652354):0.12233438771704286):0.020990817285421404):0.7681625163328967):0.006438848715939471):0.2515620500324989,(inv59loc_0:0.0463798479434816,inv385loc_3:0.22347984794348186):0.10512263763305629):1.9763770247996186,((inv89loc_0:0.45053610572246683,(((((((inv93loc_0:0.23130189238686594,(inv467loc_3:0.44131350642103806,inv420loc_3:0.296613506421038):0.41618838596582797):0.002175007453045108,((inv194loc_1:0.12387902641104942,inv245loc_2:0.5266790264110495):0.004264917396259005,((inv201loc_1:0.2220853235282807,inv225loc_1:0.8824853235282808):0.14409817281965176,inv275loc_2:0.8057834963479326):0.6495604474593759):0.13143295603260263):0.6414005362356048,inv437loc_3:0.23007743607551578):0.36395844882718453,inv28loc_0:0.7990358849027004):0.6872244666268132,inv218loc_1:0.5441603515295137):0.034418523344612595,(((inv5loc_0:0.3250116924849751,inv495loc_3:0.46421169248497485):0.0573266830996344,(inv132loc_0:0.08560159293456815,inv366loc_3:0.04690159293456819):0.6064367826500412):0.04694931521942092,(inv139loc_0:1.230179407525792,(inv42loc_0:0.5222930085024872,inv402loc_3:0.2868930085024871):0.4711863990233047):1.5334082832782383):0.895991184070096):0.14736998961200465,(inv240loc_1:0.9285861371595692,inv157loc_1:1.134786137159569):0.5886627273265619):1.1272872412363357):1.1014572648530692,(inv404loc_3:1.8693561390582594,((inv386loc_3:1.3936321260196274,((((inv301loc_2:0.2527238192299066,(((inv48loc_0:0.08257782164413141,(inv334loc_2:0.08560345970260841,inv30loc_0:0.3308034597026084):0.247474361941523):0.38732651526799733,inv108loc_0:0.2405043369121287):0.534146662896727,inv226loc_1:0.5346509998088557):1.9176728194210508):0.28515121472610927,(((inv227loc_1:0.0787341790228453,inv298loc_2:0.15063417902284515):0.10525535268600317,(inv355loc_3:0.1489118627073247,inv203loc_1:0.13841186270732475):1.1852776690015236):0.40723342594984313,inv461loc_3:1.4995229576586915):0.5859520762973243):0.3803963340909391,(((inv378loc_3:0.3533050810634606,inv183loc_1:1.4578050810634609):0.3785140749512479,(inv349loc_3:0.5806694910962222,((((inv18loc_0:0.877091380568543,inv295loc_2:1.145691380568543):0.39349390116346195,inv411loc_3:0.9725852817320049):0.3683495070228382,inv252loc_2:0.11563478875484323):0.16097387490393444,inv379loc_3:1.1512086636587775):0.1727608274374446):0.39014966491848657):0.694638608883587,inv360loc_3:2.0155577648982956):0.26041360314865925):0.9732424874795278,inv84loc_0:0.7529138555264829):0.21441827049314455):0.17322760844747442,((inv24loc_0:1.2859722057593943,(inv289loc_2:0.5746600448269248,(inv222loc_1:0.25494858940544696,(inv224loc_1:0.31568359830527437,inv145loc_1:0.19588359830527435):0.4391649911001726):1.4856114554214779):0.0320121609324695):0.8526863479218632,inv247loc_2:0.38295855368125764):2.060801180785844):0.34289640459115756):0.5342372315172765):0.3413861398006208):0.19870057272871566,inv290loc_2:2.032780083104872):1.1922917942988143,(inv373loc_3:0.44569942196631107,inv64loc_0:0.3415994219663112):2.985272455437375):4.362715621247249,inv113loc_0:7.573387498650935):1.8106936349260465,(inv210loc_1:9.884751568948944,((((inv447loc_3:1.2224213768944505,inv406loc_3:1.4477213768944504):0.37880884587550234,((inv31loc_0:0.5022986581065982,((inv53loc_0:0.32952673133152643,inv283loc_2:0.49872673133152645):0.9152942187577655,(inv32loc_0:0.5176477473614081,(inv433loc_3:0.05771080191352418,(((inv482loc_3:0.08822904342853466,inv442loc_3:0.12042904342853467):0.41178461297467805,(((inv103loc_0:1.1990072266623424,(inv69loc_0:0.5089391454485541,((inv392loc_3:0.4961332330240472,inv443loc_3:0.28193323302404727):0.1106466488163842,inv282loc_2:0.8455798818404314):0.25475926360812273):1.1016680812137882):0.1958814144149188,((inv410loc_3:0.3639151653770871,inv239loc_1:0.29901516537708717):0.19801324225136652,inv244loc_2:0.7138284076284538):0.7226602334488075):0.30500987841951543,inv472loc_3:0.3521985194967767):0.6464151369064361):0.3477473732233909,inv164loc_1:0.5145610296266034):0.4260497722869201):0.07043694544788437):0.09157320272788372):0.7605777080173066):0.048565038595676846,inv276loc_2:1.3114636967022753):1.0515665260676776):3.9931831036712895,((((((inv343loc_3:1.0782038527913622,(inv117loc_0:0.5844798907067221,inv150loc_1:2.280579890706722):0.0874239620846402):0.10374911365821671,(inv440loc_3:0.3781770203511088,inv21loc_0:0.9329770203511087):2.28397594609847):0.2655933039562317,(inv229loc_1:0.7304237089569225,inv391loc_3:0.21392370895692236):0.5355225614488881):0.8092113114663686,inv308loc_2:0.025757581872179358):0.13251043378463745,(inv418loc_3:0.7039314878452188,inv284loc_2:0.5855314878452189):0.7214365278115977):2.556081329415811,((((inv213loc_1:0.5753963481225828,(inv186loc_1:0.8355771730856998,inv465loc_3:0.4050771730856999):0.518019175036883):0.11419399972929156,((inv253loc_2:0.2506548981858776,((inv181loc_1:1.2816900122794754,(inv421loc_3:0.5164420477505889,(inv428loc_3:0.2807824153414458,inv136loc_0:0.21618241534144583):0.3497596324091431):0.6514479645288864):0.7185652400932176,inv110loc_0:0.04325525237269323):1.3134996458131845):0.5371167804302224,inv81loc_0:0.36777167861610005):0.1394186692357744):0.1210348341645231,(((inv265loc_2:0.3207392031602354,(inv248loc_2:0.3927476985679925,inv37loc_0:0.12454769856799253):0.531691504592243):0.30257473668871127,(inv104loc_0:1.0037286361495823,inv412loc_3:0.8150286361495822):0.16438530369936455):1.1752635469065864,inv221loc_1:1.1399774867555332):0.8143476952608641):2.2694529271140835,inv254loc_2:2.741678109130481):0.7577712359421467):2.769063981368615):2.8259820139365175,(((inv212loc_1:0.012752668873336148,((inv60loc_0:0.8115106628252833,inv144loc_1:1.0101106628252832):0.6847175490231592,(inv367loc_3:0.053941608908695926,inv166loc_1:0.513041608908696):0.12648660293974645):0.0811244570248939):4.540854223698577,(inv496loc_3:2.6725407951043842,(inv325loc_2:0.1854222112336874,(inv231loc_1:0.40419071252361194,inv219loc_1:0.29019071252361206):0.0733314987100755):2.9259185838706965):0.9062660974675296):3.6104871201262734,(inv303loc_2:5.17551201588448,((inv165loc_1:0.18937262199275207,(inv16loc_0:1.1853325466305504,inv354loc_3:0.15813254663055032):0.4225400753622015):0.4503865658102262,inv487loc_3:0.1968591878029784):4.6516528280815015):1.2696819968137074):2.208301327679573):0.9755562285711843):0.1877295646280377):7.020210128799043,(((((((((inv101loc_0:0.25265181318945595,inv350loc_3:1.365251813189456):0.23790142319243968,inv474loc_3:0.6693532363818955):0.5420026668857498,(inv312loc_2:0.8822885179968956,(inv302loc_2:0.27080012731396685,inv66loc_0:0.7604001273139669):1.472488390682929):0.5283673852707498):0.5189423683539056,((inv262loc_2:0.33216080648315405,(((inv87loc_0:0.09027059741392818,inv281loc_2:0.34457059741392837):1.3958533184756372,inv277loc_2:0.6647239158895655):0.6540173613085165,(((inv417loc_3:0.8223181417696619,inv375loc_3:0.765318141769662):0.906790769294371,(inv330loc_2:0.8754576756785133,inv405loc_3:1.0267576756785133):0.6382512353855196):0.5380059819327268,inv357loc_3:0.9961148929967596):1.1233263842013224):1.1255195292850724):0.40962490872774104,inv1loc_0:0.500585715210895):0.06801255641065573):0.5327704065890462,((inv243loc_2:0.2906748636305254,inv168loc_1:0.2016748636305259):0.8562426385127822,(inv483loc_3:0.7301175185360909,inv426loc_3:0.17921751853609047):1.440499983607217):0.43755117606728966):0.17281239752549382,(((inv324loc_2:0.3881016383792564,inv123loc_0:0.00730163837925657):0.7778948765463891,inv401loc_3:0.4479965149256455):1.3597152735743476,inv422loc_3:1.5807117884999933):0.44516928723609794):2.1165254471745385,((inv427loc_3:1.172633338981159,((inv177loc_1:0.7475271510471968,(inv460loc_3:0.24718235826075752,((inv339loc_2:0.5662400995633681,inv286loc_2:1.8622400995633681):0.9901305836885586,inv180loc_1:1.6639706832519265):0.19031167500883095):1.4561447927864397):0.2665831571128878,((inv462loc_3:0.2604190921951952,(((((inv468loc_3:0.7087658530175864,(inv363loc_3:0.39184542705471204,inv216loc_1:0.00774542705471204):0.5989204259628744):0.7757747488659412,inv205loc_1:0.3518406018835276):2.091235818538458,(inv68loc_0:0.43871434968121825,inv419loc_3:0.7143143496812185):0.44856207074076737):0.2733269978332351,(inv172loc_1:1.1967525161281776,inv140loc_0:0.3598525161281776):0.12265090212704344):0.3523936032910928,((inv351loc_3:1.2931865946694057,inv55loc_0:0.10548659466940569):0.44003830880977546,inv365loc_3:0.23362490347918108):0.0732721180671323):0.27152207064888145):0.04853349856202627,inv489loc_3:0.38505259075722176):0.3070577174028637):0.3044230308210736):0.5371352733650188,inv188loc_1:2.022868612346177):1.8437379105644522):0.05091782309826076,inv499loc_3:3.2843243460088907):5.989917867612025,(inv486loc_3:1.1253221737839052,inv328loc_2:0.213822173783905):9.14602003983701):7.3687490487551095):2.851774589756314):21.582272297552006):12.892260252237499,(((inv228loc_1:1.1516109501519134,(inv185loc_1:0.20161557423033383,((inv209loc_1:0.6645167802862688,(inv83loc_0:0.4483017644181677,inv494loc_3:1.2924017644181676):1.0082150158681014):0.18344422863310283,inv394loc_3:1.0293610089193717):1.3433545653109622):0.36619537592157947):1.3955497796661467,(((((((inv111loc_0:0.658571265901609,(inv497loc_3:0.13965857353922229,inv142loc_1:0.2443585735392223):0.3466126923623867):2.1455967293680915,inv193loc_1:0.8350679952697004):0.22715081542944526,inv163loc_1:0.20351881069914546):0.2692270800578789,inv20loc_0:1.1036458907570244):0.0034377453702063576,inv51loc_0:1.597083636127231):0.8686704417830939,inv403loc_3:1.1532540779103249):1.0899406123399027,inv63loc_0:1.8005946902502274):0.9864660395678326):7.637286746958779,((((inv408loc_3:0.2617747276186071,(inv2loc_0:0.03574574079674786,inv199loc_1:0.05984574079674809):0.764428986821859):0.3594109219372612,inv364loc_3:0.17728564955586812):2.758630979691379,(inv98loc_0:3.999708429283178,inv338loc_2:1.6459084292831783):1.262808199964069):1.6941762356558927,(((inv130loc_0:0.030424394024859858,inv58loc_0:0.0031243940248595337):1.0727654409725806,inv311loc_2:0.2704898349974405):2.980696845765121,(((inv292loc_2:0.13050224041364888,(((inv432loc_3:0.9539667601954238,(inv429loc_3:0.23979775069604026,((inv127loc_0:2.108312808962791,(inv395loc_3:1.0869043549401785,(inv294loc_2:0.4726869606193508,inv493loc_3:0.37948696061935083):0.6599173943208276):0.5514084540226127):0.555672887811983,(inv49loc_0:0.328669859998572,inv430loc_3:0.15536985999857222):0.22641583677620192):0.588812053921266):0.4505690094993837):0.208550097402044,inv50loc_0:0.15031685759746782):0.4134736882744905,inv459loc_3:0.13889054587195826):0.2782116945416906):0.3471867660919461,inv347loc_3:0.2591890065055953):1.5989601685187491,((inv155loc_1:0.24619550949156288,inv208loc_1:0.6394955094915629):0.9658188827428491,inv133loc_0:2.9942143922344124):0.8468347827899319):1.511237505738217):1.3882061841405786):4.669854611873699):44.36275092514501):13.254155296047095):0.0;"/>
+
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="Mascot.t:sim" spec="mascot.distribution.Mascot" tree="@Tree.t:sim">
+                    <dynamics id="Constant.t:sim" spec="mascot.dynamics.Constant" Ne="@NeConstant.t:sim" backwardsMigration="@migrationConstant.t:sim" dimension="1">
+                        <typeTrait id="typeTraitSet.t:sim" spec="mascot.util.InitializedTraitSet" traitname="type" value="inv234loc_1=deme1,inv478loc_3=deme3,inv470loc_3=deme3,inv159loc_1=deme1,inv280loc_2=deme2,inv170loc_1=deme1,inv473loc_3=deme3,inv329loc_2=deme2,inv129loc_0=deme0,inv255loc_2=deme2,inv464loc_3=deme3,inv376loc_3=deme3,inv40loc_0=deme0,inv143loc_1=deme1,inv45loc_0=deme0,inv381loc_3=deme3,inv353loc_3=deme3,inv232loc_1=deme1,inv106loc_0=deme0,inv72loc_0=deme0,inv160loc_1=deme1,inv466loc_3=deme3,inv388loc_3=deme3,inv148loc_1=deme1,inv192loc_1=deme1,inv100loc_0=deme0,inv173loc_1=deme1,inv6loc_0=deme0,inv141loc_1=deme1,inv109loc_0=deme0,inv455loc_3=deme3,inv454loc_3=deme3,inv424loc_3=deme3,inv152loc_1=deme1,inv85loc_0=deme0,inv387loc_3=deme3,inv313loc_2=deme2,inv77loc_0=deme0,inv35loc_0=deme0,inv4loc_0=deme0,inv237loc_1=deme1,inv266loc_2=deme2,inv278loc_2=deme2,inv223loc_1=deme1,inv352loc_3=deme3,inv340loc_2=deme2,inv86loc_0=deme0,inv445loc_3=deme3,inv477loc_3=deme3,inv399loc_3=deme3,inv176loc_1=deme1,inv327loc_2=deme2,inv126loc_0=deme0,inv82loc_0=deme0,inv413loc_3=deme3,inv138loc_0=deme0,inv492loc_3=deme3,inv119loc_0=deme0,inv187loc_1=deme1,inv299loc_2=deme2,inv9loc_0=deme0,inv431loc_3=deme3,inv361loc_3=deme3,inv341loc_3=deme3,inv91loc_0=deme0,inv56loc_0=deme0,inv135loc_0=deme0,inv397loc_3=deme3,inv107loc_0=deme0,inv456loc_3=deme3,inv309loc_2=deme2,inv195loc_1=deme1,inv476loc_3=deme3,inv211loc_1=deme1,inv451loc_3=deme3,inv131loc_0=deme0,inv112loc_0=deme0,inv41loc_0=deme0,inv246loc_2=deme2,inv488loc_3=deme3,inv76loc_0=deme0,inv448loc_3=deme3,inv182loc_1=deme1,inv10loc_0=deme0,inv122loc_0=deme0,inv326loc_2=deme2,inv377loc_3=deme3,inv198loc_1=deme1,inv438loc_3=deme3,inv78loc_0=deme0,inv174loc_1=deme1,inv345loc_3=deme3,inv34loc_0=deme0,inv331loc_2=deme2,inv114loc_0=deme0,inv490loc_3=deme3,inv293loc_2=deme2,inv335loc_2=deme2,inv288loc_2=deme2,inv14loc_0=deme0,inv235loc_1=deme1,inv423loc_3=deme3,inv380loc_3=deme3,inv233loc_1=deme1,inv61loc_0=deme0,inv134loc_0=deme0,inv390loc_3=deme3,inv128loc_0=deme0,inv452loc_3=deme3,inv70loc_0=deme0,inv204loc_1=deme1,inv453loc_3=deme3,inv46loc_0=deme0,inv94loc_0=deme0,inv7loc_0=deme0,inv125loc_0=deme0,inv263loc_2=deme2,inv257loc_2=deme2,inv300loc_2=deme2,inv481loc_3=deme3,inv215loc_1=deme1,inv271loc_2=deme2,inv500loc_3=deme3,inv8loc_0=deme0,inv190loc_1=deme1,inv407loc_3=deme3,inv38loc_0=deme0,inv296loc_2=deme2,inv475loc_3=deme3,inv97loc_0=deme0,inv189loc_1=deme1,inv105loc_0=deme0,inv137loc_0=deme0,inv115loc_0=deme0,inv179loc_1=deme1,inv425loc_3=deme3,inv33loc_0=deme0,inv11loc_0=deme0,inv207loc_1=deme1,inv358loc_3=deme3,inv415loc_3=deme3,inv450loc_3=deme3,inv162loc_1=deme1,inv479loc_3=deme3,inv374loc_3=deme3,inv344loc_3=deme3,inv202loc_1=deme1,inv291loc_2=deme2,inv396loc_3=deme3,inv121loc_0=deme0,inv436loc_3=deme3,inv371loc_3=deme3,inv368loc_3=deme3,inv256loc_2=deme2,inv336loc_2=deme2,inv154loc_1=deme1,inv264loc_2=deme2,inv90loc_0=deme0,inv356loc_3=deme3,inv75loc_0=deme0,inv15loc_0=deme0,inv236loc_1=deme1,inv26loc_0=deme0,inv238loc_1=deme1,inv57loc_0=deme0,inv485loc_3=deme3,inv79loc_0=deme0,inv261loc_2=deme2,inv73loc_0=deme0,inv316loc_2=deme2,inv169loc_1=deme1,inv196loc_1=deme1,inv116loc_0=deme0,inv120loc_0=deme0,inv269loc_2=deme2,inv342loc_3=deme3,inv498loc_3=deme3,inv260loc_2=deme2,inv80loc_0=deme0,inv158loc_1=deme1,inv268loc_2=deme2,inv44loc_0=deme0,inv220loc_1=deme1,inv178loc_1=deme1,inv124loc_0=deme0,inv156loc_1=deme1,inv434loc_3=deme3,inv491loc_3=deme3,inv480loc_3=deme3,inv242loc_2=deme2,inv71loc_0=deme0,inv214loc_1=deme1,inv250loc_2=deme2,inv310loc_2=deme2,inv29loc_0=deme0,inv446loc_3=deme3,inv369loc_3=deme3,inv382loc_3=deme3,inv314loc_2=deme2,inv297loc_2=deme2,inv13loc_0=deme0,inv370loc_3=deme3,inv175loc_1=deme1,inv307loc_2=deme2,inv319loc_2=deme2,inv393loc_3=deme3,inv67loc_0=deme0,inv346loc_3=deme3,inv147loc_1=deme1,inv23loc_0=deme0,inv96loc_0=deme0,inv305loc_2=deme2,inv54loc_0=deme0,inv274loc_2=deme2,inv36loc_0=deme0,inv153loc_1=deme1,inv99loc_0=deme0,inv409loc_3=deme3,inv206loc_1=deme1,inv95loc_0=deme0,inv102loc_0=deme0,inv384loc_3=deme3,inv200loc_1=deme1,inv471loc_3=deme3,inv259loc_2=deme2,inv372loc_3=deme3,inv39loc_0=deme0,inv304loc_2=deme2,inv362loc_3=deme3,inv43loc_0=deme0,inv270loc_2=deme2,inv337loc_2=deme2,inv317loc_2=deme2,inv400loc_3=deme3,inv249loc_2=deme2,inv285loc_2=deme2,inv383loc_3=deme3,inv416loc_3=deme3,inv435loc_3=deme3,inv52loc_0=deme0,inv267loc_2=deme2,inv149loc_1=deme1,inv25loc_0=deme0,inv146loc_1=deme1,inv118loc_0=deme0,inv458loc_3=deme3,inv161loc_1=deme1,inv484loc_3=deme3,inv287loc_2=deme2,inv65loc_0=deme0,inv449loc_3=deme3,inv315loc_2=deme2,inv171loc_1=deme1,inv439loc_3=deme3,inv273loc_2=deme2,inv92loc_0=deme0,inv167loc_1=deme1,inv3loc_0=deme0,inv318loc_2=deme2,inv151loc_1=deme1,inv463loc_3=deme3,inv241loc_2=deme2,inv322loc_2=deme2,inv333loc_2=deme2,inv348loc_3=deme3,inv414loc_3=deme3,inv321loc_2=deme2,inv469loc_3=deme3,inv359loc_3=deme3,inv19loc_0=deme0,inv444loc_3=deme3,inv279loc_2=deme2,inv389loc_3=deme3,inv191loc_1=deme1,inv47loc_0=deme0,inv17loc_0=deme0,inv320loc_2=deme2,inv441loc_3=deme3,inv230loc_1=deme1,inv217loc_1=deme1,inv258loc_2=deme2,inv251loc_2=deme2,inv457loc_3=deme3,inv62loc_0=deme0,inv12loc_0=deme0,inv27loc_0=deme0,inv88loc_0=deme0,inv22loc_0=deme0,inv197loc_1=deme1,inv306loc_2=deme2,inv398loc_3=deme3,inv323loc_2=deme2,inv74loc_0=deme0,inv332loc_2=deme2,inv272loc_2=deme2,inv184loc_1=deme1,inv59loc_0=deme0,inv385loc_3=deme3,inv89loc_0=deme0,inv93loc_0=deme0,inv467loc_3=deme3,inv420loc_3=deme3,inv194loc_1=deme1,inv245loc_2=deme2,inv201loc_1=deme1,inv225loc_1=deme1,inv275loc_2=deme2,inv437loc_3=deme3,inv28loc_0=deme0,inv218loc_1=deme1,inv5loc_0=deme0,inv495loc_3=deme3,inv132loc_0=deme0,inv366loc_3=deme3,inv139loc_0=deme0,inv42loc_0=deme0,inv402loc_3=deme3,inv240loc_1=deme1,inv157loc_1=deme1,inv404loc_3=deme3,inv386loc_3=deme3,inv301loc_2=deme2,inv48loc_0=deme0,inv334loc_2=deme2,inv30loc_0=deme0,inv108loc_0=deme0,inv226loc_1=deme1,inv227loc_1=deme1,inv298loc_2=deme2,inv355loc_3=deme3,inv203loc_1=deme1,inv461loc_3=deme3,inv378loc_3=deme3,inv183loc_1=deme1,inv349loc_3=deme3,inv18loc_0=deme0,inv295loc_2=deme2,inv411loc_3=deme3,inv252loc_2=deme2,inv379loc_3=deme3,inv360loc_3=deme3,inv84loc_0=deme0,inv24loc_0=deme0,inv289loc_2=deme2,inv222loc_1=deme1,inv224loc_1=deme1,inv145loc_1=deme1,inv247loc_2=deme2,inv290loc_2=deme2,inv373loc_3=deme3,inv64loc_0=deme0,inv113loc_0=deme0,inv210loc_1=deme1,inv447loc_3=deme3,inv406loc_3=deme3,inv31loc_0=deme0,inv53loc_0=deme0,inv283loc_2=deme2,inv32loc_0=deme0,inv433loc_3=deme3,inv482loc_3=deme3,inv442loc_3=deme3,inv103loc_0=deme0,inv69loc_0=deme0,inv392loc_3=deme3,inv443loc_3=deme3,inv282loc_2=deme2,inv410loc_3=deme3,inv239loc_1=deme1,inv244loc_2=deme2,inv472loc_3=deme3,inv164loc_1=deme1,inv276loc_2=deme2,inv343loc_3=deme3,inv117loc_0=deme0,inv150loc_1=deme1,inv440loc_3=deme3,inv21loc_0=deme0,inv229loc_1=deme1,inv391loc_3=deme3,inv308loc_2=deme2,inv418loc_3=deme3,inv284loc_2=deme2,inv213loc_1=deme1,inv186loc_1=deme1,inv465loc_3=deme3,inv253loc_2=deme2,inv181loc_1=deme1,inv421loc_3=deme3,inv428loc_3=deme3,inv136loc_0=deme0,inv110loc_0=deme0,inv81loc_0=deme0,inv265loc_2=deme2,inv248loc_2=deme2,inv37loc_0=deme0,inv104loc_0=deme0,inv412loc_3=deme3,inv221loc_1=deme1,inv254loc_2=deme2,inv212loc_1=deme1,inv60loc_0=deme0,inv144loc_1=deme1,inv367loc_3=deme3,inv166loc_1=deme1,inv496loc_3=deme3,inv325loc_2=deme2,inv231loc_1=deme1,inv219loc_1=deme1,inv303loc_2=deme2,inv165loc_1=deme1,inv16loc_0=deme0,inv354loc_3=deme3,inv487loc_3=deme3,inv101loc_0=deme0,inv350loc_3=deme3,inv474loc_3=deme3,inv312loc_2=deme2,inv302loc_2=deme2,inv66loc_0=deme0,inv262loc_2=deme2,inv87loc_0=deme0,inv281loc_2=deme2,inv277loc_2=deme2,inv417loc_3=deme3,inv375loc_3=deme3,inv330loc_2=deme2,inv405loc_3=deme3,inv357loc_3=deme3,inv1loc_0=deme0,inv243loc_2=deme2,inv168loc_1=deme1,inv483loc_3=deme3,inv426loc_3=deme3,inv324loc_2=deme2,inv123loc_0=deme0,inv401loc_3=deme3,inv422loc_3=deme3,inv427loc_3=deme3,inv177loc_1=deme1,inv460loc_3=deme3,inv339loc_2=deme2,inv286loc_2=deme2,inv180loc_1=deme1,inv462loc_3=deme3,inv468loc_3=deme3,inv363loc_3=deme3,inv216loc_1=deme1,inv205loc_1=deme1,inv68loc_0=deme0,inv419loc_3=deme3,inv172loc_1=deme1,inv140loc_0=deme0,inv351loc_3=deme3,inv55loc_0=deme0,inv365loc_3=deme3,inv489loc_3=deme3,inv188loc_1=deme1,inv499loc_3=deme3,inv486loc_3=deme3,inv328loc_2=deme2,inv228loc_1=deme1,inv185loc_1=deme1,inv209loc_1=deme1,inv83loc_0=deme0,inv494loc_3=deme3,inv394loc_3=deme3,inv111loc_0=deme0,inv497loc_3=deme3,inv142loc_1=deme1,inv193loc_1=deme1,inv163loc_1=deme1,inv20loc_0=deme0,inv51loc_0=deme0,inv403loc_3=deme3,inv63loc_0=deme0,inv408loc_3=deme3,inv2loc_0=deme0,inv199loc_1=deme1,inv364loc_3=deme3,inv98loc_0=deme0,inv338loc_2=deme2,inv130loc_0=deme0,inv58loc_0=deme0,inv311loc_2=deme2,inv292loc_2=deme2,inv432loc_3=deme3,inv429loc_3=deme3,inv127loc_0=deme0,inv395loc_3=deme3,inv294loc_2=deme2,inv493loc_3=deme3,inv49loc_0=deme0,inv430loc_3=deme3,inv50loc_0=deme0,inv459loc_3=deme3,inv347loc_3=deme3,inv155loc_1=deme1,inv208loc_1=deme1,inv133loc_0=deme0">
+                            <taxa id="TaxonSet.1" spec="beast.base.evolution.alignment.TaxonSet" alignment="@alignment1"/>
+                        </typeTrait>
+                    </dynamics>
+                    <structuredTreeIntervals id="StructuredTreeIntervals.t:sim" spec="mascot.distribution.StructuredTreeIntervals" tree="@Tree.t:sim"/>
+                </distribution>
+                <prior id="NeConstantPrior.t:sim" name="distribution" x="@NeConstant.t:sim">
+                    <Gamma id="Gamma.1" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.001</parameter>
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">1000.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="migrationConstantPrior.t:sim" name="distribution" x="@migrationConstant.t:sim">
+                    <Exponential id="Exponential.1" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="mean">2</parameter>
+                    </Exponential>
+                </prior>
+            </distribution>
+        </distribution>
+
+        <operator id="NeConstantScaler.t:sim" spec="ScaleOperator" degreesOfFreedom="1" parameter="@NeConstant.t:sim" weight="3.0" scaleAll="True"/>
+        <operator id="migrationConstantScaler.t:sim" spec="ScaleOperator" parameter="@migrationConstant.t:sim" weight="3.0"/>
+
+        <logger id="tracelog" spec="Logger" fileName="Rates_S15_master.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="prior"/>
+            <log idref="Mascot.t:sim"/>
+            <log idref="Constant.t:sim"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="typedTreelogger.t:sim" spec="Logger" fileName="Rates_S15_master.$(tree).trees" logEvery="1000" mode="tree">
+            <log id="structuredTreelog.t:sim" spec="mascot.logger.StructuredTreeLogger" mascot="@Mascot.t:sim"/>
+        </logger>
+
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>
+
